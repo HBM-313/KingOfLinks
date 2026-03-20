@@ -344,6 +344,18 @@ a.glossary-link:hover { color: var(--gold); }
   padding: 3px 8px;
   border-right: 2px solid var(--border-light);
 }
+
+/* ── Analysis notes ─────────────────────────────────────────────── */
+.analysis-note {
+  background: rgba(107,26,26,.04);
+  border-right: 3px solid var(--maroon);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: .88rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
 /* ── Menu / Index pages ─────────────────────────────────────────── */
 .menu-container { padding: 20px 24px 32px; }
 .menu-total { text-align: center; margin-bottom: 20px; font-size: .92rem; color: var(--ink-soft); }
