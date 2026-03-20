@@ -315,13 +315,13 @@ a.glossary-link:hover { color: var(--gold); }
 .footnote-item {
   font-size: .88rem;
   color: var(--ink-soft);
-  padding: 4px 0;
+  padding: 6px 0;
   line-height: 1.7;
   border-bottom: 1px dotted var(--border-light);
-  direction: rtl;
+  overflow: hidden;
 }
 .fn-num {
-  display: inline-block;
+  float: right;
   background: var(--ref-bg);
   color: var(--maroon);
   font-weight: 700;
@@ -330,8 +330,7 @@ a.glossary-link:hover { color: var(--gold); }
   border-radius: 4px;
   padding: 1px 4px;
   font-size: .82rem;
-  margin-left: 6px;
-  unicode-bidi: embed;
+  margin-left: 8px;
 }
 
 /* ── Menu / Index pages ─────────────────────────────────────────── */
