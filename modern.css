@@ -333,6 +333,17 @@ a.glossary-link:hover { color: var(--gold); }
   margin-left: 8px;
 }
 
+
+/* ── Editorial notes ────────────────────────────────────────────── */
+.editorial-note {
+  display: block;
+  font-size: .82rem;
+  color: var(--ink-faint);
+  font-style: italic;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  border-right: 2px solid var(--border-light);
+}
 /* ── Menu / Index pages ─────────────────────────────────────────── */
 .menu-container { padding: 20px 24px 32px; }
 .menu-total { text-align: center; margin-bottom: 20px; font-size: .92rem; color: var(--ink-soft); }
