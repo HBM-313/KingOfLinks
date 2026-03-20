@@ -1,11 +1,385 @@
+/* ================================================================
+   KingOfLinks — modern.css
+   RTL Arabic · Islamic scholarly aesthetic
+   ================================================================ */
 
-body {background:#C0C0C0;font-family:Tahoma,sans-serif;direction:rtl;}
-.main-menu {display:flex;flex-direction:column;align-items:center;width:100%;max-width:700px;margin:auto;background:#fff;border:2px solid #111;padding:16px;}
-.menu-header {background:#800000;color:#FFFF00;text-align:center;font-weight:bold;padding:8px;}
-.menu-table {width:100%;border-collapse:collapse;}
-.menu-table th,.menu-table td {border:1px solid #111;padding:6px;text-align:center;}
-.menu-table th {background:#E3BE28;}
-.menu-table .topic {background:#FF7E28;}
-.menu-table .topic-alt {background:#FFA466;}
-.menu-table .sources {background:#800000;color:#fff;}
-img {max-width:100%;height:auto;}
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+
+/* ── Variables ─────────────────────────────────────────────────── */
+:root {
+  --bg:            #f4ede0;
+  --bg-page:       #fdf8f2;
+  --border:        #c9a96e;
+  --border-light:  #e8d9c0;
+  --maroon:        #6b1a1a;
+  --maroon-light:  #8b2a2a;
+  --gold:          #b8860b;
+  --gold-light:    #d4a017;
+  --navy:          #1a2e4a;
+  --navy-light:    #2a4060;
+  --ink:           #1c1208;
+  --ink-mid:       #3d2f1e;
+  --ink-soft:      #6b5a44;
+  --ink-faint:     #a08060;
+  --scholar-bg:    #3d1010;
+  --scholar-text:  #fdf0d0;
+  --book-bg:       #f0e8d8;
+  --ref-bg:        #ede4d4;
+  --hadith-bg:     #fdfaf5;
+  --hadith-border: #c9a96e;
+  --qa-q-bg:       #1a2e4a;
+  --qa-q-text:     #f0e8d8;
+  --qa-a-bg:       #f5f0e8;
+  --qa-a-border:   #b8860b;
+  --radius:        6px;
+  --radius-lg:     10px;
+  --shadow:        0 2px 8px rgba(60,30,0,0.10);
+  --shadow-card:   0 3px 14px rgba(60,30,0,0.13);
+}
+
+/* ── Reset & Base ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 0% 0%, rgba(184,134,11,.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 100% 100%, rgba(107,26,26,.06) 0%, transparent 60%);
+  font-family: 'Noto Naskh Arabic', 'Amiri', Georgia, serif;
+  direction: rtl;
+  color: var(--ink);
+  min-height: 100vh;
+  padding: 20px 12px 60px;
+  line-height: 1.85;
+}
+
+/* ── Page Wrapper ───────────────────────────────────────────────── */
+.page-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--bg-page);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+/* ── Site Header ────────────────────────────────────────────────── */
+.site-header {
+  background: var(--maroon);
+  background-image: linear-gradient(135deg, #6b1a1a 0%, #3d1010 100%);
+  color: #fdf0d0;
+  text-align: center;
+  padding: 32px 24px 28px;
+  border-bottom: 3px solid var(--gold);
+}
+.site-header h1 {
+  font-family: 'Amiri', serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #fde88a;
+  text-shadow: 0 2px 6px rgba(0,0,0,.4);
+}
+.site-header .subtitle { font-size: 1rem; color: #e8d0a0; margin-top: 6px; }
+
+/* ── Navigation Bar ─────────────────────────────────────────────── */
+.page-nav {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 20px;
+  background: var(--maroon);
+  border-bottom: 2px solid var(--gold);
+}
+.page-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255,255,255,.12);
+  color: #fde8b0;
+  text-decoration: none;
+  font-size: .88rem;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(253,232,176,.3);
+  transition: background .18s, color .18s;
+  white-space: nowrap;
+}
+.page-nav a:hover { background: rgba(255,255,255,.22); color: #fff; }
+
+/* ── Sibling pager ──────────────────────────────────────────────── */
+.page-pager {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 20px;
+  background: var(--ref-bg);
+  border-bottom: 1px solid var(--border-light);
+}
+.page-pager a, .page-pager .current-page {
+  display: inline-block;
+  min-width: 32px;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: .9rem;
+  text-decoration: none;
+}
+.page-pager a { background: #fff; color: var(--navy); border: 1px solid var(--border); }
+.page-pager a:hover { background: var(--gold-light); color: #fff; border-color: var(--gold); }
+.page-pager .current-page {
+  background: var(--maroon); color: #fde8b0;
+  border: 1px solid var(--maroon-light); font-weight: 700;
+}
+
+/* ── Page Title ─────────────────────────────────────────────────── */
+.page-title {
+  text-align: center;
+  padding: 28px 24px 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+.page-title h2 {
+  font-family: 'Amiri', serif;
+  font-size: 1.7rem;
+  color: var(--maroon);
+  line-height: 1.5;
+}
+.hadith-count {
+  display: inline-block;
+  margin-top: 10px;
+  background: var(--gold);
+  color: #fff;
+  font-size: .82rem;
+  font-weight: 600;
+  padding: 3px 14px;
+  border-radius: 20px;
+  letter-spacing: .03em;
+}
+
+/* ── Article Body ───────────────────────────────────────────────── */
+.article-body { padding: 20px 24px 32px; }
+
+/* ── Hadith Block ───────────────────────────────────────────────── */
+.hadith-block {
+  background: var(--hadith-bg);
+  border: 1px solid var(--border-light);
+  border-right: 4px solid var(--gold);
+  border-radius: var(--radius);
+  margin-bottom: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.scholar-name {
+  background: var(--scholar-bg);
+  color: var(--scholar-text);
+  font-family: 'Amiri', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-bottom: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.scholar-name::before { content: '◈'; color: var(--gold-light); font-size: .85rem; flex-shrink: 0; }
+.book-info {
+  background: var(--book-bg);
+  padding: 8px 16px;
+  font-size: .95rem;
+  color: var(--navy);
+  border-bottom: 1px solid var(--border-light);
+  line-height: 1.6;
+}
+.book-title { font-weight: 600; font-style: italic; }
+.chapter-info { color: var(--ink-soft); font-size: .9rem; }
+.ref-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 6px 16px;
+  background: var(--ref-bg);
+  border-bottom: 1px solid var(--border-light);
+  font-size: .83rem;
+  color: var(--ink-soft);
+}
+.ref-info .ref-label { color: var(--ink-faint); }
+.ref-info .ref-value { color: var(--ink-mid); font-weight: 600; }
+.hadith-number {
+  display: inline-block;
+  background: var(--maroon);
+  color: #fde8b0;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-left: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.hadith-text {
+  padding: 14px 18px;
+  font-size: 1.05rem;
+  line-height: 2;
+  color: var(--ink);
+  background: var(--hadith-bg);
+}
+.hadith-text p { margin-bottom: 8px; }
+.hadith-text p:last-child { margin-bottom: 0; }
+.hadith-verdict {
+  background: #f0e8d0;
+  border-top: 1px dashed var(--border);
+  padding: 8px 16px;
+  font-size: .88rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+a.glossary-link {
+  color: var(--maroon-light);
+  text-decoration: underline dotted;
+  cursor: help;
+  font-weight: 500;
+}
+a.glossary-link:hover { color: var(--gold); }
+
+/* ── Q&A Template ───────────────────────────────────────────────── */
+.qa-block { margin-bottom: 28px; }
+.qa-question {
+  background: var(--qa-q-bg);
+  color: var(--qa-q-text);
+  padding: 14px 18px;
+  border-radius: var(--radius) var(--radius) 0 0;
+  font-size: 1.02rem;
+  line-height: 1.9;
+}
+.qa-question .qa-label {
+  display: inline-block;
+  background: var(--gold);
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.qa-answer {
+  background: var(--qa-a-bg);
+  border: 1px solid var(--border-light);
+  border-top: 3px solid var(--qa-a-border);
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 16px 18px;
+  font-size: 1.0rem;
+  line-height: 2;
+  color: var(--ink);
+}
+.qa-answer .qa-label {
+  display: inline-block;
+  background: var(--maroon);
+  color: #fde8b0;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.qa-answer p { margin-bottom: 10px; }
+.qa-answer p:last-child { margin-bottom: 0; }
+.qa-answer .hadith-block { margin-top: 16px; }
+
+/* ── Section headings ───────────────────────────────────────────── */
+.section-heading {
+  font-family: 'Amiri', serif;
+  font-size: 1.15rem;
+  color: var(--maroon);
+  border-bottom: 2px solid var(--border-light);
+  padding-bottom: 6px;
+  margin: 28px 0 16px;
+}
+
+/* ── Footnotes ──────────────────────────────────────────────────── */
+.footnotes-section {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 2px dashed var(--border-light);
+}
+.footnotes-title {
+  font-family: 'Amiri', serif;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+.footnote-item {
+  font-size: .88rem;
+  color: var(--ink-soft);
+  padding: 4px 0;
+  line-height: 1.7;
+  border-bottom: 1px dotted var(--border-light);
+}
+.fn-num {
+  display: inline-block;
+  background: var(--ref-bg);
+  color: var(--maroon);
+  font-weight: 700;
+  min-width: 24px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-size: .82rem;
+}
+
+/* ── Menu / Index pages ─────────────────────────────────────────── */
+.menu-container { padding: 20px 24px 32px; }
+.menu-total { text-align: center; margin-bottom: 20px; font-size: .92rem; color: var(--ink-soft); }
+.menu-total strong { color: var(--maroon); font-size: 1.05rem; }
+.menu-table { width: 100%; border-collapse: collapse; }
+.menu-table th {
+  background: var(--maroon);
+  color: #fde8b0;
+  padding: 10px 14px;
+  font-family: 'Amiri', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid #5a1212;
+}
+.menu-table td { padding: 9px 14px; border: 1px solid var(--border-light); vertical-align: middle; }
+.menu-table tr:nth-child(even) td { background: #faf4ec; }
+.menu-table tr:nth-child(odd) td  { background: #fff; }
+.menu-table tr:hover td { background: #fdf0d8; }
+.menu-table .col-num { text-align: center; color: var(--ink-faint); font-size: .88rem; width: 46px; }
+.menu-table .col-topic a { color: var(--maroon); text-decoration: none; font-size: 1.0rem; font-weight: 500; }
+.menu-table .col-topic a:hover { text-decoration: underline; color: var(--gold); }
+.menu-table .col-count { text-align: center; width: 70px; }
+.count-badge {
+  display: inline-block;
+  background: var(--gold);
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 12px;
+  min-width: 36px;
+  text-align: center;
+}
+
+/* ── Misc ───────────────────────────────────────────────────────── */
+hr.section-divider { border: none; border-top: 1px solid var(--border-light); margin: 24px 0; }
+.text-faint { color: var(--ink-faint); font-size: .88rem; }
+img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 680px) {
+  body { padding: 8px 4px 40px; }
+  .page-wrap { border-radius: 4px; }
+  .article-body, .menu-container { padding: 14px 14px 24px; }
+  .page-title { padding: 18px 14px 14px; }
+  .page-title h2 { font-size: 1.35rem; }
+  .hadith-text { font-size: .97rem; }
+  .scholar-name { font-size: 1rem; }
+  .page-nav { padding: 10px 12px; gap: 7px; }
+  .page-nav a { font-size: .82rem; padding: 4px 10px; }
+  .ref-info { font-size: .79rem; }
+}
