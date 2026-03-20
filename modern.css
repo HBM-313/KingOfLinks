@@ -1,0 +1,11 @@
+
+body {background:#C0C0C0;font-family:Tahoma,sans-serif;direction:rtl;}
+.main-menu {display:flex;flex-direction:column;align-items:center;width:100%;max-width:700px;margin:auto;background:#fff;border:2px solid #111;padding:16px;}
+.menu-header {background:#800000;color:#FFFF00;text-align:center;font-weight:bold;padding:8px;}
+.menu-table {width:100%;border-collapse:collapse;}
+.menu-table th,.menu-table td {border:1px solid #111;padding:6px;text-align:center;}
+.menu-table th {background:#E3BE28;}
+.menu-table .topic {background:#FF7E28;}
+.menu-table .topic-alt {background:#FFA466;}
+.menu-table .sources {background:#800000;color:#fff;}
+img {max-width:100%;height:auto;}
