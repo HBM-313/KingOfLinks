@@ -313,6 +313,9 @@ a.glossary-link:hover { color: var(--gold); }
   margin-bottom: 10px;
 }
 .footnote-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
   font-size: .88rem;
   color: var(--ink-soft);
   padding: 4px 0;
@@ -320,15 +323,16 @@ a.glossary-link:hover { color: var(--gold); }
   border-bottom: 1px dotted var(--border-light);
 }
 .fn-num {
-  display: inline-block;
+  flex-shrink: 0;
   background: var(--ref-bg);
   color: var(--maroon);
   font-weight: 700;
   min-width: 24px;
   text-align: center;
   border-radius: 4px;
-  margin-right: 8px;
+  padding: 1px 4px;
   font-size: .82rem;
+  margin-top: 3px;
 }
 
 /* ── Menu / Index pages ─────────────────────────────────────────── */
