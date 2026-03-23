@@ -286,6 +286,123 @@ When cleaning/standardizing, apply these rules to every `hadith-block`:
 
 ---
 
+## 6b. Multi-Book Scholar Disambiguation
+
+Several scholars authored multiple books. The correct book title depends on **file/folder context** and **volume number**. Known mappings:
+
+### الطبراني — Volume determines which معجم:
+| Volume range | Book title |
+|---|---|
+| ج1–2 | المعجم الصغير |
+| ج3–10 | المعجم الأوسط |
+| ج11+ | المعجم الكبير |
+
+### ابن حجر العسقلاني — Context determines book:
+| File context | Book title |
+|---|---|
+| Rijal/narrator criticism files | تقريب التهذيب **or** تهذيب التهذيب **or** لسان الميزان |
+| Hadith commentary context | فتح الباري شرح صحيح البخاري |
+| Companion biographies | الإصابة في تمييز الصحابة |
+| General | الإصابة في تمييز الصحابة (default) |
+
+### الذهبي — Context determines book:
+| File context | Book title |
+|---|---|
+| Rijal/narrator criticism | ميزان الاعتدال في نقد الرجال |
+| Companion/scholar biographies | سير أعلام النبلاء |
+| Brief narrator entries | الكاشف في معرفة من له رواية |
+| Default | سير أعلام النبلاء |
+
+### البيهقي — Context determines book:
+| File context | Book title |
+|---|---|
+| Fiqh/legal topics | السنن الكبرى |
+| Prophet's life/miracles | دلائل النبوة |
+| Faith/creed | شعب الإيمان |
+| Default | السنن الكبرى |
+
+### الطبري — Name ambiguity (TWO different scholars):
+- **الطبري** (d. 310H): محمد بن جرير — books: تفسير الطبري (جامع البيان), تاريخ الأمم والملوك
+- **المحب الطبري** (d. 694H): أحمد بن عبد الله — books: ذخائر العقبى, الرياض النضرة
+- When `bt` = 'ذخائر العقبى', scholar should be **المحب الطبري**, not الطبري.
+
+---
+
+## 6c. Patterns Discovered During Automated Cleanup (Sessions 5–6)
+
+### Pattern K — Missing scholar-name div entirely (structural absence)
+**Distinct from Problem F:** The `<div class="scholar-name">` element is completely absent from the block (not just empty). The `span.book-title` holds the scholar name as its entire content.
+
+```html
+<!-- WRONG — div entirely missing -->
+<div class="hadith-block">
+  <div class="book-info">
+    <span class="book-title">الطبراني</span>    <!-- scholar name stored here -->
+  </div>
+  ...
+</div>
+
+<!-- CORRECT -->
+<div class="hadith-block">
+  <div class="scholar-name">الطبراني</div>
+  <div class="book-info">
+    <span class="book-title">المعجم الكبير</span>
+  </div>
+  ...
+</div>
+```
+**Fix:** Insert new `<div class="scholar-name">` before `<div class="book-info">`, set book-title from global mapping.
+
+### Pattern L — scholar_eq_book (both fields contain the same scholar name)
+After inserting a missing scholar-name div (Pattern K), both `scholar-name` and `book-title` contain the same value. This happens when the only available data was the scholar name — there was no separate book title stored.
+
+**Fix:** Apply book title from global scholar→book mapping (see §6b), using in-file context first (other blocks in same file with same scholar), then volume-number logic (الطبراني), then global default.
+
+### Pattern M — Truncated book-title fragments
+`span.book-title` contains only a partial word: `'ا'`, `'تا'`, `'كتا'`, `'شر'`, `'ك'`. These are the first letter(s) of a book title that was truncated during HTML generation.
+
+**Fix:** Infer book title from scholar + file context. If the fragment matches the start of a known book title (e.g. `'كتا'` → كتاب السنة or كتاب الصلاة), use that. Otherwise flag for live-data verification.
+
+### Pattern N — Quran surah name in scholar-name (variant of Problem E)
+`div.scholar-name` contains a surah name only (e.g. `'البقرة'`, `'آل عمران'`) while `span.book-title` contains the Quran verse text. This differs from Problem E (long verse text in sn) — here only the surah name appears.
+
+**Root cause:** The block's first line was a Quran verse context header; the surah name was extracted as the "scholar."
+
+**Fix:** Scholar should be the actual hadith scholar whose citation follows. If the block is purely a verse header with a citation, the scholar and book are both unknown without live data.
+
+**Open instance:** `ImamAli/1AlAyat/34Serran.html` b1 — sn=`البقرة`, bt=Quran verse, ref=ج1/ص708. Live page appears to show ابن رشد but text was garbled. **Flagged for manual review.**
+
+### Pattern O — Combined content in scholar-name (Problem H variant in sn field)
+Scholar-name contains combined `Scholar - Book - Chapter` text:
+```html
+<div class="scholar-name">ابن عساكر -تاريخ دمشق- حرف : ا</div>
+```
+**Fix:** Split on ` -`: first part → scholar-name, second part → book-title, third part → chapter-info.
+
+---
+
+## 6d. Missing Page Numbers (Pattern P)
+
+**Scale: 624 blocks across 171 files** (as of session 6)
+
+Blocks have `الجزء:` (volume) but no `الصفحة:` (page). The page number exists on the live site but was omitted from the local HTML.
+
+**Live site URL pattern:** `http://kingoflinks.net/{folder}/{path}.htm` (note `.htm` not `.html`)
+
+**Fetch constraint:** The web_fetch tool only allows URLs provided by the user or appearing in search results. Fetching 171 files requires the user to provide URLs in batches.
+
+**Arabic number encoding:** Live pages return garbled Arabic text (encoding issues in the markdown extraction). Numbers remain readable but Arabic labels are corrupted. Use numeric patterns only for extraction.
+
+**Format variations found on live site:**
+- Simple page: `ص123`
+- Span: `ص100 / 101`  
+- Multi-page: `ص274 / 176 / 419`
+- Range: `ص140 إلى 149` (stored as `140 - 149`)
+
+**رقم الحديث vs صفحة:** Some blocks on the live site use `رقم الحديث:` (hadith number) instead of `الصفحة:`. When fixing, check which label type is used per block on the live site.
+
+---
+
 ## 7. Known Good Examples (Reference)
 
 The following blocks are correctly structured and can serve as templates:
@@ -344,3 +461,31 @@ The following blocks are correctly structured and can serve as templates:
   </div>
 </div>
 ```
+
+---
+
+## 8. Open Issues — Require Manual Review
+
+The following issues could NOT be resolved automatically. Each is flagged with the exact file, block, and reason.
+
+### 8a. Unresolvable scholar-name blocks
+
+| File (live URL) | Block | Issue | Reason |
+|---|---|---|---|
+| http://kingoflinks.net/ImamAli/1AlAyat/34Serran.htm | b1 | sn=`البقرة` (SURAH_IN_SN) | Live page showed garbled Arabic; first block appears to reference ابن رشد ج1/ص708 but cannot confirm. Page already set. |
+| http://kingoflinks.net/ImamAli/1AlAyat/34Serran.htm | b12 | sn=`الطبري` but book=`ذخائر العقبى` | ذخائر العقبى was written by **المحب الطبري** (d.694H), not الطبري the historian (d.310H). Scholar name likely wrong. |
+
+### 8b. Missing page numbers still requiring live URL fetches
+
+624 blocks across 171 files need صفحة values from the live site. Full list in session audit output. Waiting for user to provide URLs in batches.
+
+---
+
+## 9. Session Progress Log
+
+| Session | Commits | Issues Fixed | Issues Remaining |
+|---|---|---|---|
+| Sessions 1–4 | Multiple | loose_p, frag_note, bad_scholar in 5 folders | All other folders |
+| Session 5 | b3ff4b4, ffa682b, b250f93, 9a302cb | 122 loose_p, 508 loose_p, 133 scholars, 1344 missing scholar divs | missing_page, scholar_eq_book, empty_scholar |
+| Session 6 | ea4cb88, caf0d12 | 1076 scholar_eq_book, 64 empty scholars, partial pages | 624 missing_page, 2 open manual-review |
+
