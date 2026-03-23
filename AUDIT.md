@@ -323,8 +323,9 @@ Several scholars authored multiple books. The correct book title depends on **fi
 
 ### الطبري — Name ambiguity (TWO different scholars):
 - **الطبري** (d. 310H): محمد بن جرير — books: تفسير الطبري (جامع البيان), تاريخ الأمم والملوك
-- **المحب الطبري** (d. 694H): أحمد بن عبد الله — books: ذخائر العقبى, الرياض النضرة
-- When `bt` = 'ذخائر العقبى', scholar should be **المحب الطبري**, not الطبري.
+- **المحب الطبري** (d. 694H): أحمد بن عبد الله — books: ذخائر العقبى في مناقب ذوي القربى, الرياض النضرة في مناقب العشرة
+- When `bt` = 'ذخائر العقبى', scholar **must** be **المحب الطبري**, not الطبري.
+- **Confirmed fix**: `ImamAli/1AlAyat/34Serran.html` b12 corrected from `الطبري` to `المحب الطبري`.
 
 ---
 
@@ -488,4 +489,45 @@ The following issues could NOT be resolved automatically. Each is flagged with t
 | Sessions 1–4 | Multiple | loose_p, frag_note, bad_scholar in 5 folders | All other folders |
 | Session 5 | b3ff4b4, ffa682b, b250f93, 9a302cb | 122 loose_p, 508 loose_p, 133 scholars, 1344 missing scholar divs | missing_page, scholar_eq_book, empty_scholar |
 | Session 6 | ea4cb88, caf0d12 | 1076 scholar_eq_book, 64 empty scholars, partial pages | 624 missing_page, 2 open manual-review |
+
+
+---
+
+## 10. Clean-Text Block Parsing Logic
+
+When a live page is fetched as clean text (not garbled markdown), each hadith-block appears in this exact pattern:
+
+```
+Scholar — Book Title — Chapter/section context
+الجزء : ( N ) - رقم الصفحة : ( N )
+
+[ النص طويل لذا استقطع منه موضع الشاهد ]
+
+- .... hadith text ...
+```
+
+**Mapping to HTML fields:**
+
+| Clean-text part | HTML field |
+|---|---|
+| First line before first ` - ` | `div.scholar-name` |
+| Second part (book name) | `span.book-title` |
+| Third part (chapter/section/verse reference) | `span.chapter-info` |
+| `الجزء : ( N )` | `ref-label` الجزء + `ref-value` N |
+| `رقم الصفحة : ( N )` | `ref-label` الصفحة + `ref-value` N |
+| `[ النص طويل... ]` + narration | `div.hadith-text` > `<p>` |
+
+**Separator between blocks on live page:** ` --- ` (three hyphens)
+
+**Confirmed example** from `34Serran.htm` b1:
+```
+ابن كثير - تفسير ابن كثير - تفسير سورة البقرة : 272
+تفسير قوله تعالى : { لَّيْسَ عَلَيْكَ هُدَاهُمْ ... }
+الجزء : ( 1 ) - رقم الصفحة : ( 708 )
+[ النص طويل لذا استقطع منه موضع الشاهد ]
+- .... وقال ابن أبي حاتم : ...
+```
+→ scholar=`ابن كثير`, book=`تفسير ابن كثير`, chapter=`تفسير سورة البقرة : 272 - تفسير قوله تعالى...`, ج=1, ص=708
+
+**Note on `رقم الصفحة` label:** Live pages use `رقم الصفحة :` (with رقم). HTML blocks use `الصفحة:` (without رقم). Both map to the same `ref-label` = `الصفحة:` in HTML. Some blocks use `رقم الحديث:` instead — these are hadith-numbered sources, stored in `span.hadith-number`, not `ref-info`.
 
