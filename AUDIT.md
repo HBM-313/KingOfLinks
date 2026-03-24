@@ -531,3 +531,101 @@ Scholar — Book Title — Chapter/section context
 
 **Note on `رقم الصفحة` label:** Live pages use `رقم الصفحة :` (with رقم). HTML blocks use `الصفحة:` (without رقم). Both map to the same `ref-label` = `الصفحة:` in HTML. Some blocks use `رقم الحديث:` instead — these are hadith-numbered sources, stored in `span.hadith-number`, not `ref-info`.
 
+
+---
+
+## 11. Scholar → Book Mapping (Confirmed)
+
+When `scholar_eq_book` occurs (sn=bt), or when bt is empty, use this confirmed mapping:
+
+| Scholar | Correct Book Title | Notes |
+|---|---|---|
+| ابن قدامة | المغني | Default when no chapter context |
+| ابن قدامة | الشرح الكبير | When chapter-info mentions الشرح الكبير |
+| الطحاوي | شرح مشكل الآثار | When context is hadith analysis |
+| الطحاوي | شرح معاني الآثار | When context is fiqh |
+| الآجري | الشريعة | Default |
+| الشربيني | السراج المنير شرح الجامع الصغير | When ج=4 |
+| البكري الدمياطي | إعانة الطالبين | Default |
+| اليعقوبي | تاريخ اليعقوبي | Default |
+| ابن عبد البر | الاستيعاب في معرفة الأصحاب | Companion biographies |
+| الصنعاني | تفسير عبد الرزاق | Tafsir context |
+| الصنعاني | المصنف | Hadith collection context |
+
+---
+
+## 12. الطبراني Volume→Book Rule (Confirmed)
+
+| Local ج value | Correct book | Action |
+|---|---|---|
+| ج1–2 | المعجم الصغير | Keep volume, fix bt |
+| ج3–10 | المعجم الأوسط | Keep volume, fix bt |
+| ج11+ | المعجم الكبير | Keep volume, fix bt |
+
+**Example fixed:** `Mkhalfoon/24Waleed/4Saher.html` b7 had local ج2/bt=المعجم الصغير → live showed ج8/ص234 → corrected to ج8/bt=المعجم الأوسط.
+
+When local volume contradicts the الطبراني rule, trust live page volume over local.
+
+---
+
+## 13. Typo Fixes Found
+
+| Wrong | Correct | Location |
+|---|---|---|
+| تقسير ابن أبي حاتم | تفسير القرآن العظيم | 18Khoms/2,3,4 b19,b9,b12 — scholar should be ابن أبي حاتم not الرازي |
+| ابن قدامه | ابن قدامة | Multiple files |
+| ابن ابي شيبة | ابن أبي شيبة | Multiple files |
+
+**Note on تفسير ابن أبي حاتم:** The book is correctly titled `تفسير القرآن العظيم`. The scholar field sometimes shows `الرازي` (his family name), but should be `ابن أبي حاتم` (عبد الرحمن بن أبي حاتم الرازي). Always use `ابن أبي حاتم` as scholar name.
+
+---
+
+## 14. Hadith-Text Must Always Be Present
+
+**CRITICAL RULE (added session 7):** The `hadith-text` div must ALWAYS be present when the live page shows narration content. A block with scholar/book/ref but no `hadith-text` is a content loss error — not a formatting issue.
+
+**Rule:** Hadith text always appears **after** page numbers in clean-text format:
+```
+الجزء : ( N ) - رقم الصفحة : ( N )
+[ النص طويل... ]
+- .... hadith text
+```
+
+If `hadith-text` is missing from a local block, check live page and restore the full narration with proper `<span class="hadith-number">` + `<p>` structure.
+
+**Fixed examples:**
+- `ImamHussain/4Syed/16IbnAsaker.html` b5: hadith 3250 narrator chain restored
+- `ImamHussain/4Syed/16IbnAsaker.html` b6: hadith 3840 narrator chain restored
+- `ImamHussain/4Syed/16IbnAsaker.html` b9: two أنس بن مالك and حميد بن أنس paragraphs restored
+
+---
+
+## 15. Data Injection Error — Critical Warning
+
+**NEVER apply page/volume data from one file to blocks in a different file.**
+
+Session 7 caught a critical error: page data from `ImamAli/1AlAyat/1Ttheer/19IbnAsaker.html` was accidentally applied to `ImamHussain/4Syed/16IbnAsaker.html` b8-b11, producing completely wrong volume+page values (ج13/208 etc. instead of the correct ترجمة pages).
+
+**Prevention rule:** Before applying any live-page data to a block, ALWAYS verify:
+1. The local block's scholar/book matches what the live page shows for that block
+2. The volume number matches
+3. The hadith number (if present) matches
+
+If any field mismatches, DO NOT apply — flag as open issue instead.
+
+---
+
+## 16. Session Progress Log (Updated)
+
+| Session | Commits | Fixes Applied | Missing Pages After |
+|---|---|---|---|
+| Sessions 1–4 | Multiple | loose_p, frag_note, structural fixes in 4 folders | — |
+| Session 5 | b3ff4b4–9a302cb | 1,876 structural fixes | 624 |
+| Session 6 | ea4cb88–caf0d12 | 1,076 scholar_eq_book, 64 empty scholars | 618 |
+| Session 7 | 50e6a10–4907dcb | 34Serran b1/b10/b12/b19/b20, 70 المحب الطبري | 596 |
+| Session 8 | 652bd00–a7f7713 | Batch 1: 22 pages + 6 vols + 12 structural | 596→ |
+| Session 9 (sitemap) | 0b1e05c–a5f855f | 57 pages, 8 vols, 20+ structural, hadith-text restores | 561 |
+| Session 10 | 93fb789 | 64 pages + 30 structural (6 large files) | 497 |
+
+**Current state (Session 10 end):** missing_page=497, empty_scholar=1, scholar_eq_book=0
+
