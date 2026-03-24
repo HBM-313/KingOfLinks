@@ -6,7 +6,9 @@
       "Bash(python:*)",
       "WebFetch(domain:kingoflinks.net)",
       "Bash(dir _live_cache)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   },
   "enabledPlugins": {
