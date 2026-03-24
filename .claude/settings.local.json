@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:kingoflinks.net)",
+      "Bash(dir _live_cache)",
+      "Bash(dir:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true
+  }
+}
