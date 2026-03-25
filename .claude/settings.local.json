@@ -8,7 +8,14 @@
       "Bash(dir _live_cache)",
       "Bash(dir:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(python -X utf8 -c \":*)",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "Bash(for subfolder:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $subfolder ===\")",
+      "Bash(done)",
+      "Bash(ls -1d */)"
     ]
   },
   "enabledPlugins": {
