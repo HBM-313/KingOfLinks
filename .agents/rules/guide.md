@@ -2,58 +2,96 @@
 trigger: always_on
 ---
 
-# KingOfLinks — STRICT HADITH CONTENT MATCH + CLEANUP + DATA MIGRATION HANDOFF FOR CLAUDE CODE
+You are working inside the current local KingOfLinks project workspace.
 
-Paste this entire prompt into Claude Code (terminal) to continue the cleanup.
----
+PRIMARY MUST- DO NOT VIOLATE
+Your highest-priority mission is to systematically walk through the ENTIRE project using the live URLs from sitemap.xml as the source of truth for content.
 
-## SETUP
+You must:
+- read sitemap.xml
+- fetch each live .htm URL from it
+- compare that live page against the matching local file
+- make the local file match the live content exactly in content and completeness
+- preserve the LOCAL implemented structure
+- preserve the LOCAL folder structure
+- work page by page, one by one
+- skip nothing
+- miss nothing
+- silently ignore nothing
 
-GitHub repo: https://github.com/HBM-313/KingOfLinks.git  
-GitHub token: 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
+LIVE CONTENT = source of truth for content
+LOCAL PROJECT = source of truth for structure
 
-```bash
-cd /home/claude
-git clone https://[REDACTED_GITHUB_TOKEN]@github.com/HBM-313/KingOfLinks.git
-cd KingOfLinks
-git config user.email "cleanup@kingoflinks.net"
-git config user.name "KingOfLinks Cleanup"
-```
+Do not rush.
+Do not batch loosely.
+Do not “roughly match”.
+Do not move on until the current page is fully verified.
 
-Live site: `http://kingoflinks.net/`
-- Repo uses `.html`
-- Live site uses `.htm`
+==================================================
+PROJECT UNDERSTANDING
+==================================================
 
-Live site encoding:
-- Windows-1256
-- No charset headers
-- Arabic text may appear garbled
-- Numbers always survive and are reliable for matching:
-  - page number
-  - hadith number
-  - volume number
+This is a hadith-content preservation and normalization project.
 
----
+The local project already has an intended HTML structure and folder structure.
+Your job is NOT to redesign the project.
+Your job is to preserve the local implementation structure while making the local content exactly match the live page.
 
-## PRIMARY OBJECTIVE
-
-Match the LIVE URL content to the LOCAL PROJECT with maximum fidelity, completeness, and structural accuracy, and normalize all `hadith-block` elements into the correct structure without losing, rewriting, misclassifying, weakening, or silently dropping any data.
-
-This is a CONTENT-PRESERVATION project first.  
-Visual matching is secondary.  
+This is a content-preservation project first.
+Visual similarity is secondary.
 Data accuracy and completeness are the highest priority.
 
----
+==================================================
+MANDATORY STARTUP BEHAVIOR
+==================================================
 
-## FETCHING LIVE PAGES — CRITICAL
+Before changing anything:
 
-DO NOT use the WebFetch tool for `kingoflinks.net`.
+1. Detect the CURRENT repo state first.
+   - Do not assume an older handoff commit is still the current state.
+   - Read git status, current branch, and latest commit.
+   - Treat previous handoff commit references as historical guidance only.
 
-Claude Code WebFetch fails for constructed URLs and is not reliable for this site workflow.
+2. Read and use:
+   - sitemap.xml
+   - the current local HTML files
+   - any existing audit/helper scripts already present in the repo
 
-ALWAYS use Python `urllib` via the Bash tool instead.
+3. Build a processing checklist from sitemap.xml.
 
-### Standard fetch function — paste this at the start of every session:
+4. Create or update:
+   migration_audit.md
+
+5. Process every sitemap page in strict order, one by one.
+
+==================================================
+SITEMAP RULE
+==================================================
+
+Use every live URL in sitemap.xml as the master checklist.
+
+This includes:
+- root-level pages
+- nested folder pages
+- subfolder pages
+- MainXX.htm style nested pages
+- all relevant .htm content pages listed in the sitemap
+
+Do not skip any folder.
+Do not skip any subfolder.
+Do not skip any page because it looks repetitive.
+
+If the sitemap contains pages in nested paths, preserve that folder structure locally.
+
+==================================================
+FETCH RULE — CRITICAL
+==================================================
+
+DO NOT use WebFetch / browser fetch tooling for kingoflinks.net.
+
+For kingoflinks.net, always use Python urllib.
+
+Use this exact live-fetch approach:
 
 ```python
 import urllib.request
@@ -61,12 +99,7 @@ import re
 
 def fetch_live(path):
     """
-    Fetch a live page from kingoflinks.net via Python (NOT WebFetch).
-    path = folder/filename WITHOUT leading slash.
-    Repo files use .html — live site uses .htm  (e.g. 'Abutalib/9.htm')
-    Arabic text will be garbled (Windows-1256 encoding issue).
-    Numbers ALWAYS survive and are readable — use them for matching.
-    Returns: (url, raw_text)
+    path example: 'AhlAlBait/6Thqlain/22Ajori.htm'
     """
     url = f"http://kingoflinks.net/{path}"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -76,145 +109,84 @@ def fetch_live(path):
     return url, text
 
 def extract_page_numbers(text):
-    """Extract all ( N ) style numbers from a garbled live page."""
     return re.findall(r'\(\s*(\d+)\s*\)', text)
 
 def extract_blocks(text):
-    """Split live page into block sections by the --- separator."""
     return [b.strip() for b in text.split('---') if b.strip()]
-```
 
-### Usage:
+IMPORTANT:
 
-```python
-# Fetch a page
-url, content = fetch_live("Abutalib/9.htm")
-print(content[:3000])
+live site uses .htm
+repo uses .html
+Arabic can be garbled after decode
+numeric values remain reliable and are valid for alignment:
+volume number
+page number
+hadith number
 
-# Extract all numbers from the page
-numbers = extract_page_numbers(content)
-print(numbers[:30])
+If Arabic content is too garbled to safely reconstruct text, do NOT invent.
+Flag the page and request user inspection/input for that page only.
 
-# Split into blocks
-blocks = extract_blocks(content)
-for i, b in enumerate(blocks):
-    print(f"\n--- Block {i+1} ---\n{b[:200]}")
-```
+==================================================
+PAGE-TO-LOCAL MATCHING RULE
 
-### Matching live blocks to local blocks:
+For each sitemap URL:
 
-Live page blocks appear in the same order as local `hadith-block` elements.
+Determine the exact corresponding local file.
+Open the local file.
+Fetch the exact live page.
+Compare live block order against local hadith-block order.
+Match blocks using:
+block position
+scholar
+book
+volume
+page
+hadith number when present
 
-Match by:
-- block position
-- volume number
-- page number
-- hadith number, when present
+Before applying any live data to any local block, verify that:
 
-```python
-refs = re.findall(r'\(\s*(\d+)\s*\)[^\(]{1,60}\(\s*(\d+)\s*\)', content)
-# refs = [(juz, page), (juz, page), ...]
-```
+scholar matches
+book matches
+volume matches
+hadith number matches when present
 
-### NEVER do this:
+If any of those mismatch:
 
-Do not use WebFetch / web_fetch on `kingoflinks.net`.
+STOP for that block
+FLAG it
+DO NOT APPLY guessed values
 
-### Mandatory verification before applying live data:
+NEVER apply data from one live page to a different local file.
+NEVER inject page/volume data into blocks from the wrong source page.
 
-Before writing any number or field to a local block, confirm the local block's:
-- scholar
-- book
-- volume
+==================================================
+TASK LOCK RULE
 
-matches what the live page shows for THAT block.
+Work only on the current:
 
-If anything mismatches:
-- FLAG IT
-- DO NOT APPLY
+page
+file
+block
+issue set
 
-NEVER apply data from one file's live page to a different file's blocks.
+Do not move to the next page until the current one is:
 
----
+fully completed
+fully correct
+fully verified
+fully logged
 
-## NON-NEGOTIABLE RULES
+No placeholders.
+No “fix later”.
+No unresolved carry-over.
+No approximate completion.
 
-1. DO NOT MISS ANY CONTENT.
-2. DO NOT SKIP ANY CONTENT.
-3. DO NOT REMOVE ANY CONTENT unless explicitly instructed.
-4. DO NOT INVENT, GUESS, OR FILL GAPS WITH ASSUMPTIONS.
-5. DO NOT REWRITE, SUMMARIZE, SIMPLIFY, MERGE, CLEAN, OR COMPRESS CONTENT unless explicitly instructed.
-6. DO NOT CHANGE THE MEANING, ORDER, HIERARCHY, OR FIELD OWNERSHIP.
-7. DO NOT PROCEED WITH PARTIAL, APPROXIMATE, OR “GOOD ENOUGH” RESULTS.
-8. DO NOT CONTINUE TO THE NEXT TASK, FLAG, STEP, PAGE, SECTION, RECORD, OR FOLDER UNTIL THE CURRENT ONE IS FULLY PERFECT.
-9. IF UNSURE, STOP AND ASK THE USER INSTEAD OF GUESSING.
-10. IF THE ALTERNATIVE IS A WEAK SETUP, PLACEHOLDER, OR GARBAGE SETUP, STOP AND ASK FOR HELP.
-11. CONTENT ACCURACY AND COMPLETENESS ARE THE HIGHEST PRIORITY.
-12. hadith-text must always be present when content is present.
-13. Never remove a `<p>` unless you are 100% certain it is a structural artifact and not actual hadith content.
-14. If a fix depends on unknown or unclear live data, FETCH THE LIVE PAGE FIRST.
-15. Do not continue past a blocker.
-16. Do not apply guessed mappings.
-17. Do not use data from the wrong page, wrong file, or wrong block.
-18. Perfection on the current task is mandatory before moving forward.
+==================================================
+CORRECT TARGET STRUCTURE
 
----
+Use this structure whenever the page is a hadith-style content page:
 
-## TASK LOCK RULE
-
-Work on only the current:
-- flag
-- task
-- page
-- section
-- record group
-- file
-- folder
-
-Do not continue to the next one until the current one is:
-- fully completed
-- fully correct
-- fully verified
-
-No:
-- partial completion
-- temporary placeholders
-- “fix later”
-- unresolved carry-over
-
----
-
-## CORE CONTENT PRIORITY — HIGHEST IMPORTANCE
-
-The following fields are the essence of the project and must be preserved, matched, extracted, mapped, and verified with extreme care on every relevant page:
-
-- Scholar name
-- Book title
-- Chapter info
-- Book info
-- Ref info
-- Hadith Text
-
-Conditional field:
-- Hadith number
-
-These are not optional details, except that Hadith number is only extracted when it is actually present as a distinct identifier in the source.
-
-If any of the following is missing, misplaced, merged wrongly, misclassified, altered, or unclear, then the task is NOT complete:
-- Scholar name
-- Book title
-- Chapter info
-- Book info
-- Ref info
-- Hadith Text
-
-If Hadith number is present in the source but is not extracted correctly, or remains wrongly merged into Hadith Text, the task is also NOT complete.
-
----
-
-## CORRECT hadith-block STRUCTURE
-
-```html
 <div class="hadith-block">
   <div class="scholar-name">اسم العالم</div>
   <div class="book-info">
@@ -234,203 +206,250 @@ If Hadith number is present in the source but is not extracted correctly, or rem
     <p>- نقطة</p>
   </div>
 </div>
-```
 
----
+Preserve the local folder structure and local page template structure.
+If the live content does not fit perfectly, adapt it into the closest valid local structure WITHOUT losing anything.
 
-## FIELD RULES — STRICT
+==================================================
+STRICT FIELD OWNERSHIP RULES
 
-### Scholar name
-- Must contain the scholar / author personal name only
-- Never:
-  - a number
-  - a topic
-  - a verse
-  - a book title
-  - editorial note
-  - `م`
-  - `مم`
-  - `ممم`
-- Must not absorb:
-  - book title
-  - chapter info
-  - book info
-  - ref info
-  - hadith number
-  - hadith text
+Scholar name:
 
-### Book title
-- Must contain the book title only
-- Must not absorb:
-  - scholar name
-  - chapter info
-  - book info
-  - ref info
-  - hadith number
-  - hadith text
-- Never:
-  - narrator chain
-  - combined scholar+book
-  - hadith text
-  - generic placeholder title
+must be the scholar/author personal name only
+never a topic
+never a book title
+never a verse
+never a number
+never editorial note text
 
-### Chapter info
-- Must contain chapter / section / bab path only
-- Must not absorb:
-  - hadith text
-  - book title
-  - ref info
-  - hadith number
-- Never place `- NUMBER - text...` inside chapter-info
-- If the live page separates chapter context, preserve it exactly
+Book title:
 
-### Book info
-- Must contain book-level structural information only
-- May include volume or book-level context when clearly part of book info
-- Must stay distinct from chapter info if the live page separates them
-- Must not absorb:
-  - scholar name
-  - hadith text
-  - ref info
-  - hadith number
+must be the book title only
+never scholar name
+never narrator chain
+never hadith text
+never chapter path
 
-### Ref info
-- Must contain citation / reference information only
-- Must have BOTH:
-  - `الجزء:`
-  - `الصفحة:`
-- May include:
-  - source references
-  - page numbers
-  - volume/page notation
-  - reference labels
-  - source lines
-- Must not absorb hadith text
-- Must not absorb scholar name
-- Must not absorb book title or chapter info unless the live page explicitly structures it that way and it is verified carefully
+Chapter info:
 
-### Hadith number
-- Optional
-- Must only be extracted when it is actually present as a distinct hadith identifier
-- Must contain the hadith number / identifier only
-- Must be kept separate from Hadith Text
-- Must not absorb ref info or other metadata unless the live page explicitly uses one combined identifier structure and that is verified
-- Do not invent a hadith number when none is provided
-- Do not force a number into this field if uncertain
+must contain only chapter / section / باب / كتاب / فصل path/context
+must not absorb hadith text
+must not absorb page/ref values
 
-### Hadith Text
-- Must contain the actual hadith content only
-- Must exist if content is present
-- Must not absorb:
-  - metadata labels
-  - scholar name
-  - book title
-  - chapter info
-  - book info
-  - ref info
-  - hadith number when it is clearly separate
-- Preserve full wording and order exactly as shown on the live page
-- Do not shorten it
-- Do not normalize away meaningful characters
-- Do not remove line breaks unless explicitly instructed and only if safe
+Ref info:
 
-### Analysis note
-- Optional
-- ONE per block only
-- Must be INSIDE the `hadith-block`
-- Must be AFTER `hadith-text`
-- Floating analysis-notes must be moved into the correct preceding block
-- If a note appears before all blocks, move it into the first block
+citation/reference data only
+must contain both:
+الجزء
+الصفحة
+unless the live page truly uses a hadith-numbered convention instead of page
+if live uses hadith number instead of page, verify carefully before mapping
 
----
+Hadith number:
 
-## IMPORTANT HADITH NUMBER RULE
+optional
+only extract if clearly present as a distinct identifier
+keep separate from hadith text
+do not invent one
 
-Hadith number is not always present.
+Hadith text:
 
-But when it is present, it is typically included at the beginning of the hadith text block before the sentence starts.
+must contain actual hadith/narration content only
+must always be present when content exists
+must not absorb metadata fields
+preserve full wording and order exactly
 
-In that case:
-- extract it into a separate `Hadith number` field
-- remove it from `Hadith Text`
+Analysis note:
 
-Example:
+optional
+max one per block
+must be inside the same hadith-block
+must come after hadith-text
+==================================================
+KNOWN HIGH-RISK ERROR PATTERNS
 
-If source shows:
-`1234 Imam X said ...`
+Detect and fix these patterns carefully:
 
-and `1234` is clearly the hadith identifier, then map:
-- `hadith_number: 1234`
-- `hadith_text: Imam X said ...`
+BOOK_AS_SN
+scholar-name contains a book/collection title instead of a scholar
+SN_EQ_BT
+scholar-name equals book-title
+COMBINED_BT
+book-title combines scholar + book or book + chapter
+HADITH_IN_CI
+hadith text incorrectly placed inside chapter-info
+EDITORIAL_IN_SN
+editorial note text placed in scholar-name
+FLOATING_NOTE
+analysis-note outside hadith-block
+LOOSE_P
+loose paragraphs floating directly in article-body
+FOOTNOTES_SECTION
+footnotes section not converted into proper hadith-block structure
+MISSING scholar-name div entirely
+scholar stored only in book-title
+truncated book-title fragments
+partial values like:
+ا
+تا
+كتا
+شر
+ك
+scholar-name contains topic text, Quran verse, or surah header
+book-title contains narrator chain text
+editorial note not wrapped safely inside hadith text
+page/volume data accidentally copied from the wrong live file
+==================================================
+APPROVED FIX LOGIC
 
-If no such identifier exists:
-- `hadith_number: null / empty`
-- `hadith_text: [full hadith text as shown]`
+Apply these fix rules when verified:
 
-If uncertain whether the leading number is a hadith identifier or part of the wording:
-- STOP
-- ASK THE USER
+If scholar-name contains topic text and book-title contains the scholar:
+move scholar to scholar-name and set correct book from live/context.
+If scholar-name is a number:
+move that number to hadith-number when verified.
+If scholar-name is a single broken letter and book-title holds the scholar:
+restore scholar/book ownership correctly.
+If book-title contains scholar + book:
+split them.
+If book-title contains narrator chain:
+move narrator chain to hadith-text and restore book title.
+If chapter-info contains hadith text:
+move hadith text into hadith-text and keep chapter-info as chapter context only.
+If editorial note is in scholar-name:
+move note into hadith-text and restore scholar correctly.
+If analysis-note floats outside a block:
+move it into the correct preceding block, or first block if it belongs before all.
+If a block is missing scholar-name entirely:
+insert it before book-info and repair book-title from context/live verification.
+==================================================
+CONTEXTUAL MAPPING RULES
 
----
+Use these only when verified by file context or live page:
 
-## PAGE COMPLETION RULE
+الطبراني volume rule:
+ج1–2 => المعجم الصغير
+ج3–10 => المعجم الأوسط
+ج11+ => المعجم الكبير
+If book title is:
+ذخائر العقبى في مناقب ذوي القربى
+then scholar must be:
+المحب الطبري
+not الطبري
+Multi-book scholars must be resolved using:
+same-file context
+neighboring blocks
+verified live data
+volume logic where confirmed
 
-A page is NOT complete unless all relevant content on that page has been extracted and the following are correct:
-- Scholar name
-- Book title
-- Chapter info
-- Book info
-- Ref info
-- Hadith Text
-- Hadith number, when present
+If not safely verifiable:
 
-Even if the page looks visually correct, it is still NOT complete if any of these fields are:
-- wrong
-- incomplete
-- merged incorrectly
-- shifted into the wrong field
-- missing
+do not guess
+flag for manual review
+==================================================
+NO DATA LOSS RULE
 
----
+Never:
 
-## NO DATA LOSS RULE
+drop content
+compress content
+summarize content
+paraphrase content
+rewrite content for style
+silently leave fields empty because parsing failed
+mark a page done if field ownership is unclear
 
-During extraction, transformation, restructuring, migration, parsing, cleanup, or mapping:
-- No content may disappear
-- No content may be silently dropped
-- No field may be left empty because parsing failed without reporting it
-- No page may be treated as complete if extraction confidence is low
-- No record may be marked done if there is uncertainty in field ownership
+Never remove a <p> unless you are certain it is structural noise and not real content.
 
----
+If hadith text exists on live page, hadith-text must exist locally after the fix.
 
-## NO FALSE CLEANUP RULE
+==================================================
+PAGE COMPLETION RULE
 
-You are forbidden from:
-- auto-correcting names without evidence
-- standardizing references without approval
-- fixing spelling automatically unless listed in the approved typo list below
-- rewriting awkward text
-- removing repeated labels unless explicitly instructed
-- removing “ugly” markup artifacts unless verified safe
-- converting ambiguous text into assumed categories
-- flattening structured content into one blob because it is easier
+A page is NOT complete unless all relevant page content is correctly mapped and verified for:
 
----
+Scholar name
+Book title
+Chapter info
+Ref info
+Hadith Text
+Hadith number when present
+analysis note when present
 
-## EXTRACTION SAFETY RULE
+Even if the page looks visually acceptable, it is NOT complete if:
 
-The source site may contain:
-- inconsistent HTML
-- mixed text nodes
-- repeated layouts
-- different templates
-- weak markup
-- page-specific variations
+any field is wrong
+any field is incomplete
+any field is merged wrongly
+hadith-text is missing
+ref info is incomplete
+content was skipped
+==================================================
+WORKFLOW
 
-Because of this:
-- inspect each page individually
-- do not assume one parser or selector works safely for all pages
-- verify extraction against the visible live page
-- use page-specific handling when needed
-- prefer correctness over automation convenience
+PHASE 1 — INVENTORY
+
+Parse sitemap.xml
+Build full checklist of live URLs
+Map each live URL to a local file path
+Record all mappings in migration_audit.md
+
+PHASE 2 — PAGE-BY-PAGE EXECUTION
+For each page:
+
+set status = IN PROGRESS
+fetch live page
+inspect local file
+compare block-by-block
+fix local file
+verify every block
+save only after verification
+set status = DONE or BLOCKED
+
+PHASE 3 — RE-VERIFY
+After each page edit:
+
+verify no content was lost
+verify no field drift happened
+verify no wrong-page data was injected
+verify local HTML remains valid
+verify local folder structure unchanged
+
+PHASE 4 — FINAL SWEEP
+After all sitemap pages are processed:
+
+re-run audit across entire project
+produce final summary:
+completed pages
+blocked pages
+ambiguous pages
+missing local counterparts
+manual-review pages
+unresolved fetch/content issues
+==================================================
+AUDIT FILE FORMAT
+
+Maintain migration_audit.md continuously.
+
+For every page record:
+
+live URL
+local file path
+status: pending / in progress / done / blocked
+exact blocks affected
+issues found
+changes made
+verification result
+blocker details if any
+==================================================
+BLOCKER RULE
+
+If any issue prevents accurate mapping, STOP for that page and report:
+
+CURRENT TASK
+exact LIVE URL
+exact local file path
+exact block number(s)
+exact field(s) affected
+exact reason this cannot be safely completed
+what user inspe
