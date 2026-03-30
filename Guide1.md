@@ -142,9 +142,9 @@
 
 &#x20;   <div class="ref-info">
 
-&#x20;     <span><span class="ref-label">ءزجلا: </span><span class="ref-value">N</span></span>
+&#x20;     <span><span class="ref-label">ءزجلا: </span><span class="ref-value-juzz">N</span></span>
 
-&#x20;     <span><span class="ref-label">ةحفصلا: </span><span class="ref-value">N</span></span>
+&#x20;     <span><span class="ref-label">ةحفصلا: </span><span class="ref-value-page">N</span></span>
 
 &#x20;   </div>
 

@@ -221,8 +221,8 @@ If Hadith number is present in the source but is not extracted correctly, or rem
     <span class="chapter-info">باب / كتاب / فصل</span>   <!-- optional -->
   </div>
   <div class="ref-info">
-    <span><span class="ref-label">الجزء: </span><span class="ref-value">N</span></span>
-    <span><span class="ref-label">الصفحة: </span><span class="ref-value">N</span></span>
+    <span><span class="ref-label">الجزء: </span><span class="ref-value-juzz">N</span></span>
+    <span><span class="ref-label">الصفحة: </span><span class="ref-value-page">N</span></span>
   </div>
   <div class="hadith-text">
     <span class="hadith-number">N</span>   <!-- optional -->
