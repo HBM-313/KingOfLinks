@@ -1,0 +1,2590 @@
+[
+  {
+    "local_path": "Aqydatona/1Wodooa.html",
+    "live_path": "Aqydatona/1Wodooa.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b2 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند عثمان بن عفان",
+      "CI_IN_HT: b3 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند عثمان بن عفان",
+      "CI_IN_HT: b4 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - ومن مسند علي بن أبي طالب",
+      "CI_IN_HT: b5 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - ومن مسند علي بن أبي طالب"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 21,
+    "live_block_count": 21
+  },
+  {
+    "local_path": "Aqydatona/2Adhaan.html",
+    "live_path": "Aqydatona/2Adhaan.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "SHORT_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "SHORT_HT: b9 local hadith-text very short (5 chars) vs live block (155 chars)"
+    ],
+    "status": "SHORT_HT",
+    "local_block_count": 9,
+    "live_block_count": 9
+  },
+  {
+    "local_path": "Aqydatona/3Slat.html",
+    "live_path": "Aqydatona/3Slat.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/5Basmalah.html",
+    "live_path": "Aqydatona/5Basmalah.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=9 local=12",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b11 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 12,
+    "live_block_count": 9
+  },
+  {
+    "local_path": "Aqydatona/6Qnoot.html",
+    "live_path": "Aqydatona/6Qnoot.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 10,
+    "live_block_count": 10
+  },
+  {
+    "local_path": "Aqydatona/7Jamei.html",
+    "live_path": "Aqydatona/7Jamei.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 14,
+    "live_block_count": 14
+  },
+  {
+    "local_path": "Aqydatona/11Shafaah.html",
+    "live_path": "Aqydatona/11Shafaah.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b4 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 7,
+    "live_block_count": 7
+  },
+  {
+    "local_path": "Aqydatona/13Tqyyah.html",
+    "live_path": "Aqydatona/13Tqyyah.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b1 first hadith-text <p> looks like chapter-info: صحيح البخاري - كتاب الأدب - باب : ما يجوز من اغتياب أهل الفس",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 21,
+    "live_block_count": 21
+  },
+  {
+    "local_path": "Aqydatona/14Kyf.html",
+    "live_path": "Aqydatona/14Kyf.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/16Half.html",
+    "live_path": "Aqydatona/16Half.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/1Amamah.html",
+    "live_path": "Aqydatona/4Sjood/1Amamah.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 10,
+    "live_block_count": 10
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/6Shkwna.html",
+    "live_path": "Aqydatona/4Sjood/6Shkwna.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/2Itqa.html",
+    "live_path": "Aqydatona/4Sjood/2Itqa.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "CI_IN_HT: b10 first hadith-text <p> looks like chapter-info: مسند صهيب بن سنان بن مالك (ر) - ما روى ابنه ثابت بن عبادة عن"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 10,
+    "live_block_count": 10
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/7Tbreed.html",
+    "live_path": "Aqydatona/4Sjood/7Tbreed.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 6,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/3Jbha.html",
+    "live_path": "Aqydatona/4Sjood/3Jbha.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 7,
+    "live_block_count": 7
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/8Tswiah.html",
+    "live_path": "Aqydatona/4Sjood/8Tswiah.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "POSSIBLE_COMBINED_SN: b4 may have scholar+book: أبو دادو السجستاني -سنن أبي داود",
+      "POSSIBLE_COMBINED_SN: b6 may have scholar+book: النسائي -سنن النسائي"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 6,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/4Joelat.html",
+    "live_path": "Aqydatona/4Sjood/4Joelat.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 9,
+    "live_block_count": 9
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/9Ttreeb.html",
+    "live_path": "Aqydatona/4Sjood/9Ttreeb.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b4 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/5Khumra.html",
+    "live_path": "Aqydatona/4Sjood/5Khumra.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/4Sjood/10Bdaa.html",
+    "live_path": "Aqydatona/4Sjood/10Bdaa.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/1MI.html",
+    "live_path": "Aqydatona/8ZQ/1MI.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/14Fakhani.html",
+    "live_path": "Aqydatona/8ZQ/14Fakhani.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/2IbnHnbal.html",
+    "live_path": "Aqydatona/8ZQ/2IbnHnbal.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/15AlDmshqi.html",
+    "live_path": "Aqydatona/8ZQ/15AlDmshqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/3AbiDawood.html",
+    "live_path": "Aqydatona/8ZQ/3AbiDawood.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/16AlShami.html",
+    "live_path": "Aqydatona/8ZQ/16AlShami.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=5 local=6",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b6 may have scholar+book: الصالحي الشامي -سبل الهدى والرشاد في سيرة خير العباد"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 6,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/4Darqtni.html",
+    "live_path": "Aqydatona/8ZQ/4Darqtni.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/17Mhmood.html",
+    "live_path": "Aqydatona/8ZQ/17Mhmood.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/5Hakim.html",
+    "live_path": "Aqydatona/8ZQ/5Hakim.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "SHORT_HT",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "SHORT_HT: b1 local hadith-text very short (13 chars) vs live block (738 chars)",
+      "POSSIBLE_COMBINED_SN: b8 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين",
+      "POSSIBLE_COMBINED_SN: b9 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين",
+      "POSSIBLE_COMBINED_SN: b10 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين",
+      "POSSIBLE_COMBINED_SN: b11 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين"
+    ],
+    "status": "SHORT_HT",
+    "local_block_count": 11,
+    "live_block_count": 11
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/18Khateeb.html",
+    "live_path": "Aqydatona/8ZQ/18Khateeb.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/6Hythami.html",
+    "live_path": "Aqydatona/8ZQ/6Hythami.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/19Dhabi.html",
+    "live_path": "Aqydatona/8ZQ/19Dhabi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/7IbnHajar.html",
+    "live_path": "Aqydatona/8ZQ/7IbnHajar.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/20Dhlan.html",
+    "live_path": "Aqydatona/8ZQ/20Dhlan.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/8Isbahani.html",
+    "live_path": "Aqydatona/8ZQ/8Isbahani.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/21Bkheet.html",
+    "live_path": "Aqydatona/8ZQ/21Bkheet.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/9AlMuttaqi.html",
+    "live_path": "Aqydatona/8ZQ/9AlMuttaqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/22Nbhani.html",
+    "live_path": "Aqydatona/8ZQ/22Nbhani.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/10Byhaqi.html",
+    "live_path": "Aqydatona/8ZQ/10Byhaqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b13 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b15 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 16,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/23Other.html",
+    "live_path": "Aqydatona/8ZQ/23Other.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 21,
+    "live_block_count": 21
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/11Syooti.html",
+    "live_path": "Aqydatona/8ZQ/11Syooti.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/24ZQ.html",
+    "live_path": "Aqydatona/8ZQ/24ZQ.htm",
+    "flags": [
+      "SPECIAL_PAGE"
+    ],
+    "issues": [],
+    "status": "SPECIAL_PAGE"
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/12Tabarani.html",
+    "live_path": "Aqydatona/8ZQ/12Tabarani.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/25Redha.html",
+    "live_path": "Aqydatona/8ZQ/25Redha.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/8ZQ/13IbnQdama.html",
+    "live_path": "Aqydatona/8ZQ/13IbnQdama.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/1Araq.html",
+    "live_path": "Aqydatona/9Tbarrok/1Araq.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=20 local=21",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b15 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b17 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 21,
+    "live_block_count": 20
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/7Saham.html",
+    "live_path": "Aqydatona/9Tbarrok/7Saham.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b6 first hadith-text <p> looks like chapter-info: باب : المهادنة على النظر للمسلمين",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 18,
+    "live_block_count": 18
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/2Shar.html",
+    "live_path": "Aqydatona/9Tbarrok/2Shar.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "POSSIBLE_COMBINED_SN: b27 may have scholar+book: البيهقي -السنن الكبرى",
+      "NESTED_SN_IN_BI: b29 scholar-name nested inside book-info",
+      "POSSIBLE_COMBINED_SN: b30 may have scholar+book: الطبراني -المعجم الكبير",
+      "POSSIBLE_COMBINED_SN: b32 may have scholar+book: ابن سعد -الطبقات الكبرى",
+      "POSSIBLE_COMBINED_SN: b36 may have scholar+book: ابن شبه النميري -تاريخ المدينة"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 40,
+    "live_block_count": 40
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/8Mnbar.html",
+    "live_path": "Aqydatona/9Tbarrok/8Mnbar.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 16,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/3Bosaq.html",
+    "live_path": "Aqydatona/9Tbarrok/3Bosaq.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=37 local=38",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "CI_IN_HT: b3 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند أبي إسحاق سعد بن أبي وقاص",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b19 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b21 scholar-name nested inside book-info"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 38,
+    "live_block_count": 37
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/9Qbr.html",
+    "live_path": "Aqydatona/9Tbarrok/9Qbr.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 16,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/4Lbas.html",
+    "live_path": "Aqydatona/9Tbarrok/4Lbas.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 15,
+    "live_block_count": 15
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/10Moqe.html",
+    "live_path": "Aqydatona/9Tbarrok/10Moqe.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/5Jsad.html",
+    "live_path": "Aqydatona/9Tbarrok/5Jsad.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b11 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b12 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 21,
+    "live_block_count": 21
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/11bwl.html",
+    "live_path": "Aqydatona/9Tbarrok/11bwl.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=16 local=17",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info",
+      "POSSIBLE_COMBINED_SN: b12 may have scholar+book: العيني -عمدة القاري شرح صحيح البخاري"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 17,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/6Wdoo.html",
+    "live_path": "Aqydatona/9Tbarrok/6Wdoo.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=19 local=20",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b10 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b13 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b16 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 20,
+    "live_block_count": 19
+  },
+  {
+    "local_path": "Aqydatona/9Tbarrok/12Baqi.html",
+    "live_path": "Aqydatona/9Tbarrok/12Baqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 32,
+    "live_block_count": 32
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/1Adam.html",
+    "live_path": "Aqydatona/10Twassol/1Adam.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=16 local=17",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 17,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/8Qyama.html",
+    "live_path": "Aqydatona/10Twassol/8Qyama.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 6,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/2Dhareer.html",
+    "live_path": "Aqydatona/10Twassol/2Dhareer.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b2 first hadith-text <p> looks like chapter-info: مسند الشاميين - حديث عثمان بن حنيف (ر)",
+      "CI_IN_HT: b3 first hadith-text <p> looks like chapter-info: مسند الشاميين - حديث عثمان بن حنيف (ر)",
+      "POSSIBLE_COMBINED_SN: b11 may have scholar+book: ابن خزيمة -صحيح ابن خزيمة",
+      "POSSIBLE_COMBINED_SN: b14 may have scholar+book: الألباني -صحيح وضعيف سنن ابن ماجة"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 26,
+    "live_block_count": 26
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/9Abbas.html",
+    "live_path": "Aqydatona/10Twassol/9Abbas.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "CI_IN_HT",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b15 scholar-name nested inside book-info",
+      "CI_IN_HT: b17 first hadith-text <p> looks like chapter-info: باب : استسقاء أمير المؤمنين عمر بن الخطاب (ر)",
+      "POSSIBLE_COMBINED_SN: b18 may have scholar+book: اللالكائي -شرح أصول اعتقاد أهل السنة والجماعة"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 27,
+    "live_block_count": 27
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/3Aysha.html",
+    "live_path": "Aqydatona/10Twassol/3Aysha.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=6 local=7",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 7,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/10Yzeed.html",
+    "live_path": "Aqydatona/10Twassol/10Yzeed.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b4 may have scholar+book: اللالكائي -شرح أصول اعتقاد أهل السنة والجماعة"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/4Othman.html",
+    "live_path": "Aqydatona/10Twassol/4Othman.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b6 may have scholar+book: البيهقي -دلائل النبوة ومعرفة أحوال صاحب الشريعة"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 11,
+    "live_block_count": 11
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/11Ebad.html",
+    "live_path": "Aqydatona/10Twassol/11Ebad.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "CI_IN_HT: b5 first hadith-text <p> looks like chapter-info: مسند عبد الله بن مسعود",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 14,
+    "live_block_count": 14
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/5IStsqa.html",
+    "live_path": "Aqydatona/10Twassol/5IStsqa.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 13,
+    "live_block_count": 13
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/12Baqi.html",
+    "live_path": "Aqydatona/10Twassol/12Baqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 19,
+    "live_block_count": 19
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/6Nfseh.html",
+    "live_path": "Aqydatona/10Twassol/6Nfseh.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/13Bukhari.html",
+    "live_path": "Aqydatona/10Twassol/13Bukhari.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/10Twassol/7Saeleen.html",
+    "live_path": "Aqydatona/10Twassol/7Saeleen.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/1Bkhari.html",
+    "live_path": "Aqydatona/12Mutaah/1Bkhari.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 12,
+    "live_block_count": 12
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/13IbnHazm.html",
+    "live_path": "Aqydatona/12Mutaah/13IbnHazm.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/2Muslim.html",
+    "live_path": "Aqydatona/12Mutaah/2Muslim.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 26,
+    "live_block_count": 26
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/14Muttaqi.html",
+    "live_path": "Aqydatona/12Mutaah/14Muttaqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/3IbnHnbal.html",
+    "live_path": "Aqydatona/12Mutaah/3IbnHnbal.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b1 first hadith-text <p> looks like chapter-info: مسند الخلفاء الراشدين - أول مسند عمر بن الخطاب",
+      "CI_IN_HT: b2 first hadith-text <p> looks like chapter-info: مسند الخلفاء الراشدين - أول مسند عمر بن الخطاب",
+      "CI_IN_HT: b3 first hadith-text <p> looks like chapter-info: مسند الخلفاء الراشدين - أول مسند عمر بن الخطاب",
+      "CI_IN_HT: b4 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين - مسند ع",
+      "CI_IN_HT: b5 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين - مسند ع",
+      "CI_IN_HT: b6 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين - ومن مس",
+      "CI_IN_HT: b7 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين - ومن مس",
+      "CI_IN_HT: b8 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين",
+      "CI_IN_HT: b9 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين",
+      "CI_IN_HT: b10 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين",
+      "CI_IN_HT: b11 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند أبي إسحاق سعد بن أبي وقاص",
+      "CI_IN_HT: b18 first hadith-text <p> looks like chapter-info: مسند المكيين - حديث سبرة بن معبد",
+      "CI_IN_HT: b19 first hadith-text <p> looks like chapter-info: مسند المكيين - حديث سبرة بن معبد",
+      "CI_IN_HT: b20 first hadith-text <p> looks like chapter-info: مسند المكيين - حديث سبرة بن معبد",
+      "CI_IN_HT: b21 first hadith-text <p> looks like chapter-info: مسند المكيين - حديث سبرة بن معبد"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 22,
+    "live_block_count": 22
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/15tabari.html",
+    "live_path": "Aqydatona/12Mutaah/15tabari.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/4Trmedhi.html",
+    "live_path": "Aqydatona/12Mutaah/4Trmedhi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/16Tbarani.html",
+    "live_path": "Aqydatona/12Mutaah/16Tbarani.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/5Nsaei.html",
+    "live_path": "Aqydatona/12Mutaah/5Nsaei.htm",
+    "flags": [
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/17IbnAbiShibah.html",
+    "live_path": "Aqydatona/12Mutaah/17IbnAbiShibah.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/6IbiDawood.html",
+    "live_path": "Aqydatona/12Mutaah/6IbiDawood.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/18Byhaqi.html",
+    "live_path": "Aqydatona/12Mutaah/18Byhaqi.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/7IbnMajah.html",
+    "live_path": "Aqydatona/12Mutaah/7IbnMajah.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/19Tahawi.html",
+    "live_path": "Aqydatona/12Mutaah/19Tahawi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/8Malik.html",
+    "live_path": "Aqydatona/12Mutaah/8Malik.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/20AbiOana.html",
+    "live_path": "Aqydatona/12Mutaah/20AbiOana.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/9Darqtni.html",
+    "live_path": "Aqydatona/12Mutaah/9Darqtni.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/21BinMnsoor.html",
+    "live_path": "Aqydatona/12Mutaah/21BinMnsoor.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b2 may have scholar+book: سعيد بن منصور -سنن سعيد بن منصور"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/10Drami.html",
+    "live_path": "Aqydatona/12Mutaah/10Drami.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/22Tyalisi.html",
+    "live_path": "Aqydatona/12Mutaah/22Tyalisi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/11Albani.html",
+    "live_path": "Aqydatona/12Mutaah/11Albani.htm",
+    "flags": [
+      "BLOCK_COUNT_MISMATCH",
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "BLOCK_COUNT: live_refs=0 local=2",
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 0
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/23Other.html",
+    "live_path": "Aqydatona/12Mutaah/23Other.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b4 first hadith-text <p> looks like chapter-info: مسند عبد الله بن بسر (ر) - أول حديث عمران بن حصين",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "CI_IN_HT",
+    "local_block_count": 7,
+    "live_block_count": 7
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/12Dhabi.html",
+    "live_path": "Aqydatona/12Mutaah/12Dhabi.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/12Mutaah/24Ibnjoraij.html",
+    "live_path": "Aqydatona/12Mutaah/24Ibnjoraij.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "SHORT_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "SHORT_HT: b1 local hadith-text very short (9 chars) vs live block (780 chars)"
+    ],
+    "status": "SHORT_HT",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/1Nabi.html",
+    "live_path": "Aqydatona/15Bkaa/1Nabi.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "BT_IN_HT"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "BT_IN_HT: b17 hadith-text looks like a stub: . - والطحاوي -",
+      "BT_IN_HT: b18 hadith-text looks like a stub: . - والحاكم -",
+      "BT_IN_HT: b19 hadith-text looks like a stub: . - وعنه البيهقي -",
+      "BT_IN_HT: b20 hadith-text looks like a stub: . - وأحمد -"
+    ],
+    "status": "BT_IN_HT",
+    "local_block_count": 24,
+    "live_block_count": 24
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/10Bkaa.html",
+    "live_path": "Aqydatona/15Bkaa/10Bkaa.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 13,
+    "live_block_count": 13
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/11Fatima1.html",
+    "live_path": "Aqydatona/15Bkaa/11Fatima1.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 10,
+    "live_block_count": 10
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/2Ibrahim.html",
+    "live_path": "Aqydatona/15Bkaa/2Ibrahim.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/3Bnat.html",
+    "live_path": "Aqydatona/15Bkaa/3Bnat.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/12Fatima2.html",
+    "live_path": "Aqydatona/15Bkaa/12Fatima2.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "SHORT_HT",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "SHORT_HT: b1 local hadith-text very short (11 chars) vs live block (756 chars)",
+      "POSSIBLE_COMBINED_SN: b2 may have scholar+book: الحاكم النيسابوري -المستدرك على الصحيحين",
+      "SHORT_HT: b2 local hadith-text very short (9 chars) vs live block (510 chars)",
+      "POSSIBLE_COMBINED_SN: b3 may have scholar+book: البيهقي -دلائل النبوة ومعرفة أحوال صاحب الشريعة"
+    ],
+    "status": "SHORT_HT",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/4hmza.html",
+    "live_path": "Aqydatona/15Bkaa/4hmza.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b12 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b13 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 22,
+    "live_block_count": 22
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/13hussain.html",
+    "live_path": "Aqydatona/15Bkaa/13hussain.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 6,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/5Mdhon.html",
+    "live_path": "Aqydatona/15Bkaa/5Mdhon.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b8 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b9 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 11,
+    "live_block_count": 11
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/14Aysha.html",
+    "live_path": "Aqydatona/15Bkaa/14Aysha.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 12,
+    "live_block_count": 12
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/6Saad2.html",
+    "live_path": "Aqydatona/15Bkaa/6Saad2.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/15Umfrwa.html",
+    "live_path": "Aqydatona/15Bkaa/15Umfrwa.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 6,
+    "live_block_count": 6
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/7Zaid.html",
+    "live_path": "Aqydatona/15Bkaa/7Zaid.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 7,
+    "live_block_count": 7
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/16Khlid.html",
+    "live_path": "Aqydatona/15Bkaa/16Khlid.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 11,
+    "live_block_count": 11
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/8saad1.html",
+    "live_path": "Aqydatona/15Bkaa/8saad1.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 21,
+    "live_block_count": 21
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/17Other.html",
+    "live_path": "Aqydatona/15Bkaa/17Other.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/15Bkaa/9Ynei.html",
+    "live_path": "Aqydatona/15Bkaa/9Ynei.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 16,
+    "live_block_count": 16
+  },
+  {
+    "local_path": "Aqydatona/17Laen/1.html",
+    "live_path": "Aqydatona/17Laen/1.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 0,
+    "live_block_count": 0
+  },
+  {
+    "local_path": "Aqydatona/17Laen/2.html",
+    "live_path": "Aqydatona/17Laen/2.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/3.html",
+    "live_path": "Aqydatona/17Laen/3.htm",
+    "flags": [
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 14,
+    "live_block_count": 14
+  },
+  {
+    "local_path": "Aqydatona/17Laen/4.html",
+    "live_path": "Aqydatona/17Laen/4.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN",
+      "NESTED_SN_IN_BI",
+      "NOTE_AS_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b12 may have scholar+book: الذهبي -ميزان الاعتدال في نقد الرجال",
+      "NESTED_SN_IN_BI: b21 scholar-name nested inside book-info",
+      "NOTE_AS_SN: b22 scholar-name contains note text: هذا المصدر ليس من المصادر السنية فانتبه عزيزي القارئ"
+    ],
+    "status": "NOTE_AS_SN",
+    "local_block_count": 22,
+    "live_block_count": 22
+  },
+  {
+    "local_path": "Aqydatona/17Laen/5.html",
+    "live_path": "Aqydatona/17Laen/5.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "CI_IN_HT",
+      "SHORT_HT",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "CI_IN_HT: b3 first hadith-text <p> looks like chapter-info: مسند العشرة المبشرين بالجنة - مسند الخلفاء الراشدين",
+      "SHORT_HT: b5 local hadith-text very short (4 chars) vs live block (545 chars)",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "SHORT_HT",
+    "local_block_count": 8,
+    "live_block_count": 8
+  },
+  {
+    "local_path": "Aqydatona/17Laen/6.html",
+    "live_path": "Aqydatona/17Laen/6.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/7.html",
+    "live_path": "Aqydatona/17Laen/7.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/8.html",
+    "live_path": "Aqydatona/17Laen/8.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b4 may have scholar+book: البزار -مسند البزار المنشور باسم البحر الزخار",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "POSSIBLE_COMBINED_SN: b6 may have scholar+book: الفاكهي -أخبار مكة في قديم الدهر وحديثه"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 7,
+    "live_block_count": 7
+  },
+  {
+    "local_path": "Aqydatona/17Laen/9.html",
+    "live_path": "Aqydatona/17Laen/9.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/10.html",
+    "live_path": "Aqydatona/17Laen/10.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/11.html",
+    "live_path": "Aqydatona/17Laen/11.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/12.html",
+    "live_path": "Aqydatona/17Laen/12.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/13.html",
+    "live_path": "Aqydatona/17Laen/13.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/14.html",
+    "live_path": "Aqydatona/17Laen/14.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/15.html",
+    "live_path": "Aqydatona/17Laen/15.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/16.html",
+    "live_path": "Aqydatona/17Laen/16.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/17.html",
+    "live_path": "Aqydatona/17Laen/17.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/18.html",
+    "live_path": "Aqydatona/17Laen/18.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/19.html",
+    "live_path": "Aqydatona/17Laen/19.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/20.html",
+    "live_path": "Aqydatona/17Laen/20.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/21.html",
+    "live_path": "Aqydatona/17Laen/21.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/22.html",
+    "live_path": "Aqydatona/17Laen/22.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/23.html",
+    "live_path": "Aqydatona/17Laen/23.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/24.html",
+    "live_path": "Aqydatona/17Laen/24.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/25.html",
+    "live_path": "Aqydatona/17Laen/25.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b1 may have scholar+book: الترمذي -سنن الترمذي"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/26.html",
+    "live_path": "Aqydatona/17Laen/26.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/27.html",
+    "live_path": "Aqydatona/17Laen/27.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/28.html",
+    "live_path": "Aqydatona/17Laen/28.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/29.html",
+    "live_path": "Aqydatona/17Laen/29.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/30.html",
+    "live_path": "Aqydatona/17Laen/30.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/31.html",
+    "live_path": "Aqydatona/17Laen/31.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/32.html",
+    "live_path": "Aqydatona/17Laen/32.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/33.html",
+    "live_path": "Aqydatona/17Laen/33.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/34.html",
+    "live_path": "Aqydatona/17Laen/34.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/35.html",
+    "live_path": "Aqydatona/17Laen/35.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/36.html",
+    "live_path": "Aqydatona/17Laen/36.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/37.html",
+    "live_path": "Aqydatona/17Laen/37.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/38.html",
+    "live_path": "Aqydatona/17Laen/38.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/39.html",
+    "live_path": "Aqydatona/17Laen/39.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/40.html",
+    "live_path": "Aqydatona/17Laen/40.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/41.html",
+    "live_path": "Aqydatona/17Laen/41.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/42.html",
+    "live_path": "Aqydatona/17Laen/42.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/43.html",
+    "live_path": "Aqydatona/17Laen/43.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/44.html",
+    "live_path": "Aqydatona/17Laen/44.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 5,
+    "live_block_count": 5
+  },
+  {
+    "local_path": "Aqydatona/17Laen/45.html",
+    "live_path": "Aqydatona/17Laen/45.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/46.html",
+    "live_path": "Aqydatona/17Laen/46.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/47.html",
+    "live_path": "Aqydatona/17Laen/47.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/48.html",
+    "live_path": "Aqydatona/17Laen/48.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 4,
+    "live_block_count": 4
+  },
+  {
+    "local_path": "Aqydatona/17Laen/49.html",
+    "live_path": "Aqydatona/17Laen/49.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/50.html",
+    "live_path": "Aqydatona/17Laen/50.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/51.html",
+    "live_path": "Aqydatona/17Laen/51.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/52.html",
+    "live_path": "Aqydatona/17Laen/52.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b2 may have scholar+book: السيوطي -الجامع الصغير وزيادته-"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/53.html",
+    "live_path": "Aqydatona/17Laen/53.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/54.html",
+    "live_path": "Aqydatona/17Laen/54.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "POSSIBLE_COMBINED_SN"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "POSSIBLE_COMBINED_SN: b1 may have scholar+book: الترمذي -سنن الترمذي"
+    ],
+    "status": "POSSIBLE_COMBINED_SN",
+    "local_block_count": 1,
+    "live_block_count": 1
+  },
+  {
+    "local_path": "Aqydatona/17Laen/55.html",
+    "live_path": "Aqydatona/17Laen/55.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/56.html",
+    "live_path": "Aqydatona/17Laen/56.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/17Laen/57.html",
+    "live_path": "Aqydatona/17Laen/57.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 2,
+    "live_block_count": 2
+  },
+  {
+    "local_path": "Aqydatona/17Laen/58.html",
+    "live_path": "Aqydatona/17Laen/58.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 3,
+    "live_block_count": 3
+  },
+  {
+    "local_path": "Aqydatona/18Khoms/1.html",
+    "live_path": "Aqydatona/18Khoms/1.htm",
+    "flags": [
+      "MISSING_ANALYSIS"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not"
+    ],
+    "status": "MISSING_ANALYSIS",
+    "local_block_count": 0,
+    "live_block_count": 0
+  },
+  {
+    "local_path": "Aqydatona/18Khoms/2.html",
+    "live_path": "Aqydatona/18Khoms/2.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b2 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b3 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 22,
+    "live_block_count": 22
+  },
+  {
+    "local_path": "Aqydatona/18Khoms/3.html",
+    "live_path": "Aqydatona/18Khoms/3.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 9,
+    "live_block_count": 9
+  },
+  {
+    "local_path": "Aqydatona/18Khoms/4.html",
+    "live_path": "Aqydatona/18Khoms/4.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b7 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b10 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b11 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 12,
+    "live_block_count": 12
+  },
+  {
+    "local_path": "Aqydatona/18Khoms/5.html",
+    "live_path": "Aqydatona/18Khoms/5.htm",
+    "flags": [
+      "MISSING_ANALYSIS",
+      "NESTED_SN_IN_BI"
+    ],
+    "issues": [
+      "MISSING_ANALYSIS: live page appears to have analysis note but local does not",
+      "NESTED_SN_IN_BI: b1 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b4 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b5 scholar-name nested inside book-info",
+      "NESTED_SN_IN_BI: b6 scholar-name nested inside book-info"
+    ],
+    "status": "NESTED_SN_IN_BI",
+    "local_block_count": 9,
+    "live_block_count": 9
+  }
+]

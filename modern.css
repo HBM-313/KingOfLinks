@@ -352,7 +352,7 @@ a.glossary-link:hover { color: var(--gold); }
   border-radius: 4px;
   padding: 8px 12px;
   margin: 8px 0;
-  font-size: .88rem;
+  font-size: 0.7rem;
   color: var(--ink-soft);
   line-height: 1.7;
 }
