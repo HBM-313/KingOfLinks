@@ -162,6 +162,46 @@ body {
 /* ── Article Body ───────────────────────────────────────────────── */
 .article-body { padding: 20px 24px 32px; }
 
+
+
+/* ── Page intro / top banner ────────────────────────────────────── */
+.page-intro {
+  direction: rtl;
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background-color: #f7f2e7;
+  border: 2px solid #b8860b;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+}
+
+.page-intro p {
+  margin: 0;
+  color: #2b0c0c;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Keep the first content box visually attached to .page-intro.
+   .hadith-block is the active KingOfLinks card class; .hadith-box is kept
+   for compatibility with pages that may use that name. */
+.page-intro + .hadith-block,
+.page-intro + .hadith-box,
+.hadith-box {
+  max-width: 850px;
+}
+
+.page-intro + .hadith-block,
+.page-intro + .hadith-box {
+  margin-top: 0 !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 /* ── Hadith Block ───────────────────────────────────────────────── */
 .hadith-block {
   background: var(--hadith-bg);
