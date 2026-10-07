@@ -17,7 +17,8 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - Bekræftet færdig mappe: **Abdulmtalib** — rebuild + normalisering + hadith-text-fixes verificeret via historik og ren audit.
 - Bekræftet færdig mappe: **Abutalib** — tidligere rebuild/normalisering samt efterfølgende live-verificerede fixes dokumenteret; nuværende audit ren.
 - Bekræftet færdig mappe: **AhlAlBait** — fuld rebuild/audit-historik, efterfølgende målrettede live-reparationer, 210/210 sitemap-filer til stede og kendte problemfiler verificeret rene.
-- Næste mappe: **Hywan**.
+- Bekræftet færdig mappe: **Hywan** — tidligere live-side fixes og cleanup dokumenteret; afsluttende hard-audit ren efter rettelse af `2Bqrah.html` hadith 2186.
+- Næste mappe: **Threef**.
 
 ## Mapper
 
@@ -280,21 +281,21 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/31Mtafreqat.html`
 - [x] `AhlAlBait/Main86.html`
 
-### Hywan — 0/13
+### Hywan — 13/13
 
-- [ ] `Hywan/1Asd.html`
-- [ ] `Hywan/2Bqrah.html`
-- [ ] `Hywan/3Dhab.html`
-- [ ] `Hywan/4Dhbyah.html`
-- [ ] `Hywan/5Hmar.html`
-- [ ] `Hywan/6Jmal.html`
-- [ ] `Hywan/7Qerd.html`
-- [ ] `Hywan/8Theb.html`
-- [ ] `Hywan/9Tyoor.html`
-- [ ] `Hywan/10Hayyah.html`
-- [ ] `Hywan/11Ghanam.html`
-- [ ] `Hywan/12Other.html`
-- [ ] `Hywan/Main124.html`
+- [x] `Hywan/1Asd.html`
+- [x] `Hywan/2Bqrah.html`
+- [x] `Hywan/3Dhab.html`
+- [x] `Hywan/4Dhbyah.html`
+- [x] `Hywan/5Hmar.html`
+- [x] `Hywan/6Jmal.html`
+- [x] `Hywan/7Qerd.html`
+- [x] `Hywan/8Theb.html`
+- [x] `Hywan/9Tyoor.html`
+- [x] `Hywan/10Hayyah.html`
+- [x] `Hywan/11Ghanam.html`
+- [x] `Hywan/12Other.html`
+- [x] `Hywan/Main124.html`
 
 ### Threef — 0/28
 
