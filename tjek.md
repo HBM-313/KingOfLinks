@@ -15,7 +15,8 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - Sitemap-links registreret: **2125**
 - Bekræftet færdig mappe fra `handoff.md`: **Abawalnabi** (commit `742d342`).
 - Bekræftet færdig mappe: **Abdulmtalib** — rebuild + normalisering + hadith-text-fixes verificeret via historik og ren audit.
-- Næste mappe: **Abutalib**.
+- Bekræftet færdig mappe: **Abutalib** — tidligere rebuild/normalisering samt efterfølgende live-verificerede fixes dokumenteret; nuværende audit ren.
+- Næste mappe: **AhlAlBait**.
 
 ## Mapper
 
@@ -52,18 +53,18 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abdulmtalib/11.html`
 - [x] `Abdulmtalib/Main117.html`
 
-### Abutalib — 0/10
+### Abutalib — 10/10
 
-- [ ] `Abutalib/1.html`
-- [ ] `Abutalib/2.html`
-- [ ] `Abutalib/3.html`
-- [ ] `Abutalib/4.html`
-- [ ] `Abutalib/5.html`
-- [ ] `Abutalib/6.html`
-- [ ] `Abutalib/7.html`
-- [ ] `Abutalib/8.html`
-- [ ] `Abutalib/9.html`
-- [ ] `Abutalib/Main115.html`
+- [x] `Abutalib/1.html`
+- [x] `Abutalib/2.html`
+- [x] `Abutalib/3.html`
+- [x] `Abutalib/4.html`
+- [x] `Abutalib/5.html`
+- [x] `Abutalib/6.html`
+- [x] `Abutalib/7.html`
+- [x] `Abutalib/8.html`
+- [x] `Abutalib/9.html`
+- [x] `Abutalib/Main115.html`
 
 ### AhlAlBait — 0/210
 
