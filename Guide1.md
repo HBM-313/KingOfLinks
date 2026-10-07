@@ -214,6 +214,32 @@
 
 
 
+&#x20; ## Permanent Verification Rules
+
+&#x20; A page is verified on three levels: **content, field ownership, and block structure**. A text match alone is never enough.
+
+&#x20; - `sitemap.xml` is the authoritative page list. Match each repo `.html` to its corresponding live `.htm` before approving it.
+&#x20; - The live original at `http://kingoflinks.net/` is the default source of truth. Do not approve a page from an old audit, previous `[x]`, database match, or automated diff alone.
+&#x20; - Verify menu/overview pages as real pages too: title, topic labels, link targets, order, and source counters must match the original.
+&#x20; - Compare the number and order of original sources with the number and order of `hadith-block` elements. A block-count mismatch is a strong signal that sources were merged, split, or lost.
+&#x20; - Never merge two distinct original sources into one `hadith-block`, even when they discuss the same quotation. Never split one original source into separate blocks without evidence from the original.
+&#x20; - `scholar-name` contains only the scholar/source author. Book names, topic headings, chapter text, references, editorial text, and quotations must never be placed there.
+&#x20; - `book-title` contains the book title. `chapter-info` contains book/chapter/section headings and structural Quran-heading text when the original uses them as source metadata.
+&#x20; - `ref-info` must preserve all meaningful bibliographic information, not only volume and page. This includes footnote numbers such as `الحاشية` / `الحاشية رقم`, page ranges, and other original reference markers.
+&#x20; - A hadith number belongs only in `hadith-number`. Do not duplicate it at the start of `hadith-text`. Remove migration artifacts such as an extra `1 -` only when direct comparison proves they are not part of the original text.
+&#x20; - Quran material must be preserved completely, including `{ ... }`, `@`, sura names, verse numbers, verse ranges, parentheses, and punctuation that carries meaning.
+&#x20; - `analysis-note` must stay attached to the same source block and in the same logical position as on the original. Do not move an analysis to the previous or next source.
+&#x20; - A page title is not automatically a `page-intro`. Use `page-intro` only for genuine internal topic/section headings between source blocks.
+&#x20; - Internal evidence/topic headings such as `الدليل الأول`, `الدليل الثاني`, etc. must not live inside `hadith-text` when they function structurally on the page; place them as `page-intro` immediately before the source they introduce.
+&#x20; - A documented manual restoration may intentionally differ from the current live page when the project has explicitly established that the original itself omitted a required structural heading. Such exceptions must be preserved and not removed by later audits solely because live still lacks them.
+&#x20; - Do not copy FrontPage/legacy rendering artifacts blindly. Broken visual spacing such as split digits or split words may be normalized when clearly caused by old HTML layout, but genuine original values and unusual references must be preserved exactly.
+&#x20; - Do not linguistically modernize, correct, shorten, or rewrite original content. Strange spellings, odd references, and unusual values remain unchanged unless the live source proves the repo is wrong.
+&#x20; - Automated diff/inspection is a screening tool only. Final approval requires direct manual comparison of scholar, book, chapter, refs, hadith number, quotation text, Quran references, analysis, ordering, and structural boundaries.
+&#x20; - After every correction, re-fetch/re-read the repo page and perform a post-fix structural check before marking it complete.
+&#x20; - Mark `[x]` in `tjek.md` only after the page itself has been verified clean. If the checklist cannot be written or committed, report that separately instead of pretending the status changed.
+&#x20; - PDF files and images remain outside this verification workflow and are skipped.
+&#x20; - Work directly on `main`. Backup branches such as `CGPT` must not be changed unless the user explicitly requests it.
+
 &#x20; Completed Folders (ALL CLEAN ✅)
 
 
