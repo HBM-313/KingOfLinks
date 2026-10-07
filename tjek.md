@@ -57,14 +57,14 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [ ] `Abdulmtalib/11.html`
 - [ ] `Abdulmtalib/Main117.html`
 
-### Abutalib — 3/10 (genverificeres mod original)
+### Abutalib — 6/10 (genverificeres mod original)
 
 - [x] `Abutalib/1.html`
 - [x] `Abutalib/2.html`
 - [x] `Abutalib/3.html`
-- [ ] `Abutalib/4.html`
-- [ ] `Abutalib/5.html`
-- [ ] `Abutalib/6.html`
+- [x] `Abutalib/4.html`
+- [x] `Abutalib/5.html`
+- [x] `Abutalib/6.html`
 - [ ] `Abutalib/7.html`
 - [ ] `Abutalib/8.html`
 - [ ] `Abutalib/9.html`
