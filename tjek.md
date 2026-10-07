@@ -6,6 +6,8 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 - Følg altid `AUDIT.md`, `handoff.md` og `Guide1.md`.
 - **ABSOLUT KILDEREGEL:** Hver side skal findes/bekræftes via `sitemap.xml` og sammenholdes med den tilsvarende originale `.htm`-side på `http://kingoflinks.net/`. Originalen er facit for indhold, felter, rækkefølge og referencer. Ingen side må markeres `[x]` uden denne sammenligning.
+- **FELT-EJERSKAB:** Det er ikke nok, at teksten findes et sted på originalen. Sideoverskrift, scholar, bog, chapter, refs, hadithnummer og hadithtekst skal ligge i de samme logiske roller som på originalen. Side-/emneoverskrifter må ikke ende i `hadith-text`.
+- Koranparenteser, sura/vers-reference, `@`, tal og andre meningsbærende kildeelementer i originalens indhold må ikke falde ud under migrering.
 - En side markeres kun med `[x]`, når den opfylder **DONE RULE** i `handoff.md`: live-indhold verificeret, struktur og alle felter korrekte, ingen kendte mangler, audit ren, og ændringen committed/pushed.
 - `Abdulmtalib/1.html` og `Abdulmtalib/2.html` bruges som reference for den nye opsætning, men krydses ikke automatisk af uden fuld verificering.
 - Sitemap bruger `.htm`; repo-filer føres her som `.html`.
@@ -20,9 +22,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Mapper
 
-### Abawalnabi — 8/15 (genverificeres mod original)
+### Abawalnabi — 9/15 (genverificeres mod original)
 
-- [ ] `Abawalnabi/1.html`
+- [x] `Abawalnabi/1.html`
 - [x] `Abawalnabi/2.html`
 - [x] `Abawalnabi/3.html`
 - [ ] `Abawalnabi/4.html`
