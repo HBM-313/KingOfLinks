@@ -20,9 +20,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Mapper
 
-### Abawalnabi — 9/15 (genverificeres mod original)
+### Abawalnabi — 8/15 (genverificeres mod original)
 
-- [x] `Abawalnabi/1.html`
+- [ ] `Abawalnabi/1.html`
 - [x] `Abawalnabi/2.html`
 - [x] `Abawalnabi/3.html`
 - [ ] `Abawalnabi/4.html`
