@@ -42,11 +42,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abawalnabi/Main116.html`
 - [-] `Abawalnabi/TM.pdf`
 
-### Abdulmtalib — 0/12 (genverificeres mod original)
+### Abdulmtalib — 3/12 (genverificeres mod original)
 
-- [ ] `Abdulmtalib/1.html`
-- [ ] `Abdulmtalib/2.html`
-- [ ] `Abdulmtalib/3.html`
+- [x] `Abdulmtalib/1.html`
+- [x] `Abdulmtalib/2.html`
+- [x] `Abdulmtalib/3.html`
 - [ ] `Abdulmtalib/4.html`
 - [ ] `Abdulmtalib/5.html`
 - [ ] `Abdulmtalib/6.html`
