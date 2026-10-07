@@ -4,6 +4,8 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Regler
 
+- **PDF/BILLEDE-REGEL:** PDF-filer og billeder springes altid over. De skal ikke live-verificeres, rettes eller tælles som nødvendige færdige sider i denne cleanup.
+
 - Følg altid `AUDIT.md`, `handoff.md` og `Guide1.md`.
 - **ABSOLUT KILDEREGEL:** Hver side skal findes/bekræftes via `sitemap.xml` og sammenholdes med den tilsvarende originale `.htm`-side på `http://kingoflinks.net/`. Originalen er facit for indhold, felter, rækkefølge og referencer. Ingen side må markeres `[x]` uden denne sammenligning.
 - **FELT-EJERSKAB:** Det er ikke nok, at teksten findes et sted på originalen. Sideoverskrift, scholar, bog, chapter, refs, hadithnummer og hadithtekst skal ligge i de samme logiske roller som på originalen. Side-/emneoverskrifter må ikke ende i `hadith-text`.
@@ -38,7 +40,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abawalnabi/12.html`
 - [x] `Abawalnabi/13.html`
 - [x] `Abawalnabi/Main116.html`
-- [ ] `Abawalnabi/TM.pdf`
+- [-] `Abawalnabi/TM.pdf`
 
 ### Abdulmtalib — 0/12 (genverificeres mod original)
 
@@ -2210,7 +2212,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ### Images — 0/1
 
-- [ ] `Images/PDF/AlFarra_Ibtal_AlTaweelat.pdf`
+- [-] `Images/PDF/AlFarra_Ibtal_AlTaweelat.pdf`
 
 ### (root) — 0/1
 
