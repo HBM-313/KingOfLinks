@@ -23,6 +23,21 @@ Live site: `http://kingoflinks.net/`
 - Repo uses `.html`
 - Live site uses `.htm`
 
+### SOURCE-OF-TRUTH RULE — ABSOLUTE
+
+`sitemap.xml` defines which original KingOfLinks pages belong to the project and which live URL corresponds to each repo page.
+
+For EVERY page:
+1. Find/confirm the page through `sitemap.xml`.
+2. Convert the repo `.html` path to the corresponding original `.htm` URL.
+3. Fetch the ORIGINAL page from `http://kingoflinks.net/`.
+4. Compare the local page against that original before editing.
+5. Use the original live page as the source of truth for content, field ownership, order, references, hadith numbers, and omissions.
+6. Do NOT mark a page complete until this original-page comparison has been performed.
+
+Local repo history, existing cleaned pages, scripts, caches, or similar pages may help diagnose structure, but they NEVER replace verification against the original `kingoflinks.net` URL when the original page is available.
+
+
 Live site encoding:
 - Windows-1256
 - No charset headers
@@ -156,6 +171,7 @@ NEVER apply data from one file's live page to a different file's blocks.
 16. Do not apply guessed mappings.
 17. Do not use data from the wrong page, wrong file, or wrong block.
 18. Perfection on the current task is mandatory before moving forward.
+19. EVERY page must be checked against its original `http://kingoflinks.net/...htm` URL obtained from `sitemap.xml` before it can be marked complete.
 
 ---
 
