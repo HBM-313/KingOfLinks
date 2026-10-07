@@ -14,7 +14,8 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 - Sitemap-links registreret: **2125**
 - Bekræftet færdig mappe fra `handoff.md`: **Abawalnabi** (commit `742d342`).
-- Næste mappe ifølge handoff: **Abdulmtalib**.
+- Bekræftet færdig mappe: **Abdulmtalib** — rebuild + normalisering + hadith-text-fixes verificeret via historik og ren audit.
+- Næste mappe: **Abutalib**.
 
 ## Mapper
 
@@ -36,20 +37,20 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abawalnabi/Main116.html`
 - [x] `Abawalnabi/TM.pdf`
 
-### Abdulmtalib — 0/12
+### Abdulmtalib — 12/12
 
-- [ ] `Abdulmtalib/1.html` — reference for ny opsætning; kræver fuld DONE-verificering
-- [ ] `Abdulmtalib/2.html` — reference for ny opsætning; kræver fuld DONE-verificering
-- [ ] `Abdulmtalib/3.html`
-- [ ] `Abdulmtalib/4.html`
-- [ ] `Abdulmtalib/5.html`
-- [ ] `Abdulmtalib/6.html`
-- [ ] `Abdulmtalib/7.html`
-- [ ] `Abdulmtalib/8.html`
-- [ ] `Abdulmtalib/9.html`
-- [ ] `Abdulmtalib/10.html`
-- [ ] `Abdulmtalib/11.html`
-- [ ] `Abdulmtalib/Main117.html`
+- [x] `Abdulmtalib/1.html`
+- [x] `Abdulmtalib/2.html`
+- [x] `Abdulmtalib/3.html`
+- [x] `Abdulmtalib/4.html`
+- [x] `Abdulmtalib/5.html`
+- [x] `Abdulmtalib/6.html`
+- [x] `Abdulmtalib/7.html`
+- [x] `Abdulmtalib/8.html`
+- [x] `Abdulmtalib/9.html`
+- [x] `Abdulmtalib/10.html`
+- [x] `Abdulmtalib/11.html`
+- [x] `Abdulmtalib/Main117.html`
 
 ### Abutalib — 0/10
 
