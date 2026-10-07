@@ -151,6 +151,14 @@ NEVER apply data from one file's live page to a different file's blocks.
 
 ---
 
+## PDF AND IMAGE SKIP RULE
+
+- Skip all PDF files entirely.
+- Skip all image files entirely.
+- PDFs and images are not part of the HTML cleanup/live-verification workflow.
+- Do not mark PDFs or images as required DONE items in the checklist.
+- Sitemap/repo completion counts for this cleanup should only include relevant HTML pages.
+
 ## NON-NEGOTIABLE RULES
 
 1. DO NOT MISS ANY CONTENT.
