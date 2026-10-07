@@ -20,22 +20,22 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Mapper
 
-### Abawalnabi — 0/15 (genverificeres mod original)
+### Abawalnabi — 9/15 (genverificeres mod original)
 
-- [ ] `Abawalnabi/1.html`
-- [ ] `Abawalnabi/2.html`
-- [ ] `Abawalnabi/3.html`
+- [x] `Abawalnabi/1.html`
+- [x] `Abawalnabi/2.html`
+- [x] `Abawalnabi/3.html`
 - [ ] `Abawalnabi/4.html`
-- [ ] `Abawalnabi/5.html`
-- [ ] `Abawalnabi/6.html`
+- [x] `Abawalnabi/5.html`
+- [x] `Abawalnabi/6.html`
 - [ ] `Abawalnabi/7.html`
-- [ ] `Abawalnabi/8.html`
+- [x] `Abawalnabi/8.html`
 - [ ] `Abawalnabi/9.html`
-- [ ] `Abawalnabi/10.html`
-- [ ] `Abawalnabi/11.html`
+- [x] `Abawalnabi/10.html`
+- [x] `Abawalnabi/11.html`
 - [ ] `Abawalnabi/12.html`
 - [ ] `Abawalnabi/13.html`
-- [ ] `Abawalnabi/Main116.html`
+- [x] `Abawalnabi/Main116.html`
 - [ ] `Abawalnabi/TM.pdf`
 
 ### Abdulmtalib — 0/12 (genverificeres mod original)
