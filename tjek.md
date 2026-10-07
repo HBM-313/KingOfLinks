@@ -13,290 +13,287 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Status
 
-- Sitemap-links registreret: **2125**
-- Bekræftet færdig mappe fra `handoff.md`: **Abawalnabi** (commit `742d342`).
-- Bekræftet færdig mappe: **Abdulmtalib** — rebuild + normalisering + hadith-text-fixes verificeret via historik og ren audit.
-- Bekræftet færdig mappe: **Abutalib** — tidligere rebuild/normalisering samt efterfølgende live-verificerede fixes dokumenteret; nuværende audit ren.
-- Bekræftet færdig mappe: **AhlAlBait** — fuld rebuild/audit-historik, efterfølgende målrettede live-reparationer, 210/210 sitemap-filer til stede og kendte problemfiler verificeret rene.
-- Bekræftet færdig mappe: **Hywan** — tidligere live-side fixes og cleanup dokumenteret; afsluttende hard-audit ren efter rettelse af `2Bqrah.html` hadith 2186.
-- Næste mappe: **Threef**.
+- **Alle tidligere [x]-markeringer er nulstillet**, fordi de blev sat før den absolutte regel om direkte sammenligning med originalen på `kingoflinks.net`.
+- Genverifikation kører i denne rækkefølge: **Abawalnabi → Abdulmtalib → Abutalib → AhlAlBait → Hywan → Threef → resten af sitemap**.
+- Første live-screening af de 259 tidligere markerede HTML-sider: **133 automatisk rene matches, 126 kræver manuel live-kontrol**. Ingen af dem markeres færdige igen, før originalen er verificeret.
+- `sitemap.xml` er den autoritative liste over originale sider og deres `.htm`-URL'er.
 
 ## Mapper
 
-### Abawalnabi — 15/15
+### Abawalnabi — 0/15 (genverificeres mod original)
 
-- [x] `Abawalnabi/1.html`
-- [x] `Abawalnabi/2.html`
-- [x] `Abawalnabi/3.html`
-- [x] `Abawalnabi/4.html`
-- [x] `Abawalnabi/5.html`
-- [x] `Abawalnabi/6.html`
-- [x] `Abawalnabi/7.html`
-- [x] `Abawalnabi/8.html`
-- [x] `Abawalnabi/9.html`
-- [x] `Abawalnabi/10.html`
-- [x] `Abawalnabi/11.html`
-- [x] `Abawalnabi/12.html`
-- [x] `Abawalnabi/13.html`
-- [x] `Abawalnabi/Main116.html`
-- [x] `Abawalnabi/TM.pdf`
+- [ ] `Abawalnabi/1.html`
+- [ ] `Abawalnabi/2.html`
+- [ ] `Abawalnabi/3.html`
+- [ ] `Abawalnabi/4.html`
+- [ ] `Abawalnabi/5.html`
+- [ ] `Abawalnabi/6.html`
+- [ ] `Abawalnabi/7.html`
+- [ ] `Abawalnabi/8.html`
+- [ ] `Abawalnabi/9.html`
+- [ ] `Abawalnabi/10.html`
+- [ ] `Abawalnabi/11.html`
+- [ ] `Abawalnabi/12.html`
+- [ ] `Abawalnabi/13.html`
+- [ ] `Abawalnabi/Main116.html`
+- [ ] `Abawalnabi/TM.pdf`
 
-### Abdulmtalib — 12/12
+### Abdulmtalib — 0/12 (genverificeres mod original)
 
-- [x] `Abdulmtalib/1.html`
-- [x] `Abdulmtalib/2.html`
-- [x] `Abdulmtalib/3.html`
-- [x] `Abdulmtalib/4.html`
-- [x] `Abdulmtalib/5.html`
-- [x] `Abdulmtalib/6.html`
-- [x] `Abdulmtalib/7.html`
-- [x] `Abdulmtalib/8.html`
-- [x] `Abdulmtalib/9.html`
-- [x] `Abdulmtalib/10.html`
-- [x] `Abdulmtalib/11.html`
-- [x] `Abdulmtalib/Main117.html`
+- [ ] `Abdulmtalib/1.html`
+- [ ] `Abdulmtalib/2.html`
+- [ ] `Abdulmtalib/3.html`
+- [ ] `Abdulmtalib/4.html`
+- [ ] `Abdulmtalib/5.html`
+- [ ] `Abdulmtalib/6.html`
+- [ ] `Abdulmtalib/7.html`
+- [ ] `Abdulmtalib/8.html`
+- [ ] `Abdulmtalib/9.html`
+- [ ] `Abdulmtalib/10.html`
+- [ ] `Abdulmtalib/11.html`
+- [ ] `Abdulmtalib/Main117.html`
 
-### Abutalib — 10/10
+### Abutalib — 0/10 (genverificeres mod original)
 
-- [x] `Abutalib/1.html`
-- [x] `Abutalib/2.html`
-- [x] `Abutalib/3.html`
-- [x] `Abutalib/4.html`
-- [x] `Abutalib/5.html`
-- [x] `Abutalib/6.html`
-- [x] `Abutalib/7.html`
-- [x] `Abutalib/8.html`
-- [x] `Abutalib/9.html`
-- [x] `Abutalib/Main115.html`
+- [ ] `Abutalib/1.html`
+- [ ] `Abutalib/2.html`
+- [ ] `Abutalib/3.html`
+- [ ] `Abutalib/4.html`
+- [ ] `Abutalib/5.html`
+- [ ] `Abutalib/6.html`
+- [ ] `Abutalib/7.html`
+- [ ] `Abutalib/8.html`
+- [ ] `Abutalib/9.html`
+- [ ] `Abutalib/Main115.html`
 
-### AhlAlBait — 210/210
+### AhlAlBait — 0/210 (genverificeres mod original)
 
-- [x] `AhlAlBait/1Ttheer/1BM.html`
-- [x] `AhlAlBait/1Ttheer/2IbnHanbal.html`
-- [x] `AhlAlBait/1Ttheer/3Trmidhee.html`
-- [x] `AhlAlBait/1Ttheer/4Nesaei.html`
-- [x] `AhlAlBait/1Ttheer/5Byhaqi.html`
-- [x] `AhlAlBait/1Ttheer/6IbnHebban.html`
-- [x] `AhlAlBait/1Ttheer/7Hakim.html`
-- [x] `AhlAlBait/1Ttheer/8Hythami.html`
-- [x] `AhlAlBait/1Ttheer/9IbnHajar.html`
-- [x] `AhlAlBait/1Ttheer/10Dhhabi.html`
-- [x] `AhlAlBait/1Ttheer/11IbnAtheer.html`
-- [x] `AhlAlBait/1Ttheer/12IbnAbiAsim.html`
-- [x] `AhlAlBait/1Ttheer/13IbnAbiShaybah.html`
-- [x] `AhlAlBait/1Ttheer/14IbnKatheer.html`
-- [x] `AhlAlBait/1Ttheer/15Qrtobi.html`
-- [x] `AhlAlBait/1Ttheer/16Syooti.html`
-- [x] `AhlAlBait/1Ttheer/17Tabari.html`
-- [x] `AhlAlBait/1Ttheer/18Tabarani.html`
-- [x] `AhlAlBait/1Ttheer/19IbnAsaker.html`
-- [x] `AhlAlBait/1Ttheer/20Hasakani.html`
-- [x] `AhlAlBait/1Ttheer/21Mossalhy.html`
-- [x] `AhlAlBait/1Ttheer/22Isbahani.html`
-- [x] `AhlAlBait/1Ttheer/23Mazzi.html`
-- [x] `AhlAlBait/1Ttheer/24Ajori.html`
-- [x] `AhlAlBait/1Ttheer/25Qdamah.html`
-- [x] `AhlAlBait/1Ttheer/26Tahawi.html`
-- [x] `AhlAlBait/1Ttheer/27Shwkani.html`
-- [x] `AhlAlBait/1Ttheer/28Baghdadi.html`
-- [x] `AhlAlBait/1Ttheer/29IbnAlErabi.html`
-- [x] `AhlAlBait/1Ttheer/30Muttaqi.html`
-- [x] `AhlAlBait/1Ttheer/31Doolabi.html`
-- [x] `AhlAlBait/1Ttheer/32IbnOdai.html`
-- [x] `AhlAlBait/1Ttheer/33Oqylee.html`
-- [x] `AhlAlBait/1Ttheer/34IbnAbdelBer.html`
-- [x] `AhlAlBait/1Ttheer/35IbnDmshqi.html`
-- [x] `AhlAlBait/1Ttheer/36Kassi.html`
-- [x] `AhlAlBait/1Ttheer/37Ayoob.html`
-- [x] `AhlAlBait/1Ttheer/38Byoomi.html`
-- [x] `AhlAlBait/1Ttheer/39IbnAbielHadeed.html`
-- [x] `AhlAlBait/1Ttheer/40Shami.html`
-- [x] `AhlAlBait/1Ttheer/41Qndoozi.html`
-- [x] `AhlAlBait/1Ttheer/42Khwarzmi.html`
-- [x] `AhlAlBait/1Ttheer/43Wahedi.html`
-- [x] `AhlAlBait/1Ttheer/44Zrindi.html`
-- [x] `AhlAlBait/1Ttheer/45Other.html`
-- [x] `AhlAlBait/1Ttheer/Main58.html`
-- [x] `AhlAlBait/2Moadah/1Bokhari.html`
-- [x] `AhlAlBait/2Moadah/2IT.html`
-- [x] `AhlAlBait/2Moadah/3Hakim.html`
-- [x] `AhlAlBait/2Moadah/4Hythami.html`
-- [x] `AhlAlBait/2Moadah/5Qrtobi.html`
-- [x] `AhlAlBait/2Moadah/6Syooti.html`
-- [x] `AhlAlBait/2Moadah/7Tabari.html`
-- [x] `AhlAlBait/2Moadah/8IbnKatheer.html`
-- [x] `AhlAlBait/2Moadah/9Shwkani.html`
-- [x] `AhlAlBait/2Moadah/10Tabarani.html`
-- [x] `AhlAlBait/2Moadah/11Byhaqi.html`
-- [x] `AhlAlBait/2Moadah/12Mannawi.html`
-- [x] `AhlAlBait/2Moadah/13IbnSaad.html`
-- [x] `AhlAlBait/2Moadah/14Hasakani.html`
-- [x] `AhlAlBait/2Moadah/15Byoomi.html`
-- [x] `AhlAlBait/2Moadah/16Nahas.html`
-- [x] `AhlAlBait/2Moadah/17Mqreezi.html`
-- [x] `AhlAlBait/2Moadah/18Qndoozi.html`
-- [x] `AhlAlBait/2Moadah/19Zrindi.html`
-- [x] `AhlAlBait/2Moadah/20Other.html`
-- [x] `AhlAlBait/2Moadah/Main59.html`
-- [x] `AhlAlBait/3Mbahala/1Muslim.html`
-- [x] `AhlAlBait/3Mbahala/2IbnHanbal.html`
-- [x] `AhlAlBait/3Mbahala/3Termedhee.html`
-- [x] `AhlAlBait/3Mbahala/4Hakim.html`
-- [x] `AhlAlBait/3Mbahala/5IbnHajar.html`
-- [x] `AhlAlBait/3Mbahala/6IbnKatheer.html`
-- [x] `AhlAlBait/3Mbahala/7Syooti.html`
-- [x] `AhlAlBait/3Mbahala/8Tabari.html`
-- [x] `AhlAlBait/3Mbahala/9AbiHatam.html`
-- [x] `AhlAlBait/3Mbahala/10Shwkani.html`
-- [x] `AhlAlBait/3Mbahala/11Isbahani.html`
-- [x] `AhlAlBait/3Mbahala/12Ajori.html`
-- [x] `AhlAlBait/3Mbahala/13Hasakani.html`
-- [x] `AhlAlBait/3Mbahala/14Qndoozi.html`
-- [x] `AhlAlBait/3Mbahala/15Byoomi.html`
-- [x] `AhlAlBait/3Mbahala/16Wahedi.html`
-- [x] `AhlAlBait/3Mbahala/17Other.html`
-- [x] `AhlAlBait/3Mbahala/Main60.html`
-- [x] `AhlAlBait/4Ietsam.html`
-- [x] `AhlAlBait/5Dahar.html`
-- [x] `AhlAlBait/6Thqlain/1Muslim.html`
-- [x] `AhlAlBait/6Thqlain/2Ibnhanbal.html`
-- [x] `AhlAlBait/6Thqlain/3Termedhi.html`
-- [x] `AhlAlBait/6Thqlain/4Nssaei.html`
-- [x] `AhlAlBait/6Thqlain/5Albani.html`
-- [x] `AhlAlBait/6Thqlain/6AlHakim.html`
-- [x] `AhlAlBait/6Thqlain/7AlHaythamy.html`
-- [x] `AhlAlBait/6Thqlain/8AlSyooti.html`
-- [x] `AhlAlBait/6Thqlain/9AlTabarani.html`
-- [x] `AhlAlBait/6Thqlain/10AlTabari.html`
-- [x] `AhlAlBait/6Thqlain/11IbnKatheer.html`
-- [x] `AhlAlBait/6Thqlain/12AlNawawi.html`
-- [x] `AhlAlBait/6Thqlain/13AbiYalla.html`
-- [x] `AhlAlBait/6Thqlain/14AlBayhaqi.html`
-- [x] `AhlAlBait/6Thqlain/15IbnAbiAsim.html`
-- [x] `AhlAlBait/6Thqlain/16IbnelAtheer.html`
-- [x] `AhlAlBait/6Thqlain/17Ibnjabr.html`
-- [x] `AhlAlBait/6Thqlain/18IbnAbiShybah.html`
-- [x] `AhlAlBait/6Thqlain/19IbnAsaker.html`
-- [x] `AhlAlBait/6Thqlain/20AlMnawi.html`
-- [x] `AhlAlBait/6Thqlain/21Thawi.html`
-- [x] `AhlAlBait/6Thqlain/22Ajori.html`
-- [x] `AhlAlBait/6Thqlain/23Almutqi.html`
-- [x] `AhlAlBait/6Thqlain/24IbnAbiElHadeed.html`
-- [x] `AhlAlBait/6Thqlain/25AlAqayli.html`
-- [x] `AhlAlBait/6Thqlain/26AlHamawini.html`
-- [x] `AhlAlBait/6Thqlain/27Allalekaei.html`
-- [x] `AhlAlBait/6Thqlain/28Byoomi.html`
-- [x] `AhlAlBait/6Thqlain/29AlHanafi.html`
-- [x] `AhlAlBait/6Thqlain/30AlJondi.html`
-- [x] `AhlAlBait/6Thqlain/31AlKassi.html`
-- [x] `AhlAlBait/6Thqlain/32AlSakhawi.html`
-- [x] `AhlAlBait/6Thqlain/33AlShaami.html`
-- [x] `AhlAlBait/6Thqlain/34AlZrendi.html`
-- [x] `AhlAlBait/6Thqlain/35Baghawi.html`
-- [x] `AhlAlBait/6Thqlain/36AlQndoozi.html`
-- [x] `AhlAlBait/6Thqlain/37IbnMndhoor.html`
-- [x] `AhlAlBait/6Thqlain/38Fasawi.html`
-- [x] `AhlAlBait/6Thqlain/39Other.html`
-- [x] `AhlAlBait/6Thqlain/Main3.html`
-- [x] `AhlAlBait/7SafinatNooh/1IbnHH.html`
-- [x] `AhlAlBait/7SafinatNooh/2Hakim.html`
-- [x] `AhlAlBait/7SafinatNooh/3Hythami.html`
-- [x] `AhlAlBait/7SafinatNooh/4Syooti.html`
-- [x] `AhlAlBait/7SafinatNooh/5Tabarani.html`
-- [x] `AhlAlBait/7SafinatNooh/6Ajori.html`
-- [x] `AhlAlBait/7SafinatNooh/7BinOdai.html`
-- [x] `AhlAlBait/7SafinatNooh/8Muttaqi.html`
-- [x] `AhlAlBait/7SafinatNooh/9IbnJaber.html`
-- [x] `AhlAlBait/7SafinatNooh/10Shehab.html`
-- [x] `AhlAlBait/7SafinatNooh/11Asbahani.html`
-- [x] `AhlAlBait/7SafinatNooh/12Qndoozi.html`
-- [x] `AhlAlBait/7SafinatNooh/13Other.html`
-- [x] `AhlAlBait/7SafinatNooh/Main61.html`
-- [x] `AhlAlBait/8Njoom.html`
-- [x] `AhlAlBait/9Khleefa/1Sheah.html`
-- [x] `AhlAlBait/9Khleefa/2Bokhari.html`
-- [x] `AhlAlBait/9Khleefa/3Muslim.html`
-- [x] `AhlAlBait/9Khleefa/4IbnHnbal.html`
-- [x] `AhlAlBait/9Khleefa/5Termithee.html`
-- [x] `AhlAlBait/9Khleefa/6AbiDawood.html`
-- [x] `AhlAlBait/9Khleefa/7Hakim.html`
-- [x] `AhlAlBait/9Khleefa/8Albani.html`
-- [x] `AhlAlBait/9Khleefa/9Dhahabi.html`
-- [x] `AhlAlBait/9Khleefa/10IbnHajar.html`
-- [x] `AhlAlBait/9Khleefa/11Byhaqi.html`
-- [x] `AhlAlBait/9Khleefa/12IbnHebban.html`
-- [x] `AhlAlBait/9Khleefa/13AbiYala.html`
-- [x] `AhlAlBait/9Khleefa/14IbnAniAsim.html`
-- [x] `AhlAlBait/9Khleefa/15Tabarani.html`
-- [x] `AhlAlBait/9Khleefa/16IbnKatheer.html`
-- [x] `AhlAlBait/9Khleefa/17Tyalesi.html`
-- [x] `AhlAlBait/9Khleefa/18Isbahani.html`
-- [x] `AhlAlBait/9Khleefa/19IbnAsaker.html`
-- [x] `AhlAlBait/9Khleefa/20AbiOana.html`
-- [x] `AhlAlBait/9Khleefa/21Bghdadi.html`
-- [x] `AhlAlBait/9Khleefa/22IbnJaad.html`
-- [x] `AhlAlBait/9Khleefa/23Mutaqi.html`
-- [x] `AhlAlBait/9Khleefa/24IbnMuqri.html`
-- [x] `AhlAlBait/9Khleefa/25Dani.html`
-- [x] `AhlAlBait/9Khleefa/26BinHmmad.html`
-- [x] `AhlAlBait/9Khleefa/27Qndoozi.html`
-- [x] `AhlAlBait/9Khleefa/28Other.html`
-- [x] `AhlAlBait/9Khleefa/Main2.html`
-- [x] `AhlAlBait/10Hrbhom/1IbnHanbal.html`
-- [x] `AhlAlBait/10Hrbhom/2Trmethee.html`
-- [x] `AhlAlBait/10Hrbhom/3IbnMajah.html`
-- [x] `AhlAlBait/10Hrbhom/4HAkim.html`
-- [x] `AhlAlBait/10Hrbhom/5Dhabi.html`
-- [x] `AhlAlBait/10Hrbhom/6Hythami.html`
-- [x] `AhlAlBait/10Hrbhom/7IbnAbiShybah.html`
-- [x] `AhlAlBait/10Hrbhom/8Tabarani.html`
-- [x] `AhlAlBait/10Hrbhom/9Ajori.html`
-- [x] `AhlAlBait/10Hrbhom/10IbnAsaker.html`
-- [x] `AhlAlBait/10Hrbhom/11Jassas.html`
-- [x] `AhlAlBait/10Hrbhom/12Myttaqi.html`
-- [x] `AhlAlBait/10Hrbhom/13Byoomi.html`
-- [x] `AhlAlBait/10Hrbhom/14Qndoozi.html`
-- [x] `AhlAlBait/10Hrbhom/15Zrindi.html`
-- [x] `AhlAlBait/10Hrbhom/16Other.html`
-- [x] `AhlAlBait/10Hrbhom/Main62.html`
-- [x] `AhlAlBait/11Mwalat.html`
-- [x] `AhlAlBait/12Khyrkom.html`
-- [x] `AhlAlBait/13BabHetth.html`
-- [x] `AhlAlBait/14Slaah.html`
-- [x] `AhlAlBait/15Hkmah.html`
-- [x] `AhlAlBait/16RedaAllah.html`
-- [x] `AhlAlBait/17Sada.html`
-- [x] `AhlAlBait/18Arqbo.html`
-- [x] `AhlAlBait/19Elaik.html`
-- [x] `AhlAlBait/20Sadakah.html`
-- [x] `AhlAlBait/21Layadkhul.html`
-- [x] `AhlAlBait/22Sabab.html`
-- [x] `AhlAlBait/23Khair.html`
-- [x] `AhlAlBait/24Layuqas.html`
-- [x] `AhlAlBait/25Estwso.html`
-- [x] `AhlAlBait/26Abghadh.html`
-- [x] `AhlAlBait/27Maroof.html`
-- [x] `AhlAlBait/28Dmah.html`
-- [x] `AhlAlBait/29Salt.html`
-- [x] `AhlAlBait/30Ashfaa.html`
-- [x] `AhlAlBait/31Mtafreqat.html`
-- [x] `AhlAlBait/Main86.html`
+- [ ] `AhlAlBait/1Ttheer/1BM.html`
+- [ ] `AhlAlBait/1Ttheer/2IbnHanbal.html`
+- [ ] `AhlAlBait/1Ttheer/3Trmidhee.html`
+- [ ] `AhlAlBait/1Ttheer/4Nesaei.html`
+- [ ] `AhlAlBait/1Ttheer/5Byhaqi.html`
+- [ ] `AhlAlBait/1Ttheer/6IbnHebban.html`
+- [ ] `AhlAlBait/1Ttheer/7Hakim.html`
+- [ ] `AhlAlBait/1Ttheer/8Hythami.html`
+- [ ] `AhlAlBait/1Ttheer/9IbnHajar.html`
+- [ ] `AhlAlBait/1Ttheer/10Dhhabi.html`
+- [ ] `AhlAlBait/1Ttheer/11IbnAtheer.html`
+- [ ] `AhlAlBait/1Ttheer/12IbnAbiAsim.html`
+- [ ] `AhlAlBait/1Ttheer/13IbnAbiShaybah.html`
+- [ ] `AhlAlBait/1Ttheer/14IbnKatheer.html`
+- [ ] `AhlAlBait/1Ttheer/15Qrtobi.html`
+- [ ] `AhlAlBait/1Ttheer/16Syooti.html`
+- [ ] `AhlAlBait/1Ttheer/17Tabari.html`
+- [ ] `AhlAlBait/1Ttheer/18Tabarani.html`
+- [ ] `AhlAlBait/1Ttheer/19IbnAsaker.html`
+- [ ] `AhlAlBait/1Ttheer/20Hasakani.html`
+- [ ] `AhlAlBait/1Ttheer/21Mossalhy.html`
+- [ ] `AhlAlBait/1Ttheer/22Isbahani.html`
+- [ ] `AhlAlBait/1Ttheer/23Mazzi.html`
+- [ ] `AhlAlBait/1Ttheer/24Ajori.html`
+- [ ] `AhlAlBait/1Ttheer/25Qdamah.html`
+- [ ] `AhlAlBait/1Ttheer/26Tahawi.html`
+- [ ] `AhlAlBait/1Ttheer/27Shwkani.html`
+- [ ] `AhlAlBait/1Ttheer/28Baghdadi.html`
+- [ ] `AhlAlBait/1Ttheer/29IbnAlErabi.html`
+- [ ] `AhlAlBait/1Ttheer/30Muttaqi.html`
+- [ ] `AhlAlBait/1Ttheer/31Doolabi.html`
+- [ ] `AhlAlBait/1Ttheer/32IbnOdai.html`
+- [ ] `AhlAlBait/1Ttheer/33Oqylee.html`
+- [ ] `AhlAlBait/1Ttheer/34IbnAbdelBer.html`
+- [ ] `AhlAlBait/1Ttheer/35IbnDmshqi.html`
+- [ ] `AhlAlBait/1Ttheer/36Kassi.html`
+- [ ] `AhlAlBait/1Ttheer/37Ayoob.html`
+- [ ] `AhlAlBait/1Ttheer/38Byoomi.html`
+- [ ] `AhlAlBait/1Ttheer/39IbnAbielHadeed.html`
+- [ ] `AhlAlBait/1Ttheer/40Shami.html`
+- [ ] `AhlAlBait/1Ttheer/41Qndoozi.html`
+- [ ] `AhlAlBait/1Ttheer/42Khwarzmi.html`
+- [ ] `AhlAlBait/1Ttheer/43Wahedi.html`
+- [ ] `AhlAlBait/1Ttheer/44Zrindi.html`
+- [ ] `AhlAlBait/1Ttheer/45Other.html`
+- [ ] `AhlAlBait/1Ttheer/Main58.html`
+- [ ] `AhlAlBait/2Moadah/1Bokhari.html`
+- [ ] `AhlAlBait/2Moadah/2IT.html`
+- [ ] `AhlAlBait/2Moadah/3Hakim.html`
+- [ ] `AhlAlBait/2Moadah/4Hythami.html`
+- [ ] `AhlAlBait/2Moadah/5Qrtobi.html`
+- [ ] `AhlAlBait/2Moadah/6Syooti.html`
+- [ ] `AhlAlBait/2Moadah/7Tabari.html`
+- [ ] `AhlAlBait/2Moadah/8IbnKatheer.html`
+- [ ] `AhlAlBait/2Moadah/9Shwkani.html`
+- [ ] `AhlAlBait/2Moadah/10Tabarani.html`
+- [ ] `AhlAlBait/2Moadah/11Byhaqi.html`
+- [ ] `AhlAlBait/2Moadah/12Mannawi.html`
+- [ ] `AhlAlBait/2Moadah/13IbnSaad.html`
+- [ ] `AhlAlBait/2Moadah/14Hasakani.html`
+- [ ] `AhlAlBait/2Moadah/15Byoomi.html`
+- [ ] `AhlAlBait/2Moadah/16Nahas.html`
+- [ ] `AhlAlBait/2Moadah/17Mqreezi.html`
+- [ ] `AhlAlBait/2Moadah/18Qndoozi.html`
+- [ ] `AhlAlBait/2Moadah/19Zrindi.html`
+- [ ] `AhlAlBait/2Moadah/20Other.html`
+- [ ] `AhlAlBait/2Moadah/Main59.html`
+- [ ] `AhlAlBait/3Mbahala/1Muslim.html`
+- [ ] `AhlAlBait/3Mbahala/2IbnHanbal.html`
+- [ ] `AhlAlBait/3Mbahala/3Termedhee.html`
+- [ ] `AhlAlBait/3Mbahala/4Hakim.html`
+- [ ] `AhlAlBait/3Mbahala/5IbnHajar.html`
+- [ ] `AhlAlBait/3Mbahala/6IbnKatheer.html`
+- [ ] `AhlAlBait/3Mbahala/7Syooti.html`
+- [ ] `AhlAlBait/3Mbahala/8Tabari.html`
+- [ ] `AhlAlBait/3Mbahala/9AbiHatam.html`
+- [ ] `AhlAlBait/3Mbahala/10Shwkani.html`
+- [ ] `AhlAlBait/3Mbahala/11Isbahani.html`
+- [ ] `AhlAlBait/3Mbahala/12Ajori.html`
+- [ ] `AhlAlBait/3Mbahala/13Hasakani.html`
+- [ ] `AhlAlBait/3Mbahala/14Qndoozi.html`
+- [ ] `AhlAlBait/3Mbahala/15Byoomi.html`
+- [ ] `AhlAlBait/3Mbahala/16Wahedi.html`
+- [ ] `AhlAlBait/3Mbahala/17Other.html`
+- [ ] `AhlAlBait/3Mbahala/Main60.html`
+- [ ] `AhlAlBait/4Ietsam.html`
+- [ ] `AhlAlBait/5Dahar.html`
+- [ ] `AhlAlBait/6Thqlain/1Muslim.html`
+- [ ] `AhlAlBait/6Thqlain/2Ibnhanbal.html`
+- [ ] `AhlAlBait/6Thqlain/3Termedhi.html`
+- [ ] `AhlAlBait/6Thqlain/4Nssaei.html`
+- [ ] `AhlAlBait/6Thqlain/5Albani.html`
+- [ ] `AhlAlBait/6Thqlain/6AlHakim.html`
+- [ ] `AhlAlBait/6Thqlain/7AlHaythamy.html`
+- [ ] `AhlAlBait/6Thqlain/8AlSyooti.html`
+- [ ] `AhlAlBait/6Thqlain/9AlTabarani.html`
+- [ ] `AhlAlBait/6Thqlain/10AlTabari.html`
+- [ ] `AhlAlBait/6Thqlain/11IbnKatheer.html`
+- [ ] `AhlAlBait/6Thqlain/12AlNawawi.html`
+- [ ] `AhlAlBait/6Thqlain/13AbiYalla.html`
+- [ ] `AhlAlBait/6Thqlain/14AlBayhaqi.html`
+- [ ] `AhlAlBait/6Thqlain/15IbnAbiAsim.html`
+- [ ] `AhlAlBait/6Thqlain/16IbnelAtheer.html`
+- [ ] `AhlAlBait/6Thqlain/17Ibnjabr.html`
+- [ ] `AhlAlBait/6Thqlain/18IbnAbiShybah.html`
+- [ ] `AhlAlBait/6Thqlain/19IbnAsaker.html`
+- [ ] `AhlAlBait/6Thqlain/20AlMnawi.html`
+- [ ] `AhlAlBait/6Thqlain/21Thawi.html`
+- [ ] `AhlAlBait/6Thqlain/22Ajori.html`
+- [ ] `AhlAlBait/6Thqlain/23Almutqi.html`
+- [ ] `AhlAlBait/6Thqlain/24IbnAbiElHadeed.html`
+- [ ] `AhlAlBait/6Thqlain/25AlAqayli.html`
+- [ ] `AhlAlBait/6Thqlain/26AlHamawini.html`
+- [ ] `AhlAlBait/6Thqlain/27Allalekaei.html`
+- [ ] `AhlAlBait/6Thqlain/28Byoomi.html`
+- [ ] `AhlAlBait/6Thqlain/29AlHanafi.html`
+- [ ] `AhlAlBait/6Thqlain/30AlJondi.html`
+- [ ] `AhlAlBait/6Thqlain/31AlKassi.html`
+- [ ] `AhlAlBait/6Thqlain/32AlSakhawi.html`
+- [ ] `AhlAlBait/6Thqlain/33AlShaami.html`
+- [ ] `AhlAlBait/6Thqlain/34AlZrendi.html`
+- [ ] `AhlAlBait/6Thqlain/35Baghawi.html`
+- [ ] `AhlAlBait/6Thqlain/36AlQndoozi.html`
+- [ ] `AhlAlBait/6Thqlain/37IbnMndhoor.html`
+- [ ] `AhlAlBait/6Thqlain/38Fasawi.html`
+- [ ] `AhlAlBait/6Thqlain/39Other.html`
+- [ ] `AhlAlBait/6Thqlain/Main3.html`
+- [ ] `AhlAlBait/7SafinatNooh/1IbnHH.html`
+- [ ] `AhlAlBait/7SafinatNooh/2Hakim.html`
+- [ ] `AhlAlBait/7SafinatNooh/3Hythami.html`
+- [ ] `AhlAlBait/7SafinatNooh/4Syooti.html`
+- [ ] `AhlAlBait/7SafinatNooh/5Tabarani.html`
+- [ ] `AhlAlBait/7SafinatNooh/6Ajori.html`
+- [ ] `AhlAlBait/7SafinatNooh/7BinOdai.html`
+- [ ] `AhlAlBait/7SafinatNooh/8Muttaqi.html`
+- [ ] `AhlAlBait/7SafinatNooh/9IbnJaber.html`
+- [ ] `AhlAlBait/7SafinatNooh/10Shehab.html`
+- [ ] `AhlAlBait/7SafinatNooh/11Asbahani.html`
+- [ ] `AhlAlBait/7SafinatNooh/12Qndoozi.html`
+- [ ] `AhlAlBait/7SafinatNooh/13Other.html`
+- [ ] `AhlAlBait/7SafinatNooh/Main61.html`
+- [ ] `AhlAlBait/8Njoom.html`
+- [ ] `AhlAlBait/9Khleefa/1Sheah.html`
+- [ ] `AhlAlBait/9Khleefa/2Bokhari.html`
+- [ ] `AhlAlBait/9Khleefa/3Muslim.html`
+- [ ] `AhlAlBait/9Khleefa/4IbnHnbal.html`
+- [ ] `AhlAlBait/9Khleefa/5Termithee.html`
+- [ ] `AhlAlBait/9Khleefa/6AbiDawood.html`
+- [ ] `AhlAlBait/9Khleefa/7Hakim.html`
+- [ ] `AhlAlBait/9Khleefa/8Albani.html`
+- [ ] `AhlAlBait/9Khleefa/9Dhahabi.html`
+- [ ] `AhlAlBait/9Khleefa/10IbnHajar.html`
+- [ ] `AhlAlBait/9Khleefa/11Byhaqi.html`
+- [ ] `AhlAlBait/9Khleefa/12IbnHebban.html`
+- [ ] `AhlAlBait/9Khleefa/13AbiYala.html`
+- [ ] `AhlAlBait/9Khleefa/14IbnAniAsim.html`
+- [ ] `AhlAlBait/9Khleefa/15Tabarani.html`
+- [ ] `AhlAlBait/9Khleefa/16IbnKatheer.html`
+- [ ] `AhlAlBait/9Khleefa/17Tyalesi.html`
+- [ ] `AhlAlBait/9Khleefa/18Isbahani.html`
+- [ ] `AhlAlBait/9Khleefa/19IbnAsaker.html`
+- [ ] `AhlAlBait/9Khleefa/20AbiOana.html`
+- [ ] `AhlAlBait/9Khleefa/21Bghdadi.html`
+- [ ] `AhlAlBait/9Khleefa/22IbnJaad.html`
+- [ ] `AhlAlBait/9Khleefa/23Mutaqi.html`
+- [ ] `AhlAlBait/9Khleefa/24IbnMuqri.html`
+- [ ] `AhlAlBait/9Khleefa/25Dani.html`
+- [ ] `AhlAlBait/9Khleefa/26BinHmmad.html`
+- [ ] `AhlAlBait/9Khleefa/27Qndoozi.html`
+- [ ] `AhlAlBait/9Khleefa/28Other.html`
+- [ ] `AhlAlBait/9Khleefa/Main2.html`
+- [ ] `AhlAlBait/10Hrbhom/1IbnHanbal.html`
+- [ ] `AhlAlBait/10Hrbhom/2Trmethee.html`
+- [ ] `AhlAlBait/10Hrbhom/3IbnMajah.html`
+- [ ] `AhlAlBait/10Hrbhom/4HAkim.html`
+- [ ] `AhlAlBait/10Hrbhom/5Dhabi.html`
+- [ ] `AhlAlBait/10Hrbhom/6Hythami.html`
+- [ ] `AhlAlBait/10Hrbhom/7IbnAbiShybah.html`
+- [ ] `AhlAlBait/10Hrbhom/8Tabarani.html`
+- [ ] `AhlAlBait/10Hrbhom/9Ajori.html`
+- [ ] `AhlAlBait/10Hrbhom/10IbnAsaker.html`
+- [ ] `AhlAlBait/10Hrbhom/11Jassas.html`
+- [ ] `AhlAlBait/10Hrbhom/12Myttaqi.html`
+- [ ] `AhlAlBait/10Hrbhom/13Byoomi.html`
+- [ ] `AhlAlBait/10Hrbhom/14Qndoozi.html`
+- [ ] `AhlAlBait/10Hrbhom/15Zrindi.html`
+- [ ] `AhlAlBait/10Hrbhom/16Other.html`
+- [ ] `AhlAlBait/10Hrbhom/Main62.html`
+- [ ] `AhlAlBait/11Mwalat.html`
+- [ ] `AhlAlBait/12Khyrkom.html`
+- [ ] `AhlAlBait/13BabHetth.html`
+- [ ] `AhlAlBait/14Slaah.html`
+- [ ] `AhlAlBait/15Hkmah.html`
+- [ ] `AhlAlBait/16RedaAllah.html`
+- [ ] `AhlAlBait/17Sada.html`
+- [ ] `AhlAlBait/18Arqbo.html`
+- [ ] `AhlAlBait/19Elaik.html`
+- [ ] `AhlAlBait/20Sadakah.html`
+- [ ] `AhlAlBait/21Layadkhul.html`
+- [ ] `AhlAlBait/22Sabab.html`
+- [ ] `AhlAlBait/23Khair.html`
+- [ ] `AhlAlBait/24Layuqas.html`
+- [ ] `AhlAlBait/25Estwso.html`
+- [ ] `AhlAlBait/26Abghadh.html`
+- [ ] `AhlAlBait/27Maroof.html`
+- [ ] `AhlAlBait/28Dmah.html`
+- [ ] `AhlAlBait/29Salt.html`
+- [ ] `AhlAlBait/30Ashfaa.html`
+- [ ] `AhlAlBait/31Mtafreqat.html`
+- [ ] `AhlAlBait/Main86.html`
 
-### Hywan — 13/13
+### Hywan — 0/13 (genverificeres mod original)
 
-- [x] `Hywan/1Asd.html`
-- [x] `Hywan/2Bqrah.html`
-- [x] `Hywan/3Dhab.html`
-- [x] `Hywan/4Dhbyah.html`
-- [x] `Hywan/5Hmar.html`
-- [x] `Hywan/6Jmal.html`
-- [x] `Hywan/7Qerd.html`
-- [x] `Hywan/8Theb.html`
-- [x] `Hywan/9Tyoor.html`
-- [x] `Hywan/10Hayyah.html`
-- [x] `Hywan/11Ghanam.html`
-- [x] `Hywan/12Other.html`
-- [x] `Hywan/Main124.html`
+- [ ] `Hywan/1Asd.html`
+- [ ] `Hywan/2Bqrah.html`
+- [ ] `Hywan/3Dhab.html`
+- [ ] `Hywan/4Dhbyah.html`
+- [ ] `Hywan/5Hmar.html`
+- [ ] `Hywan/6Jmal.html`
+- [ ] `Hywan/7Qerd.html`
+- [ ] `Hywan/8Theb.html`
+- [ ] `Hywan/9Tyoor.html`
+- [ ] `Hywan/10Hayyah.html`
+- [ ] `Hywan/11Ghanam.html`
+- [ ] `Hywan/12Other.html`
+- [ ] `Hywan/Main124.html`
 
 ### Threef — 0/28
 
