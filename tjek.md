@@ -5,6 +5,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 ## Regler
 
 - Følg altid `AUDIT.md`, `handoff.md` og `Guide1.md`.
+- **ABSOLUT KILDEREGEL:** Hver side skal findes/bekræftes via `sitemap.xml` og sammenholdes med den tilsvarende originale `.htm`-side på `http://kingoflinks.net/`. Originalen er facit for indhold, felter, rækkefølge og referencer. Ingen side må markeres `[x]` uden denne sammenligning.
 - En side markeres kun med `[x]`, når den opfylder **DONE RULE** i `handoff.md`: live-indhold verificeret, struktur og alle felter korrekte, ingen kendte mangler, audit ren, og ændringen committed/pushed.
 - `Abdulmtalib/1.html` og `Abdulmtalib/2.html` bruges som reference for den nye opsætning, men krydses ikke automatisk af uden fuld verificering.
 - Sitemap bruger `.htm`; repo-filer føres her som `.html`.
