@@ -172,6 +172,10 @@ NEVER apply data from one file's live page to a different file's blocks.
 17. Do not use data from the wrong page, wrong file, or wrong block.
 18. Perfection on the current task is mandatory before moving forward.
 19. EVERY page must be checked against its original `http://kingoflinks.net/...htm` URL obtained from `sitemap.xml` before it can be marked complete.
+20. PAGE/TOPIC HEADINGS are structural metadata, not hadith content. Never move a page title, topic heading, hadith count, navigation label, or section heading into `hadith-text` unless the original live page explicitly shows it as part of that quoted content.
+21. LIVE VERIFICATION must validate FIELD OWNERSHIP, not only text presence. A page is not verified merely because the same words occur somewhere on the original page. Scholar, book, chapter, refs, hadith number, hadith text, headings, notes, and ordering must each match their role on the original page.
+22. Preserve inline source content that belongs to the hadith text, including Quran braces, verse references, surah names/numbers, parenthetical references, separators, and meaningful symbols such as `@`, unless the original clearly treats them as presentation-only markup.
+
 
 ---
 
