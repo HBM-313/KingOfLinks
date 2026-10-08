@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 3/210 (genverificeres mod original)
+### AhlAlBait — 6/210 (genverificeres mod original)
+
+> **Batch 2 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/4Nesaei.html`, `5Byhaqi.html` og `6IbnHebban.html` blev sammenlignet med deres direkte hentede, `windows-1256`-dekodede originaler på `kingoflinks.net`. Alle 12 selvstændige kildeblokke (3 + 6 + 3) og deres fulde tekster er bevaret med korrekte kildeoplysninger, og de rettede sider blev genlæst fra konkrete `main`-commit-SHA'er. Den femte kilde i `5Byhaqi.htm` har ingen citeret overleveringstekst i originalen og er bevaret uden opfundet tekst.
 
 > **Batch 1 – 2026-10-08: live-verificeret via Vercel Sandbox.** De aktuelle originaler `1BM.htm`, `2IbnHanbal.htm` og `3Trmidhee.htm` blev hentet direkte fra `http://kingoflinks.net/AhlAlBait/1Ttheer/` med Python `urllib`, `User-Agent: Mozilla/5.0` og `windows-1256`-dekodning. Alle 24 originale kildeafsnit (2 + 18 + 4) er sammenholdt med de tilsvarende `hadith-block`-felter; manglende overleveringstekst, koranpassager, kilde-/kapiteloplysninger og hadithnumre er gendannet. De færdige filer blev genhentet fra GitHub ved konkrete commit-SHA'er og tekstsammenlignet på blokniveau med originalerne.
 
@@ -78,9 +80,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/1BM.html`
 - [x] `AhlAlBait/1Ttheer/2IbnHanbal.html`
 - [x] `AhlAlBait/1Ttheer/3Trmidhee.html`
-- [ ] `AhlAlBait/1Ttheer/4Nesaei.html`
-- [ ] `AhlAlBait/1Ttheer/5Byhaqi.html`
-- [ ] `AhlAlBait/1Ttheer/6IbnHebban.html`
+- [x] `AhlAlBait/1Ttheer/4Nesaei.html`
+- [x] `AhlAlBait/1Ttheer/5Byhaqi.html`
+- [x] `AhlAlBait/1Ttheer/6IbnHebban.html`
 - [ ] `AhlAlBait/1Ttheer/7Hakim.html`
 - [ ] `AhlAlBait/1Ttheer/8Hythami.html`
 - [ ] `AhlAlBait/1Ttheer/9IbnHajar.html`
