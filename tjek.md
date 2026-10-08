@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 15/210 (genverificeres mod original)
+### AhlAlBait — 18/210 (genverificeres mod original)
+
+> **Batch 6 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/16Syooti.html`, `17Tabari.html` og `18Tabarani.html` blev kontrolleret mod aktuelle `.htm`-originaler hentet med Python `urllib` og dekodet som `windows-1256`. 6 + 18 + 37 selvstændige originale kilde-/referenceafsnit blev bevaret, inklusive den ekstra 37. kilde hos al-Tabarani, der manglede som særskilt blok lokalt. Al-Suyutis original har 19 overleveringer fordelt på 6 referenceblokke; det oprindelige tællertal 19 er bevaret. De committed GitHub-filer er genhentet ved eksakte commit-SHA'er og matcher byte-for-byte de lokalt verificerede HTML-output; sammenligning af normaliseret kildebloktekst mod live-originalerne gav nul afvigelser.
+
 
 > **Batch 5 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/13IbnAbiShaybah.html`, `14IbnKatheer.html` og `15Qrtobi.html` er sammenlignet med aktuelle `windows-1256`-dekodede originaler direkte fra `kingoflinks.net`. Alle 22 originale kildeafsnit (5 + 16 + 1) er bevaret særskilt i rækkefølge. Fuld tekst, relevante kilde-/kapiteloplysninger og referencer er gendannet, og de ændrede filer er genhentet fra konkrete GitHub-commit-SHA'er. Kildevis normaliseret tekstkontrol gav nul afvigelser.
 
@@ -101,9 +104,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/13IbnAbiShaybah.html`
 - [x] `AhlAlBait/1Ttheer/14IbnKatheer.html`
 - [x] `AhlAlBait/1Ttheer/15Qrtobi.html`
-- [ ] `AhlAlBait/1Ttheer/16Syooti.html`
-- [ ] `AhlAlBait/1Ttheer/17Tabari.html`
-- [ ] `AhlAlBait/1Ttheer/18Tabarani.html`
+- [x] `AhlAlBait/1Ttheer/16Syooti.html`
+- [x] `AhlAlBait/1Ttheer/17Tabari.html`
+- [x] `AhlAlBait/1Ttheer/18Tabarani.html`
 - [ ] `AhlAlBait/1Ttheer/19IbnAsaker.html`
 - [ ] `AhlAlBait/1Ttheer/20Hasakani.html`
 - [ ] `AhlAlBait/1Ttheer/21Mossalhy.html`
