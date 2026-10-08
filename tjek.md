@@ -72,6 +72,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ### AhlAlBait — 0/210 (genverificeres mod original)
 
+> **Batch 1 – 2026-10-08: blokeret af live-adgang.** `AhlAlBait/1Ttheer/1BM.html`, `2IbnHanbal.html` og `3Trmidhee.html` er undersøgt på `main`, men direkte opslag på de tre tilsvarende originale `.htm`-sider på `kingoflinks.net` gav timeout; alternativt HTTP-opslag fejlede på DNS. Alle tre forbliver `[ ]` og er **ikke live-verificerede**. Der er synlige tegn på mulig tekstafkortning og fejlplacerede felter; disse må ikke korrigeres uden fuld originaltekst. Ingen kilde-/blokstruktur er godkendt.
+
+
 - [ ] `AhlAlBait/1Ttheer/1BM.html`
 - [ ] `AhlAlBait/1Ttheer/2IbnHanbal.html`
 - [ ] `AhlAlBait/1Ttheer/3Trmidhee.html`
