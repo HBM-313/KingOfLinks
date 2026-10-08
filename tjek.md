@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 48/210 (genverificeres mod original)
+### AhlAlBait — 51/210 (genverificeres mod original)
+
+> **Batch 17 – 2026-10-08: verificeret mod live-originalen via Vercel Sandbox.** `2Moadah/3Hakim.html`, `4Hythami.html` og `5Qrtobi.html` er sammenlignet med originalerne fra `kingoflinks.net` (`windows-1256`). De originale 2 + 3 + 1 selvstændige kildeblokke er bevaret i rækkefølge. Efter rettelser er hele den normaliserede arabiske hadithtekst, kildebog, forfatter, bind- og sidetal sammenholdt uden afvigelser. Kapitelindhold, redaktionelle noter og hadithnumre er bevaret i deres respektive felter. Alle tre HTML-filer er committed (`2fe1f6b0`) og genhentet fra GitHub med præcis matchende blob-SHA.
 
 > **Batch 16 – 2026-10-08: verificeret mod live-originalen via Vercel Sandbox.** `1Ttheer/Main58.html` er genopbygget mod originalens 45 kildelinks, eksakte linktekster, rækkefølge og antal; den lokale fil manglede tidligere 12 kilder og havde fejlagtigt gentaget koranvers som kildetitler. `2Moadah/1Bokhari.html` og `2IT.html` har henholdsvis 2 og 4 kildeblokke, hvis normaliserede fulde overleveringstekster, bind- og sidereferencer er sammenlignet med originalerne uden afvigelser. Kapiteloplysninger, bogtitler og hadithnumre er placeret i deres respektive felter. Alle tre rettede HTML-filer blev committed samlet (`5fd883df`) og genhentet med korrekt blob-SHA fra GitHub `main`.
 
@@ -165,9 +167,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/Main58.html`
 - [x] `AhlAlBait/2Moadah/1Bokhari.html`
 - [x] `AhlAlBait/2Moadah/2IT.html`
-- [ ] `AhlAlBait/2Moadah/3Hakim.html`
-- [ ] `AhlAlBait/2Moadah/4Hythami.html`
-- [ ] `AhlAlBait/2Moadah/5Qrtobi.html`
+- [x] `AhlAlBait/2Moadah/3Hakim.html`
+- [x] `AhlAlBait/2Moadah/4Hythami.html`
+- [x] `AhlAlBait/2Moadah/5Qrtobi.html`
 - [ ] `AhlAlBait/2Moadah/6Syooti.html`
 - [ ] `AhlAlBait/2Moadah/7Tabari.html`
 - [ ] `AhlAlBait/2Moadah/8IbnKatheer.html`
