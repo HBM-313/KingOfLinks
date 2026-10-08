@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 36/210 (genverificeres mod original)
+### AhlAlBait — 39/210 (genverificeres mod original)
+
+> **Batch 13 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/37Ayoob.html`, `38Byoomi.html` og `39IbnAbielHadeed.html` er sammenholdt med aktuelle originale `.htm`-sider fra `kingoflinks.net` dekodet som `windows-1256`. Alle 11 originale kildeafsnit (2 + 6 + 3) og hele deres normaliserede arabiske tekst matcher de committed HTML-filer præcist. `38Byoomi.htm` angiver 24 overleveringer fordelt på seks originale kildeafsnit, der fortsat er seks selvstændige `hadith-block`-elementer. Sideindledning, kilde-ejerskab, bogtitler, bind- og sidereferencer samt kildeorden er kontrolleret.
+
 
 > **Batch 12 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/34IbnAbdelBer.html`, `35IbnDmshqi.html` og `36Kassi.html` er sammenholdt med deres aktuelle originale `.htm`-sider fra `kingoflinks.net`, korrekt dekodet som `windows-1256`. Alle 7 kildeblokke (3 + 2 + 2) matcher originalerne i kildeorden og normaliseret arabisk kildebloktekst. Kildenavne, bogtitler, kapiteloplysninger, referencer, hadithnumre og den ene `page-intro` er rettet og kontrolleret; de committed HTML-filer er genhentet fra `main` før godkendelse.
 
@@ -144,9 +147,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/34IbnAbdelBer.html`
 - [x] `AhlAlBait/1Ttheer/35IbnDmshqi.html`
 - [x] `AhlAlBait/1Ttheer/36Kassi.html`
-- [ ] `AhlAlBait/1Ttheer/37Ayoob.html`
-- [ ] `AhlAlBait/1Ttheer/38Byoomi.html`
-- [ ] `AhlAlBait/1Ttheer/39IbnAbielHadeed.html`
+- [x] `AhlAlBait/1Ttheer/37Ayoob.html`
+- [x] `AhlAlBait/1Ttheer/38Byoomi.html`
+- [x] `AhlAlBait/1Ttheer/39IbnAbielHadeed.html`
 - [ ] `AhlAlBait/1Ttheer/40Shami.html`
 - [ ] `AhlAlBait/1Ttheer/41Qndoozi.html`
 - [ ] `AhlAlBait/1Ttheer/42Khwarzmi.html`
