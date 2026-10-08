@@ -258,6 +258,19 @@
 &#x20; - PDF files and images remain outside this verification workflow and are skipped.
 &#x20; - Work directly on `main`. Backup branches such as `CGPT` must not be changed unless the user explicitly requests it.
 
+## Lessons from Live Verification — Specific Failure Modes
+
+These are **additional checks** drawn from direct comparison with `kingoflinks.net`. They supplement, rather than replace, the mandatory three-level verification rules above.
+
+1. **Detect duplicated `page-intro` elements.** Compare the number, wording, and location of original introductory headings or Quran verses. An accidental duplicate may appear even when every hadith block is otherwise correct. Do not delete intentional Quran repetitions *inside* different original quotations; distinguish these from a repeated page introduction.
+2. **Reconstruct hadith numbers across legacy HTML tags.** FrontPage markup may split one colored number into separate elements, e.g. `3` + `2272` = `32272`, or `3754` + `4` = `37544`. Inspect the actual source markup and surrounding text before deciding whether adjacent digits are one number. Store the verified number in `hadith-number`, not in `hadith-text`, and do not duplicate it.
+3. **Never equate `hadith-count` with the number of source blocks.** The original may state 24 narrations while containing only six independent bibliographic sections, as on `38Byoomi.htm`. Verify the displayed count against the original **and independently** verify the number and order of `hadith-block` elements against the original source divisions. Do not force these two counts to agree.
+4. **Audit navigation indexes for omitted links and shifted row numbers.** Check every link target against the live menu, including intermediate entries even when their destination pages already exist locally. A missing `13IbnAbiShaybah.html` link in `Main58.html` caused subsequent row positions to shift. After inserting a row, verify the complete link order, numbering, labels, and counters against the original rather than assuming adjacent links are sufficient.
+5. **Avoid text loss or word fusion at extraction and chunk boundaries.** When fetching or assembling long Arabic documents in multiple chunks, preserve exact character boundaries. Accidental joins can change `أشهر كان` to `أشهركان`, or split digits and punctuation. Compare **each complete source-block text** with the correctly decoded original after assembly and after editing, not only page-level lengths, excerpts, or word counts.
+6. **Verify the final GitHub commit, not an earlier working copy.** After the *last* HTML edit, fetch that exact file again from `main` and recheck text, field ownership, source order, references, numbers, intro count, and analysis notes. Commit the `tjek.md` `[x]` update only after successful verification; read the checklist again to confirm that its recorded status matches the committed state. Any later correction requires another post-commit check.
+
+**Acceptance reminder:** Exact normalized text matching is necessary but **not sufficient**. Approve a page only when (a) all meaningful live content is preserved, (b) each item belongs to its correct structural field, and (c) source order and block boundaries match the live original. Never infer a missing field, number, or boundary from assumptions.
+
 &#x20; Historical Audit Folder Statuses (NOT Live-Verification Evidence)
 
 
