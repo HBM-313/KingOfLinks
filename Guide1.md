@@ -50,9 +50,9 @@
 
 &#x20; Run via Bash: python -X utf8 -c "..."
 
-&#x20; Arabic text garbles on decode but NUMBERS survive cleanly (page refs, hadith numbers).
+&#x20; Arabic must decode correctly (typically windows-1256); garbled text or numbers-only checks are not adequate for verification.
 
-&#x20; Use numbers to align blocks. For full Arabic content, user pastes live page text if needed.
+&#x20; Use numbers only as alignment aids. Full correctly decoded Arabic content from the current live original is required to approve a page.
 
 
 
@@ -206,7 +206,7 @@
 
 &#x20; LOOSE\_P / FOOTNOTES\_SECTION: Wrap loose paragraphs into proper hadith-blocks,
 
-&#x20;   or if genuinely introductory, use <div class="page-intro">.
+&#x20;   only when the live original proves these are separate sources; if genuinely introductory, use <div class="page-intro">, or attach analyses to their documented original section.
 
 
 
@@ -214,7 +214,25 @@
 
 
 
-&#x20; ## Permanent Verification Rules
+&#x20; ## Mandatory Live-Source Verification (Current Policy — Overrides Older Instructions)
+
+**No page may be approved unless its complete current original at `kingoflinks.net` has been retrieved, correctly decoded, and compared against the corresponding repository page.** The purpose is to ensure that the rebuilt page contains **all meaningful content present on the live page, with nothing omitted**, and that every item remains in the correct field and source block.
+
+1. Begin with the project's `sitemap.xml` to identify the exact original `.htm` URL for each repository `.html` file. Treat `kingoflinks.net` as the sole authoritative source for the page's current content.
+2. Fetch the **current live original**, not merely a cached snippet, historical repository version, database record, old audit, or a third-party mirror. For pages served in `windows-1256`, decode the complete response accurately; do not accept corrupted Arabic text, partial extraction, or number-only comparisons.
+3. Compare the **entire live document** with the local page, from the initial title and `page-intro` through the last source and analysis. Account for every meaningful original item: all Arabic prose, individual quotations and narrations, source names, book and chapter headings, volume/page/page ranges, hadith numbers, editorial and analytical notes, `الحاشية` / `الحاشية رقم`, Quran text, sura and verse identifiers, `{ }`, `@`, parentheses, separators, and meaningful punctuation. Do not shorten, paraphrase, reorder, or silently "correct" the original.
+4. Verify **content completeness, field ownership, and source-block boundaries** separately. Check every original source against the matching `hadith-block` in original order; do not combine independent sources or split one source without live evidence. Compare source **contents**, not just the number of blocks.
+5. Pay special attention to **content-loss symptoms**: Quran citations reduced to fragments such as `( ا : 128 )`; missing verses or sura numbers; missing or duplicated hadith numbers; chapter headings inside `hadith-text`; evidence headings such as `الدليل الثاني` inside a source quotation; source commentary incorrectly included in `hadith-text`; lost concluding analysis paragraphs; source titles truncated to single letters; and text whose words exist locally but are under the wrong source or field.
+6. Treat menu pages as full content: compare original headings, every visible topic label, target URL, order, individual topic counter, and total. A correct total does **not** validate incorrect per-topic counts; preserve original menu labels even if they differ from page titles.
+7. After any correction, **re-fetch the modified file from `main`** and compare it again against the live original, including full text and source ownership. Automated scripts, counts, and text diffs assist screening but cannot independently establish approval.
+8. Only then change that page to `[x]` in `tjek.md`, commit on `main`, and report the paths and commit results. If complete direct live comparison cannot be performed, leave the page `[ ]`, record the blocker precisely, and **do not claim it is verified**.
+9. The original HTTrack snapshot in historical Git commit `6be3020bdca309b455c3d6c0092b155207f55fba` (with source comments referencing `kingoflinks.net`) may be consulted to diagnose older conversion defects, but **cannot substitute for checking the actual current live site** or justify an `[x]` when live access is unavailable. A snapshot is historical, not proof of today's live content.
+10. Never consult or use `kufan.org` for this project. Do not use other mirrors as substitutes for the original.
+11. Work in batches of exactly three unverified HTML pages (or fewer only when reaching the end of a folder); commit changes directly to `main`, leave `CGPT` and every backup branch untouched, and stop for the user's `fortsæt` after each batch. If one page is blocked, document it as unverified rather than silently skipping the completeness requirement.
+
+**Important retroactive distinction:** Previous `[x]` statuses, including those granted using only the historical HTTrack snapshot, must not be described as **current-live-verified** until each page has also passed a complete direct comparison against the current `kingoflinks.net` original. Do not retroactively assume those pages are incorrect; their live verification is simply unproven.
+
+## Permanent Verification Rules
 
 &#x20; A page is verified on three levels: **content, field ownership, and block structure**. A text match alone is never enough.
 
@@ -240,11 +258,11 @@
 &#x20; - PDF files and images remain outside this verification workflow and are skipped.
 &#x20; - Work directly on `main`. Backup branches such as `CGPT` must not be changed unless the user explicitly requests it.
 
-&#x20; Completed Folders (ALL CLEAN ✅)
+&#x20; Historical Audit Folder Statuses (NOT Live-Verification Evidence)
 
 
 
-&#x20; - Abawalnabi, Abdulmtalib, Abutalib, AhlAlBait, Bahth, Mkhalfoon, Rdod
+&#x20; - Historical audit-only statuses (not proof of current-live verification): Abawalnabi, Abdulmtalib, Abutalib, AhlAlBait, Bahth, Mkhalfoon, Rdod
 
 
 
@@ -464,7 +482,7 @@
 
 &#x20; 6. git add <specific files> \&\& git commit -m "..."
 
-&#x20; 7. Push only when user explicitly asks
+&#x20; 7. When using the connected GitHub API, commit edits directly to main; with a local checkout, follow the user's current push instructions and confirm remote state before claiming the changes are on GitHub.
 
 
 
@@ -472,7 +490,7 @@
 
 
 
-&#x20; Latest commit: 3158d3f — AhlAlBait content restoration
+&#x20; Historical note only: commit 3158d3f — AhlAlBait content restoration (not current repository HEAD)
 
-&#x20; All changes committed and clean. Remote is up to date.
+&#x20; Historical status only. Re-check GitHub main for current commits and working state.
 
