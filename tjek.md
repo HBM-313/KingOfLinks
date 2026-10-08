@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 6/210 (genverificeres mod original)
+### AhlAlBait — 9/210 (genverificeres mod original)
+
+> **Batch 3 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/7Hakim.html`, `8Hythami.html` og `9IbnHajar.html` er genopbygget efter direkte hentning af aktuelle originale `.htm`-sider i `windows-1256`. De 23 originale kildeafsnit (9 + 6 + 8) er bevaret. Genlæsning fra eksakte GitHub-commits og sammenligning af den normaliserede fulde tekst for hver kilde gav nul afvigelser. Den sjette kilde i `8Hythami.htm` mangler bind-/sidereference i originalen og er bevaret uden at opfinde en.
+
 
 > **Batch 2 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/4Nesaei.html`, `5Byhaqi.html` og `6IbnHebban.html` blev sammenlignet med deres direkte hentede, `windows-1256`-dekodede originaler på `kingoflinks.net`. Alle 12 selvstændige kildeblokke (3 + 6 + 3) og deres fulde tekster er bevaret med korrekte kildeoplysninger, og de rettede sider blev genlæst fra konkrete `main`-commit-SHA'er. Den femte kilde i `5Byhaqi.htm` har ingen citeret overleveringstekst i originalen og er bevaret uden opfundet tekst.
 
@@ -83,9 +86,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/4Nesaei.html`
 - [x] `AhlAlBait/1Ttheer/5Byhaqi.html`
 - [x] `AhlAlBait/1Ttheer/6IbnHebban.html`
-- [ ] `AhlAlBait/1Ttheer/7Hakim.html`
-- [ ] `AhlAlBait/1Ttheer/8Hythami.html`
-- [ ] `AhlAlBait/1Ttheer/9IbnHajar.html`
+- [x] `AhlAlBait/1Ttheer/7Hakim.html`
+- [x] `AhlAlBait/1Ttheer/8Hythami.html`
+- [x] `AhlAlBait/1Ttheer/9IbnHajar.html`
 - [ ] `AhlAlBait/1Ttheer/10Dhhabi.html`
 - [ ] `AhlAlBait/1Ttheer/11IbnAtheer.html`
 - [ ] `AhlAlBait/1Ttheer/12IbnAbiAsim.html`
