@@ -57,7 +57,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [ ] `Abdulmtalib/11.html`
 - [ ] `Abdulmtalib/Main117.html`
 
-### Abutalib — 9/10 (genverificeres mod original)
+### Abutalib — 10/10 (genverificeres mod original)
 
 - [x] `Abutalib/1.html`
 - [x] `Abutalib/2.html`
@@ -68,7 +68,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/7.html`
 - [x] `Abutalib/8.html`
 - [x] `Abutalib/9.html`
-- [ ] `Abutalib/Main115.html`
+- [x] `Abutalib/Main115.html`
 
 ### AhlAlBait — 0/210 (genverificeres mod original)
 
