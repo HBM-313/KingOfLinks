@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 45/210 (genverificeres mod original)
+### AhlAlBait — 48/210 (genverificeres mod original)
+
+> **Batch 16 – 2026-10-08: verificeret mod live-originalen via Vercel Sandbox.** `1Ttheer/Main58.html` er genopbygget mod originalens 45 kildelinks, eksakte linktekster, rækkefølge og antal; den lokale fil manglede tidligere 12 kilder og havde fejlagtigt gentaget koranvers som kildetitler. `2Moadah/1Bokhari.html` og `2IT.html` har henholdsvis 2 og 4 kildeblokke, hvis normaliserede fulde overleveringstekster, bind- og sidereferencer er sammenlignet med originalerne uden afvigelser. Kapiteloplysninger, bogtitler og hadithnumre er placeret i deres respektive felter. Alle tre rettede HTML-filer blev committed samlet (`5fd883df`) og genhentet med korrekt blob-SHA fra GitHub `main`.
 
 > **Batch 15 – afsluttet 2026-10-08.** `1Ttheer/43Wahedi.html`, `44Zrindi.html` og `45Other.html` er rettet og verificeret mod originale `.htm`-sider via Vercel Sandbox. Originale kildeblokke: 2 + 5 + 19 = 26. `45Other.html` blev genhentet fra `main` efter commit `ee65a8ee` med identisk Git-blob-SHA; alle 19 originale kildeblokkes normaliserede brødtekst og bind-/sidereferencer er sammenholdt uden afvigelser. Originalens navigationslinks er korrekt udeladt fra kildeteksten, og den sidste kilde har ingen bogtitel i originalen.
 
@@ -160,9 +162,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/43Wahedi.html`
 - [x] `AhlAlBait/1Ttheer/44Zrindi.html`
 - [x] `AhlAlBait/1Ttheer/45Other.html`
-- [ ] `AhlAlBait/1Ttheer/Main58.html`
-- [ ] `AhlAlBait/2Moadah/1Bokhari.html`
-- [ ] `AhlAlBait/2Moadah/2IT.html`
+- [x] `AhlAlBait/1Ttheer/Main58.html`
+- [x] `AhlAlBait/2Moadah/1Bokhari.html`
+- [x] `AhlAlBait/2Moadah/2IT.html`
 - [ ] `AhlAlBait/2Moadah/3Hakim.html`
 - [ ] `AhlAlBait/2Moadah/4Hythami.html`
 - [ ] `AhlAlBait/2Moadah/5Qrtobi.html`
