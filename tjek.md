@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 18/210 (genverificeres mod original)
+### AhlAlBait — 21/210 (genverificeres mod original)
+
+> **Batch 7 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/19IbnAsaker.html`, `20Hasakani.html` og `21Mossalhy.html` er sammenholdt med deres aktuelle originale `.htm`-sider på `kingoflinks.net` hentet med `urllib` og dekodet som `windows-1256`. Alle 107 originale kildeafsnit (66 + 38 + 3) er bevaret i samme rækkefølge, deres fulde arabiske tekst er gendannet, og normaliseret tekstkontrol på alle kildeblokke gav nul afvigelser. De tre korrigerede filer er committed på `main`, og midlertidige overførselsfiler er fjernet.
+
 
 > **Batch 6 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/16Syooti.html`, `17Tabari.html` og `18Tabarani.html` blev kontrolleret mod aktuelle `.htm`-originaler hentet med Python `urllib` og dekodet som `windows-1256`. 6 + 18 + 37 selvstændige originale kilde-/referenceafsnit blev bevaret, inklusive den ekstra 37. kilde hos al-Tabarani, der manglede som særskilt blok lokalt. Al-Suyutis original har 19 overleveringer fordelt på 6 referenceblokke; det oprindelige tællertal 19 er bevaret. De committed GitHub-filer er genhentet ved eksakte commit-SHA'er og matcher byte-for-byte de lokalt verificerede HTML-output; sammenligning af normaliseret kildebloktekst mod live-originalerne gav nul afvigelser.
 
@@ -107,9 +110,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/16Syooti.html`
 - [x] `AhlAlBait/1Ttheer/17Tabari.html`
 - [x] `AhlAlBait/1Ttheer/18Tabarani.html`
-- [ ] `AhlAlBait/1Ttheer/19IbnAsaker.html`
-- [ ] `AhlAlBait/1Ttheer/20Hasakani.html`
-- [ ] `AhlAlBait/1Ttheer/21Mossalhy.html`
+- [x] `AhlAlBait/1Ttheer/19IbnAsaker.html`
+- [x] `AhlAlBait/1Ttheer/20Hasakani.html`
+- [x] `AhlAlBait/1Ttheer/21Mossalhy.html`
 - [ ] `AhlAlBait/1Ttheer/22Isbahani.html`
 - [ ] `AhlAlBait/1Ttheer/23Mazzi.html`
 - [ ] `AhlAlBait/1Ttheer/24Ajori.html`
