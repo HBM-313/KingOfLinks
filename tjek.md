@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 12/210 (genverificeres mod original)
+### AhlAlBait — 15/210 (genverificeres mod original)
+
+> **Batch 5 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/13IbnAbiShaybah.html`, `14IbnKatheer.html` og `15Qrtobi.html` er sammenlignet med aktuelle `windows-1256`-dekodede originaler direkte fra `kingoflinks.net`. Alle 22 originale kildeafsnit (5 + 16 + 1) er bevaret særskilt i rækkefølge. Fuld tekst, relevante kilde-/kapiteloplysninger og referencer er gendannet, og de ændrede filer er genhentet fra konkrete GitHub-commit-SHA'er. Kildevis normaliseret tekstkontrol gav nul afvigelser.
+
 
 > **Batch 4 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/10Dhhabi.html`, `11IbnAtheer.html` og `12IbnAbiAsim.html` er sammenlignet kilde for kilde med deres aktuelle `.htm`-originaler direkte hentet fra `kingoflinks.net` og dekodet som `windows-1256`. Alle 17 originalkilder (6 + 9 + 2) er bevaret i den oprindelige rækkefølge, med gendannet fuld hadithtekst, referencer og relevant afsnitsmetadata. Filerne blev genhentet fra eksakte GitHub-commit-SHA'er efter ændringerne; normaliseret fuldtekst stemmer på blokniveau uden afvigelser.
 
@@ -95,9 +98,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/10Dhhabi.html`
 - [x] `AhlAlBait/1Ttheer/11IbnAtheer.html`
 - [x] `AhlAlBait/1Ttheer/12IbnAbiAsim.html`
-- [ ] `AhlAlBait/1Ttheer/13IbnAbiShaybah.html`
-- [ ] `AhlAlBait/1Ttheer/14IbnKatheer.html`
-- [ ] `AhlAlBait/1Ttheer/15Qrtobi.html`
+- [x] `AhlAlBait/1Ttheer/13IbnAbiShaybah.html`
+- [x] `AhlAlBait/1Ttheer/14IbnKatheer.html`
+- [x] `AhlAlBait/1Ttheer/15Qrtobi.html`
 - [ ] `AhlAlBait/1Ttheer/16Syooti.html`
 - [ ] `AhlAlBait/1Ttheer/17Tabari.html`
 - [ ] `AhlAlBait/1Ttheer/18Tabarani.html`
