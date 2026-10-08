@@ -70,7 +70,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 24/210 (genverificeres mod original)
+### AhlAlBait — 27/210 (genverificeres mod original)
+
+> **Batch 9 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/25Qdamah.html`, `26Tahawi.html` og `27Shwkani.html` er hentet fra `kingoflinks.net` og dekodet som `windows-1256`. Alle 15 originale kildeblokke (1 + 12 + 2) er bevaret i samme rækkefølge. Efter rettelser matcher samtlige 15 kildebloktekster den originale normaliserede arabiske tekst præcist; `page-intro`, kildefelter og referencer er genskabt og HTML-filerne genhentet fra GitHub `main` til verificering.
+
+
 
 > **Batch 8 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/22Isbahani.html`, `23Mazzi.html` og `24Ajori.html` er kontrolleret mod aktuelle originale `.htm`-sider hentet direkte med `urllib` og dekodet som `windows-1256`. Alle 18 kildeafsnit (6 + 3 + 9) bevarer deres rækkefølge og blokgrænser. Fuld normaliseret kildebloktekst matcher originalerne uden afvigelser, og GitHub-commits er genhentet og sammenlignet med de verificerede HTML-filer.
 
@@ -119,9 +123,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/22Isbahani.html`
 - [x] `AhlAlBait/1Ttheer/23Mazzi.html`
 - [x] `AhlAlBait/1Ttheer/24Ajori.html`
-- [ ] `AhlAlBait/1Ttheer/25Qdamah.html`
-- [ ] `AhlAlBait/1Ttheer/26Tahawi.html`
-- [ ] `AhlAlBait/1Ttheer/27Shwkani.html`
+- [x] `AhlAlBait/1Ttheer/25Qdamah.html`
+- [x] `AhlAlBait/1Ttheer/26Tahawi.html`
+- [x] `AhlAlBait/1Ttheer/27Shwkani.html`
 - [ ] `AhlAlBait/1Ttheer/28Baghdadi.html`
 - [ ] `AhlAlBait/1Ttheer/29IbnAlErabi.html`
 - [ ] `AhlAlBait/1Ttheer/30Muttaqi.html`
