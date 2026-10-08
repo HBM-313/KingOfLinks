@@ -70,9 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 44/210 (genverificeres mod original)
+### AhlAlBait — 45/210 (genverificeres mod original)
 
-> **Batch 15 – delvis gennemført 2026-10-08.** `1Ttheer/43Wahedi.html` og `44Zrindi.html` er live-verificeret via Vercel Sandbox, rettet, committed på `main` og genhentet. `45Other.html` er sammenlignet og rettet i sandboksen, men overførsel til GitHub blev blokeret; den er derfor fortsat umarkeret og må ikke godkendes endnu.
+> **Batch 15 – afsluttet 2026-10-08.** `1Ttheer/43Wahedi.html`, `44Zrindi.html` og `45Other.html` er rettet og verificeret mod originale `.htm`-sider via Vercel Sandbox. Originale kildeblokke: 2 + 5 + 19 = 26. `45Other.html` blev genhentet fra `main` efter commit `ee65a8ee` med identisk Git-blob-SHA; alle 19 originale kildeblokkes normaliserede brødtekst og bind-/sidereferencer er sammenholdt uden afvigelser. Originalens navigationslinks er korrekt udeladt fra kildeteksten, og den sidste kilde har ingen bogtitel i originalen.
 
 > **Batch 14 – 2026-10-08: live-verificeret via Vercel Sandbox.** `1Ttheer/40Shami.html`, `41Qndoozi.html` og `42Khwarzmi.html` er kontrolleret mod direkte hentede originale `.htm`-sider (`windows-1256`). Alle 18 originale kildeblokke (4 + 12 + 2) er bevaret i korrekt rækkefølge; kilde-, kapitel- og hadithindhold matcher normaliseret tegn-for-tegn, og fem forkerte bind-/sidereferencer i `41Qndoozi.html` er rettet. Alle tre filer blev genhentet fra eksakte GitHub-commit-SHA'er efter rettelserne.
 
@@ -159,7 +159,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/1Ttheer/42Khwarzmi.html`
 - [x] `AhlAlBait/1Ttheer/43Wahedi.html`
 - [x] `AhlAlBait/1Ttheer/44Zrindi.html`
-- [ ] `AhlAlBait/1Ttheer/45Other.html`
+- [x] `AhlAlBait/1Ttheer/45Other.html`
 - [ ] `AhlAlBait/1Ttheer/Main58.html`
 - [ ] `AhlAlBait/2Moadah/1Bokhari.html`
 - [ ] `AhlAlBait/2Moadah/2IT.html`
