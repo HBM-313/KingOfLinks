@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 51/210 (genverificeres mod original)
+### AhlAlBait — 54/210 (genverificeres mod original)
+
+> **Batch 18 – 2026-10-09: live-verificeret via Vercel Sandbox.** `2Moadah/6Syooti.html`, `7Tabari.html` og `8IbnKatheer.html` er sammenholdt med originale `.htm`-sider fra `kingoflinks.net` (`windows-1256`). Alle 23 kildeblokke (3 + 19 + 1) er bevaret i korrekt rækkefølge, og de fulde normaliserede arabiske hadithtekster, kildenavne, bogtitler og bind-/sidereferencer er verificeret uden afvigelser efter rettelser. Filernes felter for kapitler, hadithnumre og redaktionelle noter er genplaceret efter originalen. HTML-commit `ac53a9ce` blev genhentet fra GitHub `main` med matchende blob-SHA for alle tre sider.
 
 > **Batch 17 – 2026-10-08: verificeret mod live-originalen via Vercel Sandbox.** `2Moadah/3Hakim.html`, `4Hythami.html` og `5Qrtobi.html` er sammenlignet med originalerne fra `kingoflinks.net` (`windows-1256`). De originale 2 + 3 + 1 selvstændige kildeblokke er bevaret i rækkefølge. Efter rettelser er hele den normaliserede arabiske hadithtekst, kildebog, forfatter, bind- og sidetal sammenholdt uden afvigelser. Kapitelindhold, redaktionelle noter og hadithnumre er bevaret i deres respektive felter. Alle tre HTML-filer er committed (`2fe1f6b0`) og genhentet fra GitHub med præcis matchende blob-SHA.
 
@@ -170,9 +172,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/2Moadah/3Hakim.html`
 - [x] `AhlAlBait/2Moadah/4Hythami.html`
 - [x] `AhlAlBait/2Moadah/5Qrtobi.html`
-- [ ] `AhlAlBait/2Moadah/6Syooti.html`
-- [ ] `AhlAlBait/2Moadah/7Tabari.html`
-- [ ] `AhlAlBait/2Moadah/8IbnKatheer.html`
+- [x] `AhlAlBait/2Moadah/6Syooti.html`
+- [x] `AhlAlBait/2Moadah/7Tabari.html`
+- [x] `AhlAlBait/2Moadah/8IbnKatheer.html`
 - [ ] `AhlAlBait/2Moadah/9Shwkani.html`
 - [ ] `AhlAlBait/2Moadah/10Tabarani.html`
 - [ ] `AhlAlBait/2Moadah/11Byhaqi.html`
