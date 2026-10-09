@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 66/210 (genverificeres mod original)
+### AhlAlBait — 69/210 (genverificeres mod original)
+
+> **Batch 23 – 2026-10-09: direkte live-verificeret via Vercel Sandbox (`windows-1256`).** `2Moadah/Main59.html` har 20 originale kildelinks med originale etiketter, individuelle antal og total 129; `3Mbahala/1Muslim.html` og `2IbnHanbal.html` har henholdsvis 1 og 2 selvstændige kildeblokke. Fuld normaliseret arabisk hadithtekst blev sammenlignet mod live-originalernes brødtekst uden afvigelser, og originalens nummer- og referencetilordning blev genoprettet. Alle filer er committed på `main` og genhentet med blob-SHA `1d5de0994742a0be862ac7487218e40f0b10f4ea`, `7be9d3e2d31ffe1fa41434505765665b763ff834` og `0daac6d0f36fd709b1b2c1bf66d2903d10f189d4`.
 
 > **Batch 22 – 2026-10-09: live-verificeret via Vercel Sandbox.** `2Moadah/18Qndoozi.html`, `19Zrindi.html` og `20Other.html` er sammenholdt med originale `.htm`-sider hentet fra `kingoflinks.net` og dekodet som `windows-1256`. Originalernes 11 + 2 + 12 = 25 kilder er bevaret som separate `hadith-block`-elementer i korrekt rækkefølge. Alle originale kildeafsnits fulde normaliserede arabiske tekst er sammenlignet med de genskabte tekster uden manglende afsnit, inklusive koranvers, hadithnumre, redaktionelle noter og referenceoplysninger. De tre ændrede HTML-filer er genhentet fra GitHub `main` med blob-SHA `5b9ef91ca5a1111a364374e47c904b5f97f998b5`, `ea78393e0e08aada47c682d6a215ebc2dadb814d` og `b5d1d640507bbb1b81158eac9bdf431ebda4a349`.
 
@@ -195,9 +197,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/2Moadah/18Qndoozi.html`
 - [x] `AhlAlBait/2Moadah/19Zrindi.html`
 - [x] `AhlAlBait/2Moadah/20Other.html`
-- [ ] `AhlAlBait/2Moadah/Main59.html`
-- [ ] `AhlAlBait/3Mbahala/1Muslim.html`
-- [ ] `AhlAlBait/3Mbahala/2IbnHanbal.html`
+- [x] `AhlAlBait/2Moadah/Main59.html`
+- [x] `AhlAlBait/3Mbahala/1Muslim.html`
+- [x] `AhlAlBait/3Mbahala/2IbnHanbal.html`
 - [ ] `AhlAlBait/3Mbahala/3Termedhee.html`
 - [ ] `AhlAlBait/3Mbahala/4Hakim.html`
 - [ ] `AhlAlBait/3Mbahala/5IbnHajar.html`
