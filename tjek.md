@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 69/210 (genverificeres mod original)
+### AhlAlBait — 72/210 (genverificeres mod original)
+
+> **Batch 24 – 2026-10-09: live-verificeret via Vercel Sandbox.** `3Mbahala/3Termedhee.html`, `4Hakim.html` og `5IbnHajar.html` er sammenholdt med originale `.htm`-sider fra `kingoflinks.net` (`windows-1256`). Alle 6 originale kildeblokke (2 + 2 + 2) er bevaret i korrekt rækkefølge. Samtlige originale kildeparagraffer er genindsat og kontrolleret mod de eksakte GitHub-commits; kontrol af fulde normaliserede arabiske tekster viser ingen manglende afsnit. Kildenavne, bogtitler, kapitler, bind-/sidereferencer, hadithnumre og redaktionelle noter er kontrolleret. De genhentede HTML-filers Git-blob-SHA'er er `1cb9d88943a49fa595342d6aa1481467904b43c0`, `370b6a9931dc90cae92d8ef6a8d68be7d59b3493` og `eb3aa0c3c2eb7f87d8425de9c5bd8168297d03c9`.
 
 > **Batch 23 – 2026-10-09: direkte live-verificeret via Vercel Sandbox (`windows-1256`).** `2Moadah/Main59.html` har 20 originale kildelinks med originale etiketter, individuelle antal og total 129; `3Mbahala/1Muslim.html` og `2IbnHanbal.html` har henholdsvis 1 og 2 selvstændige kildeblokke. Fuld normaliseret arabisk hadithtekst blev sammenlignet mod live-originalernes brødtekst uden afvigelser, og originalens nummer- og referencetilordning blev genoprettet. Alle filer er committed på `main` og genhentet med blob-SHA `1d5de0994742a0be862ac7487218e40f0b10f4ea`, `7be9d3e2d31ffe1fa41434505765665b763ff834` og `0daac6d0f36fd709b1b2c1bf66d2903d10f189d4`.
 
@@ -200,9 +202,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/2Moadah/Main59.html`
 - [x] `AhlAlBait/3Mbahala/1Muslim.html`
 - [x] `AhlAlBait/3Mbahala/2IbnHanbal.html`
-- [ ] `AhlAlBait/3Mbahala/3Termedhee.html`
-- [ ] `AhlAlBait/3Mbahala/4Hakim.html`
-- [ ] `AhlAlBait/3Mbahala/5IbnHajar.html`
+- [x] `AhlAlBait/3Mbahala/3Termedhee.html`
+- [x] `AhlAlBait/3Mbahala/4Hakim.html`
+- [x] `AhlAlBait/3Mbahala/5IbnHajar.html`
 - [ ] `AhlAlBait/3Mbahala/6IbnKatheer.html`
 - [ ] `AhlAlBait/3Mbahala/7Syooti.html`
 - [ ] `AhlAlBait/3Mbahala/8Tabari.html`
