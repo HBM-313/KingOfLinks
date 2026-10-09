@@ -70,7 +70,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 60/210 (genverificeres mod original)
+### AhlAlBait — 63/210 (genverificeres mod original)
+
+> **Batch 21 – 2026-10-09: verificeret mod direkte hentede originale `.htm`-sider fra `kingoflinks.net` via Vercel Sandbox (`windows-1256`).** `2Moadah/15Byoomi.html`, `16Nahas.html` og `17Mqreezi.html`: 5 + 3 + 7 = 15 selvstændige kildeblokke. Alle originale kildetekster er genskabt fra live-originalens afsnit, inklusive koranhenvisninger, redaktionelle noter, hadithnumre, forfattere, bogtitler, kapiteloplysninger og bind-/sidereferencer. De tre HTML-filer er committed på `main` og genhentet med GitHub-blob-SHA `0ad81449972efedef79193ff306848f50821bcda`, `d6b8a43b1abccca280916ecdf95f2326a1f64dcc` og `510b0184942885349e80b0adfbda11d63d97c74e`.
 
 > **Batch 20 – 2026-10-09: live-verificeret via Vercel Sandbox.** `2Moadah/12Mannawi.html`, `13IbnSaad.html` og `14Hasakani.html` er sammenholdt med de originale `.htm`-sider fra `kingoflinks.net` dekodet som `windows-1256`. Originalens 2 + 3 + 11 kildeblokke er bevaret i korrekt rækkefølge; alle normaliserede arabiske hadithtekster, kildenavne, bogtitler, bind- og sidereferencer stemmer efter rettelserne. HTML-commit `d633594c` er genhentet fra GitHub `main` med matchende blob-SHA for alle tre sider.
 
@@ -185,9 +187,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/2Moadah/12Mannawi.html`
 - [x] `AhlAlBait/2Moadah/13IbnSaad.html`
 - [x] `AhlAlBait/2Moadah/14Hasakani.html`
-- [ ] `AhlAlBait/2Moadah/15Byoomi.html`
-- [ ] `AhlAlBait/2Moadah/16Nahas.html`
-- [ ] `AhlAlBait/2Moadah/17Mqreezi.html`
+- [x] `AhlAlBait/2Moadah/15Byoomi.html`
+- [x] `AhlAlBait/2Moadah/16Nahas.html`
+- [x] `AhlAlBait/2Moadah/17Mqreezi.html`
 - [ ] `AhlAlBait/2Moadah/18Qndoozi.html`
 - [ ] `AhlAlBait/2Moadah/19Zrindi.html`
 - [ ] `AhlAlBait/2Moadah/20Other.html`
