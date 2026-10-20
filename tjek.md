@@ -2285,3 +2285,5 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 - [ ] `index.html`
 
+
+> **Afsluttet efterkontrol 2026-10-20:** Dubleringen af hadithnummer `2634` i `AhlAlBait/3Mbahala/8Tabari.html` er fjernet efter direkte sammenligning med `kingoflinks.net` (originalen viser ét nummer). HTML-commit `504dcd46` er genlæst fra `main` med identisk indhold. Den tidligere åbne fejl er hermed lukket.
