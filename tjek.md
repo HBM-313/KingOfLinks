@@ -72,6 +72,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ### AhlAlBait — 75/210 (genverificeres mod original)
 
+> **Supplerende kontrolpunkt – 2026-10-20 (batch 25):** Fremtidige batches skal kontrollere live-originalernes hele arabiske tekst, inklusive selvstændig `page-intro`, samtlige `{ }`, `@`, diakritiske tegn og `( آل عمران : 61 )`/versintervaller. Matchende kildeblokantal og høj tekstlig lighed er ikke nok: kontroller også felt-ejerskab og blokgrænser. Efter rettelser: commit hver HTML-fil på `main`, genhent den committed version og markér først derefter `[x]`. **Åbent efterkontrolpunkt:** `AhlAlBait/3Mbahala/8Tabari.html` har stadig hadithnummer `2634` både i `hadith-number` og i tekstafsnittet; dette skal rettes efter direkte kontrol af live-originalen. Den tidligere `[x]` er ikke dokumentation for, at denne strukturelle fejl er lukket. Batch 25-commits: `62ea6273`, `f66d7bcf`, `8febfe37`; checklist-commit `33305cda`.
+
+
 > **Batch 25 – 2026-10-20:** `3Mbahala/6IbnKatheer.html`, `7Syooti.html` og `8Tabari.html` sammenholdt med direkte hentede originaler fra `kingoflinks.net` via Vercel Sandbox (windows-1256). 4 + 2 + 6 kildeblokke, originale kildeafsnit og koranreferencer genindsat; HTML-filerne committed på `main` og genhentet med identisk indhold. HTML-commits: `62ea6273`, `f66d7bcf`, `8febfe37`.
 
 
