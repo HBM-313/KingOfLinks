@@ -4,6 +4,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 
 ## Regler
 
+- **INGEN HALVRETTELSER — ABSOLUT BATCHKRAV (2026-10-20):** Verificér først HELE hver af de tre live-originaler mod repoet på alle tre niveauer (indhold, felt-ejerskab og kildeblokstruktur). Ret derefter SAMTLIGE dokumenterede afvigelser, også små tegn-, koran-, kilde- og referencefejl. Commit de fuldt rettede HTML-filer, genhent dem fra `main`, og gentag fuld slutkontrol. Ingen `[x]`, statusforøgelse, afslutningsmelding eller overgang til næste batch, før alle tre sider er fuldt kontrolleret og rettet uden kendte afvigelser. Ved blokering forbliver batchen åben; delrettelser må aldrig kaldes færdige.
+
+
 - **PDF/BILLEDE-REGEL:** PDF-filer og billeder springes altid over. De skal ikke live-verificeres, rettes eller tælles som nødvendige færdige sider i denne cleanup.
 
 - Følg altid `AUDIT.md`, `handoff.md` og `Guide1.md`.
