@@ -945,3 +945,8 @@ The core fields — Scholar name, Book title, Chapter info, Book info, Ref info,
 9. Preserve the history above. Where earlier sections suggest using numbers alone, old audits, guesswork, or a generic audit-clean outcome, this current live-source three-gate verification requirement overrides those shortcuts.
 
 **Resolution 2026-10-20:** The previously noted duplicate number `2634` in `AhlAlBait/3Mbahala/8Tabari.html` has been corrected after direct comparison with the original `kingoflinks.net` page. It now appears only once in the HTML `hadith-number` field; the redundant number in the following paragraph was removed. HTML commit: `504dcd46`, re-fetched and checked from `main`. The earlier note is retained as historical evidence of the failure mode.
+
+
+## NON-NEGOTIABLE BATCH EXIT RULE — NO HALF-FIXES (2026-10-20)
+
+The user's explicit requirement: **“Du skal altid rette fuld, ingen halvrettelser, vi fortsætter ikke uden fuld kontrol, og derefter fuld rettelse.”** This means: inspect the *entire* current live `.htm` original for each of the three pages, compare all content and all field ownership and block boundaries, repair **every** documented discrepancy, commit the completed HTML changes on `main`, re-fetch the committed files, and verify each page again end-to-end. Do not leave known differences unfixed or mark any page `[x]` prematurely. Do not increase the verified count or proceed to a following batch until the entire current batch passes. A technical blocker leaves the batch open/unverified; never describe a partial fix as done. Keep all earlier documentation intact.
