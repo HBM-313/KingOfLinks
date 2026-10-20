@@ -644,3 +644,8 @@ This is an **additive live-source audit note**; historical audit metrics above m
 - A clean automated audit or successful commit alone does **not** meet the DONE rule; source text, ownership, and block structure must all be verified, and the exact committed file must be re-read.
 
 **Resolution 2026-10-20:** The previously noted duplicate number `2634` in `AhlAlBait/3Mbahala/8Tabari.html` has been corrected after direct comparison with the original `kingoflinks.net` page. It now appears only once in the HTML `hadith-number` field; the redundant number in the following paragraph was removed. HTML commit: `504dcd46`, re-fetched and checked from `main`. The earlier note is retained as historical evidence of the failure mode.
+
+
+## Required Audit Sign-off: Complete Fix Only (2026-10-20)
+
+**Zero tolerated known discrepancies at batch sign-off.** Audit all three layers separately against the *current* original: (1) complete meaningful content, (2) correct ownership in `page-intro`, `scholar-name`, `book-title`, `chapter-info`, `ref-info`, `hadith-number`, `hadith-text`, editorial and analysis fields, and (3) one-to-one ordered source-block boundaries. Restore all missing, altered, moved or duplicated text, including Quran punctuation, verse references, unusual characters and bibliographic markers. A partial repair or a matching count is never a pass. Commit repairs, read the final committed files back from `main`, and perform full post-commit checks before checklist sign-off. If any known discrepancy or verification gap remains, the batch is **not finished** and the next batch may not start.
