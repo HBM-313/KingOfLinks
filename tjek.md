@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 72/210 (genverificeres mod original)
+### AhlAlBait — 75/210 (genverificeres mod original)
+
+> **Batch 25 – 2026-10-20:** `3Mbahala/6IbnKatheer.html`, `7Syooti.html` og `8Tabari.html` sammenholdt med direkte hentede originaler fra `kingoflinks.net` via Vercel Sandbox (windows-1256). 4 + 2 + 6 kildeblokke, originale kildeafsnit og koranreferencer genindsat; HTML-filerne committed på `main` og genhentet med identisk indhold. HTML-commits: `62ea6273`, `f66d7bcf`, `8febfe37`.
+
 
 > **Batch 24 – 2026-10-09: live-verificeret via Vercel Sandbox.** `3Mbahala/3Termedhee.html`, `4Hakim.html` og `5IbnHajar.html` er sammenholdt med originale `.htm`-sider fra `kingoflinks.net` (`windows-1256`). Alle 6 originale kildeblokke (2 + 2 + 2) er bevaret i korrekt rækkefølge. Samtlige originale kildeparagraffer er genindsat og kontrolleret mod de eksakte GitHub-commits; kontrol af fulde normaliserede arabiske tekster viser ingen manglende afsnit. Kildenavne, bogtitler, kapitler, bind-/sidereferencer, hadithnumre og redaktionelle noter er kontrolleret. De genhentede HTML-filers Git-blob-SHA'er er `1cb9d88943a49fa595342d6aa1481467904b43c0`, `370b6a9931dc90cae92d8ef6a8d68be7d59b3493` og `eb3aa0c3c2eb7f87d8425de9c5bd8168297d03c9`.
 
@@ -205,9 +208,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/3Mbahala/3Termedhee.html`
 - [x] `AhlAlBait/3Mbahala/4Hakim.html`
 - [x] `AhlAlBait/3Mbahala/5IbnHajar.html`
-- [ ] `AhlAlBait/3Mbahala/6IbnKatheer.html`
-- [ ] `AhlAlBait/3Mbahala/7Syooti.html`
-- [ ] `AhlAlBait/3Mbahala/8Tabari.html`
+- [x] `AhlAlBait/3Mbahala/6IbnKatheer.html`
+- [x] `AhlAlBait/3Mbahala/7Syooti.html`
+- [x] `AhlAlBait/3Mbahala/8Tabari.html`
 - [ ] `AhlAlBait/3Mbahala/9AbiHatam.html`
 - [ ] `AhlAlBait/3Mbahala/10Shwkani.html`
 - [ ] `AhlAlBait/3Mbahala/11Isbahani.html`
