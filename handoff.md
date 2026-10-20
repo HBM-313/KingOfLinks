@@ -930,3 +930,16 @@ No skipped content.
 No guessed mapping.  
 No data loss.  
 The core fields — Scholar name, Book title, Chapter info, Book info, Ref info, and Hadith Text — are the essence of the project, and Hadith number must also be extracted correctly whenever it is present as a leading identifier.
+
+
+## 2026-10-20 — Mandatory live-exact comparison and commit gate (supplement to prior workflow)
+
+1. Read `Guide1.md`, `tjek.md`, `AUDIT.md`, `handoff.md`, and `sitemap.xml` from current `main`; select precisely three next unchecked HTML pages. Never rely on a historical batch number or an old `[x]` as proof.
+2. From the sitemap, resolve each correct original `.htm`. Fetch all originals **directly** from `http://kingoflinks.net/` inside Vercel Sandbox with `urllib.request` and a normal User-Agent, decoding `windows-1256`. Do not consult kufan.org.
+3. Compare *all* original source paragraphs and headings, including text and special Quran marks `{ }`, `@`, `ٰ`, `ۖ`, sura names, verse references/ranges, numbering, editor notes, and original wording. High similarity or matching block counts are insufficient.
+4. Check three independent gates: **content completeness**, **field ownership** (`page-intro`, `scholar-name`, `book-title`, `chapter-info`, `ref-info`, `hadith-number`, `hadith-text`, `analysis-note`) and **source boundaries/order**. Count independent original sources, not paragraphs inside a single source.
+5. Correct *every* documented discrepancy against the original. Preserve unusual original spelling, punctuation and references. Do not normalize away original meaningful symbols or invent absent text.
+6. For each changed HTML page commit directly to `main`, re-fetch its content at `main` and verify the exact committed bytes/text and source-field mapping. Commit the checklist independently after all three truly pass. If a tool fails, do not announce success, mark `[x]`, or skip the unresolved page.
+7. Specific batch 25 regression checks: do not omit a Quran `page-intro`; restore Quranic citation wrappers and diacritics; do not leave `2634` duplicated between `hadith-number` and body text in `3Mbahala/8Tabari.html`. **That duplicate remained after the batch 25 HTML commit** and needs direct source-based correction/verification.
+8. Report briefly the three page paths, original source-block counts, actual commit SHAs, post-commit re-read outcome, total checklist status and next three unchecked pages. When showing a before/after diff, distinguish meaningful corrections from whitespace/HTML formatting.
+9. Preserve the history above. Where earlier sections suggest using numbers alone, old audits, guesswork, or a generic audit-clean outcome, this current live-source three-gate verification requirement overrides those shortcuts.
