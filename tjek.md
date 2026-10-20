@@ -70,7 +70,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 75/210 (genverificeres mod original)
+### AhlAlBait — 78/210 (genverificeres mod original)
+
+> **Batch 26 – 2026-10-20:** `3Mbahala/9AbiHatam.html` (4 kilder), `10Shwkani.html` (1 kilde), `11Isbahani.html` (2 kilder): originalerne hentet fra `kingoflinks.net` via Vercel Sandbox og dekodet som windows-1256; koranindledning, original tekst, koranhenvisninger samt originale hadithnumre genskabt. Commits `b5d77246`, `8645c39b`, `329ca8b7`; alle tre filer genhentet fra GitHub `main` med identisk indhold.
+
 
 > **Supplerende kontrolpunkt – 2026-10-20 (batch 25):** Fremtidige batches skal kontrollere live-originalernes hele arabiske tekst, inklusive selvstændig `page-intro`, samtlige `{ }`, `@`, diakritiske tegn og `( آل عمران : 61 )`/versintervaller. Matchende kildeblokantal og høj tekstlig lighed er ikke nok: kontroller også felt-ejerskab og blokgrænser. Efter rettelser: commit hver HTML-fil på `main`, genhent den committed version og markér først derefter `[x]`. **Åbent efterkontrolpunkt:** `AhlAlBait/3Mbahala/8Tabari.html` har stadig hadithnummer `2634` både i `hadith-number` og i tekstafsnittet; dette skal rettes efter direkte kontrol af live-originalen. Den tidligere `[x]` er ikke dokumentation for, at denne strukturelle fejl er lukket. Batch 25-commits: `62ea6273`, `f66d7bcf`, `8febfe37`; checklist-commit `33305cda`.
 
@@ -214,9 +217,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/3Mbahala/6IbnKatheer.html`
 - [x] `AhlAlBait/3Mbahala/7Syooti.html`
 - [x] `AhlAlBait/3Mbahala/8Tabari.html`
-- [ ] `AhlAlBait/3Mbahala/9AbiHatam.html`
-- [ ] `AhlAlBait/3Mbahala/10Shwkani.html`
-- [ ] `AhlAlBait/3Mbahala/11Isbahani.html`
+- [x] `AhlAlBait/3Mbahala/9AbiHatam.html`
+- [x] `AhlAlBait/3Mbahala/10Shwkani.html`
+- [x] `AhlAlBait/3Mbahala/11Isbahani.html`
 - [ ] `AhlAlBait/3Mbahala/12Ajori.html`
 - [ ] `AhlAlBait/3Mbahala/13Hasakani.html`
 - [ ] `AhlAlBait/3Mbahala/14Qndoozi.html`
