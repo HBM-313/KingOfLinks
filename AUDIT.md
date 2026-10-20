@@ -629,3 +629,16 @@ If any field mismatches, DO NOT apply — flag as open issue instead.
 
 **Current state (Session 10 end):** missing_page=497, empty_scholar=1, scholar_eq_book=0
 
+
+
+## 17. Live-verification findings — AhlAlBait batch 25 (2026-10-20)
+
+This is an **additive live-source audit note**; historical audit metrics above must not be treated as present-day verification.
+
+- Target pages: `AhlAlBait/3Mbahala/6IbnKatheer.html` (4 original source blocks), `7Syooti.html` (2), `8Tabari.html` (6).
+- All three were missing an independent original Quranic `page-intro`. Its omission can escape a block-count audit.
+- Full passage diffs showed omitted Quran wrappers `{ }`, sura/verse citations (`آل عمران : 61`; `آل عمران : 59 - 60 - 61`), diacritics, punctuation and small text fragments. A 95–99% similarity score is not sufficient, even if paragraphs appear to align.
+- The three HTML files were revised and their committed contents re-read on `main` (commits `62ea6273`, `f66d7bcf`, `8febfe37`), followed by checklist update `33305cda` (recorded 75/210).
+- **Residual defect requiring follow-up:** in `AhlAlBait/3Mbahala/8Tabari.html`, source/hadith number `2634` remained both inside a `hadith-number` element and at the beginning of a `<p>` element. Directly verify live original and remove only the redundant duplication, preserving the hadith number once in the correct field. The prior `[x]` does not supersede this documented issue.
+- New regression checks: missing `page-intro` at page start; text extraction stripping `{ }`, `@`, Quran verse labels or combining paragraphs; number duplication across elements; original heading mistakenly placed in `hadith-text`; bibliographic information displaced into other fields; original source headings and sequential hadith-block boundaries.
+- A clean automated audit or successful commit alone does **not** meet the DONE rule; source text, ownership, and block structure must all be verified, and the exact committed file must be re-read.
