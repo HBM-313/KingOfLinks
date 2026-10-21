@@ -649,3 +649,23 @@ This is an **additive live-source audit note**; historical audit metrics above m
 ## Required Audit Sign-off: Complete Fix Only (2026-10-20)
 
 **Zero tolerated known discrepancies at batch sign-off.** Audit all three layers separately against the *current* original: (1) complete meaningful content, (2) correct ownership in `page-intro`, `scholar-name`, `book-title`, `chapter-info`, `ref-info`, `hadith-number`, `hadith-text`, editorial and analysis fields, and (3) one-to-one ordered source-block boundaries. Restore all missing, altered, moved or duplicated text, including Quran punctuation, verse references, unusual characters and bibliographic markers. A partial repair or a matching count is never a pass. Commit repairs, read the final committed files back from `main`, and perform full post-commit checks before checklist sign-off. If any known discrepancy or verification gap remains, the batch is **not finished** and the next batch may not start.
+
+
+## Live-source audit additions — recurring failure modes, batches 46–50 (2026-10-21)
+
+Use this as a **per-page and per-block sign-off checklist**, alongside the earlier three-gate verification requirement:
+
+- [ ] Match `sitemap.xml` original URL and decode original correctly (including `windows-1256` where applicable); verify entire original, not earlier reports.
+- [ ] Check page heading, independent `page-intro` where present, navigation, all original source counts and boundaries in order.
+- [ ] Require `scholar-name` as a standalone field, not nested under `book-info` (observed in `9Khleefa/3Muslim.html`, `7Hakim.html`).
+- [ ] Validate complete `book-title` against the source; reject truncated titles (observed `ا` in `8Njoom.html`) or titles inferred from a chapter or scholar.
+- [ ] Assign every source-specific book/chapter/section heading to `chapter-info`, not `hadith-text`. Verify every repeated heading separately (34 sources in `9Khleefa/4IbnHnbal.html`).
+- [ ] Count each independent source block even where hadith numbers repeat (e.g. `1821` in `3Muslim.html`); require number ownership only in `hadith-number` without redundant opening-body duplication.
+- [ ] Compare complete narration across original/local paragraph splits **within the same block**; then inspect for small missing words, punctuation and Quran text even if similarity is >99% (e.g. `وأنا أمان لأصحابي` in `8Njoom.html`).
+- [ ] Preserve editorial-note brackets and classify source judgments independently under `analysis-note` (e.g. `نوع الحديث : صحيح`).
+- [ ] Allow only certain, meaning-preserving repairs of clear accidental split words, e.g. `ر سول`→`رسول`, `ا لترمذي`→`الترمذي`, `ا لمستدرك`→`المستدرك`, `حد يث`→`حديث`, `ا لجزء`→`الجزء`; document them as typo normalizations, not source omissions. **Do not** normalize ambiguous/source-significant spelling, numerals, references or religious quotations without evidence.
+- [ ] For `Main*.html`, audit each ordinal, destination, unique label, count, order and page total; `7SafinatNooh/Main61.html` was a concrete failure with 13 repeated labels and erroneous counts.
+- [ ] If Sandbox expires or quota blocks creation, resume an available named session and repeat any interrupted original-source comparisons; technical failure is not a pass.
+- [ ] Commit all repairs, re-fetch the latest committed contents (`main` or exact commit SHA, avoiding stale raw-cache responses), redo the three gates and only then mark `tjek.md` entries `[x]`.
+
+**Audit principle:** A difference traceable solely to an indisputable stray space/word split may be corrected; otherwise the original is authoritative. Do not silently excuse other mismatches using the typographical exception.
