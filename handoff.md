@@ -963,3 +963,13 @@ The user's explicit requirement: **“Du skal altid rette fuld, ingen halvrettel
 - Classify `[ النص طويل لذا استقطع منه موضع الشاهد ]` as `editorial-note`; preserve source textual/critical assessments (such as `نوع الحديث : صحيح` or `هذا حديث صحيح الاسناد`) in `analysis-note` where appropriate.
 - Finish **all** repairs before completion: commit HTML to `main`, fetch each final committed file again (prefer exact commit SHA/GitHub API if raw-URL caching is suspected), verify all three gates and every menu entry, then commit and re-read `tjek.md`. Never proceed on known differences or failed checks.
 - Consult the detailed 12-point rules in `Guide1.md` and the additive audit checklist in `AUDIT.md`. Preserve all previous notes and historical counts as history, not current proof.
+
+
+## Narrator-card design handoff (2026-10-21)
+
+- For original tables listing narrators and scholars' assessments, use the standardized **responsive narrator cards**, not a recreated legacy FrontPage grid or a flattened `analysis-note` list. The shared `modern.css` provides `narrator-section`, `narrator-grid`, `narrator-card`, `narrator-name`, `narrator-evaluations`, `narrator-evaluation`, `evaluation-scholar`, `evaluation-text`, and `narrator-remark`.
+- Keep one card per original narrator (original order); one structured scholar/text pair per original evaluation (original order); preserve unattributed remarks without inventing an author. All assessments remain visible; desktop/tablet/mobile show 3/2/1 columns. Maintain Arabic wording verbatim and keep narrator assessments distinct from hadith/source citations.
+- For future database migration these are **separate owned fields** (narrator, assessor, exact evaluation, optional remark, source citation), not one combined text string. Do not add speculative IDs, foreign keys, reviewer identities, labels, or assessment scores.
+- Concrete verified examples: `AhlAlBait/10Hrbhom/2Trmethee.html`: 6 cards, 22 judgments; `3IbnMajah.html`: 6 cards, 31 judgments. Original cell-by-cell comparison found no omitted assessments.
+- **Deployment lesson:** Cards in GitHub HTML can appear as a long, unstyled column if `modern.css` on the production domain is from an older deployment. After shared CSS changes, check production `/modern.css` **and** the rendered page, verify the production deployment commit against GitHub `main`, perform a fresh Vercel production deployment when necessary, and fetch deployed assets again before confirming success. Earlier, the live HTML had cards but live CSS did not; redeploying production fixed it.
+- Continue normal three-gate original verification of every source and the post-commit checklist rules. A card-design pass alone never certifies the whole page or batch.
