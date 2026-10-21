@@ -669,3 +669,13 @@ Use this as a **per-page and per-block sign-off checklist**, alongside the earli
 - [ ] Commit all repairs, re-fetch the latest committed contents (`main` or exact commit SHA, avoiding stale raw-cache responses), redo the three gates and only then mark `tjek.md` entries `[x]`.
 
 **Audit principle:** A difference traceable solely to an indisputable stray space/word split may be corrected; otherwise the original is authoritative. Do not silently excuse other mismatches using the typographical exception.
+
+
+## Narrator evaluation card audit (2026-10-21)
+
+- [ ] When an original page has a narrator-assessment grid/table, count each original narrator cell and each assessor–verdict pair; compare them **cell by cell and in order** against `narrator-card` and `narrator-evaluation` elements. Preserve all independent remarks in `narrator-remark`.
+- [ ] Verify structured field ownership: `narrator-name` = narrator only; `evaluation-scholar` = assessing scholar only; `evaluation-text` = exact original assessment only; separate source citations and hadiths retain their own fields. Never replace missing attributions by guesswork.
+- [ ] Check shared `modern.css` and responsive layout: 3 columns desktop, 2 tablet, 1 mobile; original Arabic readable, all assessments immediately visible, no per-page inline styling duplicates.
+- [ ] **Verify deployed assets**, not only repository files: live page must contain the intended `narrator-card` markup **and** live `/modern.css` must include `.narrator-grid` and corresponding styles. If deployment is stale, redeploy the right `main` commit and re-check the public site.
+- [ ] Preserve full original bibliography, commentary and independent source boundaries alongside narrator cards. A passed card/UI audit does not replace full original-to-local three-gate page verification.
+- [ ] Regression examples: `10Hrbhom/2Trmethee.html` 6 cards / 22 assessments and `3IbnMajah.html` 6 cards / 31 assessments, checked against the original tables (53 assessments total). These totals are specific to these pages, **not** a template count for future pages.
