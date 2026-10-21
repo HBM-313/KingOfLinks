@@ -319,9 +319,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/10Hrbhom/1IbnHanbal.html`
 - [x] `AhlAlBait/10Hrbhom/2Trmethee.html`
 - [x] `AhlAlBait/10Hrbhom/3IbnMajah.html`
-- [ ] `AhlAlBait/10Hrbhom/4HAkim.html`
-- [ ] `AhlAlBait/10Hrbhom/5Dhabi.html`
-- [ ] `AhlAlBait/10Hrbhom/6Hythami.html`
+- [x] `AhlAlBait/10Hrbhom/4HAkim.html`
+- [x] `AhlAlBait/10Hrbhom/5Dhabi.html`
+- [x] `AhlAlBait/10Hrbhom/6Hythami.html`
 - [ ] `AhlAlBait/10Hrbhom/7IbnAbiShybah.html`
 - [ ] `AhlAlBait/10Hrbhom/8Tabarani.html`
 - [ ] `AhlAlBait/10Hrbhom/9Ajori.html`
