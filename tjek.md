@@ -280,9 +280,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/7SafinatNooh/6Ajori.html`
 - [x] `AhlAlBait/7SafinatNooh/7BinOdai.html`
 - [x] `AhlAlBait/7SafinatNooh/8Muttaqi.html`
-- [ ] `AhlAlBait/7SafinatNooh/9IbnJaber.html`
-- [ ] `AhlAlBait/7SafinatNooh/10Shehab.html`
-- [ ] `AhlAlBait/7SafinatNooh/11Asbahani.html`
+- [x] `AhlAlBait/7SafinatNooh/9IbnJaber.html`
+- [x] `AhlAlBait/7SafinatNooh/10Shehab.html`
+- [x] `AhlAlBait/7SafinatNooh/11Asbahani.html`
 - [ ] `AhlAlBait/7SafinatNooh/12Qndoozi.html`
 - [ ] `AhlAlBait/7SafinatNooh/13Other.html`
 - [ ] `AhlAlBait/7SafinatNooh/Main61.html`
