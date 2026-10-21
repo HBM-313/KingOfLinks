@@ -289,9 +289,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/8Njoom.html`
 - [x] `AhlAlBait/9Khleefa/1Sheah.html`
 - [x] `AhlAlBait/9Khleefa/2Bokhari.html`
-- [ ] `AhlAlBait/9Khleefa/3Muslim.html`
-- [ ] `AhlAlBait/9Khleefa/4IbnHnbal.html`
-- [ ] `AhlAlBait/9Khleefa/5Termithee.html`
+- [x] `AhlAlBait/9Khleefa/3Muslim.html`
+- [x] `AhlAlBait/9Khleefa/4IbnHnbal.html`
+- [x] `AhlAlBait/9Khleefa/5Termithee.html`
 - [ ] `AhlAlBait/9Khleefa/6AbiDawood.html`
 - [ ] `AhlAlBait/9Khleefa/7Hakim.html`
 - [ ] `AhlAlBait/9Khleefa/8Albani.html`
