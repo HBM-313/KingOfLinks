@@ -73,7 +73,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Abutalib/9.html`
 - [x] `Abutalib/Main115.html`
 
-### AhlAlBait — 159/210 (genverificeres mod original)
+### AhlAlBait — 162/210 (genverificeres mod original)
 
 > **Batch 26 – 2026-10-20:** `3Mbahala/9AbiHatam.html` (4 kilder), `10Shwkani.html` (1 kilde), `11Isbahani.html` (2 kilder): originalerne hentet fra `kingoflinks.net` via Vercel Sandbox og dekodet som windows-1256; koranindledning, original tekst, koranhenvisninger samt originale hadithnumre genskabt. Commits `b5d77246`, `8645c39b`, `329ca8b7`; alle tre filer genhentet fra GitHub `main` med identisk indhold.
 
@@ -304,9 +304,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/9Khleefa/15Tabarani.html`
 - [x] `AhlAlBait/9Khleefa/16IbnKatheer.html`
 - [x] `AhlAlBait/9Khleefa/17Tyalesi.html`
-- [ ] `AhlAlBait/9Khleefa/18Isbahani.html`
-- [ ] `AhlAlBait/9Khleefa/19IbnAsaker.html`
-- [ ] `AhlAlBait/9Khleefa/20AbiOana.html`
+- [x] `AhlAlBait/9Khleefa/18Isbahani.html`
+- [x] `AhlAlBait/9Khleefa/19IbnAsaker.html`
+- [x] `AhlAlBait/9Khleefa/20AbiOana.html`
 - [ ] `AhlAlBait/9Khleefa/21Bghdadi.html`
 - [ ] `AhlAlBait/9Khleefa/22IbnJaad.html`
 - [ ] `AhlAlBait/9Khleefa/23Mutaqi.html`
