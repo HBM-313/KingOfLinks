@@ -349,9 +349,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/24Layuqas.html`
 - [x] `AhlAlBait/25Estwso.html`
 - [x] `AhlAlBait/26Abghadh.html`
-- [ ] `AhlAlBait/27Maroof.html`
-- [ ] `AhlAlBait/28Dmah.html`
-- [ ] `AhlAlBait/29Salt.html`
+- [x] `AhlAlBait/27Maroof.html`
+- [x] `AhlAlBait/28Dmah.html`
+- [x] `AhlAlBait/29Salt.html`
 - [ ] `AhlAlBait/30Ashfaa.html`
 - [ ] `AhlAlBait/31Mtafreqat.html`
 - [ ] `AhlAlBait/Main86.html`
