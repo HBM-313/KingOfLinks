@@ -331,9 +331,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/10Hrbhom/13Byoomi.html`
 - [x] `AhlAlBait/10Hrbhom/14Qndoozi.html`
 - [x] `AhlAlBait/10Hrbhom/15Zrindi.html`
-- [ ] `AhlAlBait/10Hrbhom/16Other.html`
-- [ ] `AhlAlBait/10Hrbhom/Main62.html`
-- [ ] `AhlAlBait/11Mwalat.html`
+- [x] `AhlAlBait/10Hrbhom/16Other.html`
+- [x] `AhlAlBait/10Hrbhom/Main62.html`
+- [x] `AhlAlBait/11Mwalat.html`
 - [ ] `AhlAlBait/12Khyrkom.html`
 - [ ] `AhlAlBait/13BabHetth.html`
 - [ ] `AhlAlBait/14Slaah.html`
