@@ -386,7 +386,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Hywan/12Other.html`
 - [x] `Hywan/Main124.html`
 
-### Threef — 27/28
+### Threef — 28/28
 
 - [x] `Threef/1Bkhari.html`
 - [x] `Threef/2Muslem.html`
@@ -415,7 +415,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Threef/25RayelShia.html`
 - [x] `Threef/26ShiaWlQuran.html`
 - [x] `Threef/27Taleefat.html`
-- [ ] `Threef/Main132.html`
+- [x] `Threef/Main132.html`
 
 ### Daeefa — 0/33
 
