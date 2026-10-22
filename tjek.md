@@ -356,7 +356,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/31Mtafreqat.html`
 - [x] `AhlAlBait/Main86.html`
 
-### Hywan — 6/13 (genverificeres mod original)
+### Hywan — 9/13 (genverificeres mod original)
+
+> **Hywan batch 3 – 2026-10-22:** `7Qerd.html`, `8Theb.html` og `9Tyoor.html` sammenholdt med fulde originale `.htm`-sider direkte hentet gennem Vercel Sandbox (`windows-1256`). Oprindelige kilder: **10 + 11 + 7 = 28**. Originale brødtekstafsnit bevaret i selvstændige `hadith-block` i korrekt rækkefølge, inkl. kilde- og referencetekst, hadithnumre samt `9Tyoor`-indledning. Genhentede committed filer matcher originalernes fulde kildebrødtekst uden manglende afsnit. Produktion og GitHub `main` matcher byte-for-byte (SHA-256): `7Qerd` `1ddcb06946594ef1be50347391ea82039cbd8163c182758412c47a46fb4901b8`; `8Theb` `1cab6d0d5388f754a63cba283082e4c0012318dbb334f2df67de6fdb82a68553`; `9Tyoor` `4f03d820984aa9277878d3fd583fe7e4f4ca7b444524473941f7c923a6084781`. HTML-commits `3640c256`, `b4540eb1`, `def80aad`.
+
+
 
 > **Hywan batch 2 – 2026-10-22:** `4Dhbyah.html`, `5Hmar.html` og `6Jmal.html` verificeret ved direkte hentning af `kingoflinks.net`-originalerne via Vercel Sandbox (windows-1256). Originalernes **8 + 9 + 5 = 22** kildeafsnit er genskabt uden manglende originale overleveringsafsnit; forfattere, bogtitler, kapitler, bibliografiske referencer og hadithnumre er placeret i relevante felter. `5Hmar.htm` har desuden meningsbærende tekst uden for `<p>` og to selvstændige afsnitsoverskrifter; disse er genindsat og kontrolleret særskilt. Efter HTML-commits og genhentning fra GitHub `main` matcher produktion de tre HTML-filer byte-for-byte med SHA-256: `4Dhbyah` `70ee393de7b3b98cc0e73a314bee0c4224f6b69b2243bc9abf02ee0ad5dc2379`, `5Hmar` `950481dbcdedf51134e381b45f7fb40ee86b2dbbf1f4592b904d405926d31afc`, `6Jmal` `bfd3a7003b0ffb353aa1a78af8045ff679cfed4859abebf87458c8152d21830b`. HTML-commits: `7364fcc1`, `1108a4b0`, `914de61f`, efterrettelse `08774f78`.
 
@@ -370,9 +374,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Hywan/4Dhbyah.html`
 - [x] `Hywan/5Hmar.html`
 - [x] `Hywan/6Jmal.html`
-- [ ] `Hywan/7Qerd.html`
-- [ ] `Hywan/8Theb.html`
-- [ ] `Hywan/9Tyoor.html`
+- [x] `Hywan/7Qerd.html`
+- [x] `Hywan/8Theb.html`
+- [x] `Hywan/9Tyoor.html`
 - [ ] `Hywan/10Hayyah.html`
 - [ ] `Hywan/11Ghanam.html`
 - [ ] `Hywan/12Other.html`
