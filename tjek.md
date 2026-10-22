@@ -356,7 +356,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/31Mtafreqat.html`
 - [x] `AhlAlBait/Main86.html`
 
-### Hywan — 9/13 (genverificeres mod original)
+### Hywan — 13/13 (genverificeret mod original)
+
+> **Hywan afsluttende batch – 2026-10-22:** `10Hayyah.html`, `11Ghanam.html`, `12Other.html` og `Main124.html` er verificeret mod de komplette originale `.htm`-sider hentet direkte fra `kingoflinks.net` via Vercel Sandbox (`windows-1256`). Originalernes 4 + 7 + 7 = 18 kildeblokke er rekonstrueret i oprindelig rækkefølge med original ordlyd, bibliografi, noter og korrekt kildeopdeling; nul manglende overleveringsafsnit ved kontrol af de committed GitHub API-versioner. Menusiden er rettet til originalens nøjagtige 12 etiketter, rækkefølge og kildeantal [5, 9, 9, 8, 9, 5, 9, 11, 7, 4, 7, 7], samlet **90**. GitHub API-filer og Vercel-produktion blev bytevis sammenlignet via SHA-256 og er identiske: `10Hayyah` `2e45ef15cf22c060f1b90943cb4f679d792a9023306d8c6bc21048d6001d5278`; `11Ghanam` `fcdc1d635fd0e3b2720c2d842f63fe22ef665f568501649639b6d268ee1ab634`; `12Other` `f0eeb563d99f06144bde97fab59f714c2874ab0d0f9ef408f2af73f19562e9b1`; `Main124` `591e6bac8ebc8673d357b906c0662f46707fb808c4bcc9c5e0c3406e665da23a`. HTML-commits: `a36fca93`, `6a1b937e`, `460c3e73`, `7358297f`.
+
+
 
 > **Hywan batch 3 – 2026-10-22:** `7Qerd.html`, `8Theb.html` og `9Tyoor.html` sammenholdt med fulde originale `.htm`-sider direkte hentet gennem Vercel Sandbox (`windows-1256`). Oprindelige kilder: **10 + 11 + 7 = 28**. Originale brødtekstafsnit bevaret i selvstændige `hadith-block` i korrekt rækkefølge, inkl. kilde- og referencetekst, hadithnumre samt `9Tyoor`-indledning. Genhentede committed filer matcher originalernes fulde kildebrødtekst uden manglende afsnit. Produktion og GitHub `main` matcher byte-for-byte (SHA-256): `7Qerd` `1ddcb06946594ef1be50347391ea82039cbd8163c182758412c47a46fb4901b8`; `8Theb` `1cab6d0d5388f754a63cba283082e4c0012318dbb334f2df67de6fdb82a68553`; `9Tyoor` `4f03d820984aa9277878d3fd583fe7e4f4ca7b444524473941f7c923a6084781`. HTML-commits `3640c256`, `b4540eb1`, `def80aad`.
 
@@ -377,10 +381,10 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Hywan/7Qerd.html`
 - [x] `Hywan/8Theb.html`
 - [x] `Hywan/9Tyoor.html`
-- [ ] `Hywan/10Hayyah.html`
-- [ ] `Hywan/11Ghanam.html`
-- [ ] `Hywan/12Other.html`
-- [ ] `Hywan/Main124.html`
+- [x] `Hywan/10Hayyah.html`
+- [x] `Hywan/11Ghanam.html`
+- [x] `Hywan/12Other.html`
+- [x] `Hywan/Main124.html`
 
 ### Threef — 0/28
 
