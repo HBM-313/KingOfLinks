@@ -431,9 +431,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/10.html`
 - [x] `Daeefa/11.html`
 - [x] `Daeefa/12.html`
-- [ ] `Daeefa/13.html`
-- [ ] `Daeefa/14.html`
-- [ ] `Daeefa/15/1.html`
+- [x] `Daeefa/13.html`
+- [x] `Daeefa/14.html`
+- [x] `Daeefa/15/1.html`
 - [ ] `Daeefa/15/2.html`
 - [ ] `Daeefa/15/3.html`
 - [ ] `Daeefa/15/4.html`
