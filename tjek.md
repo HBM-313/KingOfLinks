@@ -386,7 +386,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Hywan/12Other.html`
 - [x] `Hywan/Main124.html`
 
-### Threef — 9/28
+### Threef — 12/28
 
 - [x] `Threef/1Bkhari.html`
 - [x] `Threef/2Muslem.html`
@@ -397,9 +397,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Threef/7Malik.html`
 - [x] `Threef/8Drami.html`
 - [x] `Threef/9Hmidi.html`
-- [ ] `Threef/10hakim.html`
-- [ ] `Threef/11Hythami.html`
-- [ ] `Threef/12Byhaqi.html`
+- [x] `Threef/10hakim.html`
+- [x] `Threef/11Hythami.html`
+- [x] `Threef/12Byhaqi.html`
 - [ ] `Threef/13IbnHban.html`
 - [ ] `Threef/14IbnHjar.html`
 - [ ] `Threef/15Nameeri.html`
