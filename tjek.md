@@ -356,11 +356,14 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `AhlAlBait/31Mtafreqat.html`
 - [x] `AhlAlBait/Main86.html`
 
-### Hywan — 0/13 (genverificeres mod original)
+### Hywan — 3/13 (genverificeres mod original)
 
-- [ ] `Hywan/1Asd.html`
-- [ ] `Hywan/2Bqrah.html`
-- [ ] `Hywan/3Dhab.html`
+> **Hywan batch 1 – 2026-10-22:** `1Asd.html`, `2Bqrah.html` og `3Dhab.html` er rettet på grundlag af direkte hentede originale `.htm`-sider fra `kingoflinks.net` via Vercel Sandbox (windows-1256). Der er bevaret henholdsvis **5, 9 og 9** selvstændige originalkilder, originale hadithafsnit, deres rækkefølge, original ordlyd og bibliografiske henvisninger. Fejlplacerede tekster i `chapter-info` samt forfatter-/bogfelt er korrigeret. Genhentede filer fra GitHub `main` har ingen manglende originale kildeafsnit i fuld sammenligning; Vercel-produktion matcher GitHub byte-for-byte på alle tre sider med SHA-256: `1Asd` `2cfd40d0a77766014c3c6304858154afa2fd075589b80f4f7507659d4417a1d8`, `2Bqrah` `0627b19d3ba4e9529b92b2347265333b4135ec19d0f7fa317f097964fa029cbf`, `3Dhab` `9d33e4162cd2bf509620f2cd62306e4f70b32149355c3dcb59a1b53fb56858f9`. HTML-commits: `9ebdc957`, `d41cb2c4`, `547cc6c5`.
+
+
+- [x] `Hywan/1Asd.html`
+- [x] `Hywan/2Bqrah.html`
+- [x] `Hywan/3Dhab.html`
 - [ ] `Hywan/4Dhbyah.html`
 - [ ] `Hywan/5Hmar.html`
 - [ ] `Hywan/6Jmal.html`
