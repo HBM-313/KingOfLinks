@@ -386,14 +386,14 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Hywan/12Other.html`
 - [x] `Hywan/Main124.html`
 
-### Threef — 3/28
+### Threef — 6/28
 
 - [x] `Threef/1Bkhari.html`
 - [x] `Threef/2Muslem.html`
 - [x] `Threef/3IbnHnbal.html`
-- [ ] `Threef/4Termithee.html`
-- [ ] `Threef/5Nsaaei.html`
-- [ ] `Threef/6IbnMajah.html`
+- [x] `Threef/4Termithee.html`
+- [x] `Threef/5Nsaaei.html`
+- [x] `Threef/6IbnMajah.html`
 - [ ] `Threef/7Malik.html`
 - [ ] `Threef/8Drami.html`
 - [ ] `Threef/9Hmidi.html`
