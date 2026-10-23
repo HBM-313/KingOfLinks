@@ -453,11 +453,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/21.html`
 - [x] `Daeefa/Main26.html`
 
-### NabiMohd — 0/38
+### NabiMohd — 3/38
 
-- [ ] `NabiMohd/1Hadeeth100.html`
-- [ ] `NabiMohd/2LaYastahy.html`
-- [ ] `NabiMohd/3Waqef.html`
+- [x] `NabiMohd/1Hadeeth100.html`
+- [x] `NabiMohd/2LaYastahy.html`
+- [x] `NabiMohd/3Waqef.html`
 - [ ] `NabiMohd/4AlGhraneeq.html`
 - [ ] `NabiMohd/5BdoonWdhoo.html`
 - [ ] `NabiMohd/6Ghenaa.html`
