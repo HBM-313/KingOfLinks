@@ -449,9 +449,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/17.html`
 - [x] `Daeefa/18.html`
 - [x] `Daeefa/19.html`
-- [ ] `Daeefa/20.html`
-- [ ] `Daeefa/21.html`
-- [ ] `Daeefa/Main26.html`
+- [x] `Daeefa/20.html`
+- [x] `Daeefa/21.html`
+- [x] `Daeefa/Main26.html`
 
 ### NabiMohd — 0/38
 
