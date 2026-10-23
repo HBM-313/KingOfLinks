@@ -417,7 +417,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Threef/27Taleefat.html`
 - [x] `Threef/Main132.html`
 
-### Daeefa — 0/33
+### Daeefa — 33/33
 
 - [x] `Daeefa/1.html`
 - [x] `Daeefa/2.html`
