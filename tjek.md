@@ -440,9 +440,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/15/5.html`
 - [x] `Daeefa/15/6.html`
 - [x] `Daeefa/15/7.html`
-- [ ] `Daeefa/15/8.html`
-- [ ] `Daeefa/15/9.html`
-- [ ] `Daeefa/15/10.html`
+- [x] `Daeefa/15/8.html`
+- [x] `Daeefa/15/9.html`
+- [x] `Daeefa/15/10.html`
 - [ ] `Daeefa/15/11.html`
 - [ ] `Daeefa/15/Main106.html`
 - [ ] `Daeefa/16.html`
