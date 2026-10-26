@@ -470,9 +470,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/13Nabeeth.html`
 - [x] `NabiMohd/14Saferat.html`
 - [x] `NabiMohd/15Tmatheel.html`
-- [ ] `NabiMohd/16Yaseb.html`
-- [ ] `NabiMohd/17Yashek.html`
-- [ ] `NabiMohd/18Yashoo.html`
+- [x] `NabiMohd/16Yaseb.html`
+- [x] `NabiMohd/17Yashek.html`
+- [x] `NabiMohd/18Yashoo.html`
 - [ ] `NabiMohd/19Ybasher.html`
 - [ ] `NabiMohd/20Yfti.html`
 - [ ] `NabiMohd/21Yhlef.html`
