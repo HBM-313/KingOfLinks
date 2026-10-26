@@ -453,7 +453,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/21.html`
 - [x] `Daeefa/Main26.html`
 
-### NabiMohd — 9/38
+### NabiMohd — 12/38
 
 - [x] `NabiMohd/1Hadeeth100.html`
 - [x] `NabiMohd/2LaYastahy.html`
@@ -464,9 +464,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/7Hajah.html`
 - [x] `NabiMohd/8Hejab.html`
 - [x] `NabiMohd/9Jensi.html`
-- [ ] `NabiMohd/10LaYagheer.html`
-- [ ] `NabiMohd/11Mashoor.html`
-- [ ] `NabiMohd/12Mkhneeth.html`
+- [x] `NabiMohd/10LaYagheer.html`
+- [x] `NabiMohd/11Mashoor.html`
+- [x] `NabiMohd/12Mkhneeth.html`
 - [ ] `NabiMohd/13Nabeeth.html`
 - [ ] `NabiMohd/14Saferat.html`
 - [ ] `NabiMohd/15Tmatheel.html`
