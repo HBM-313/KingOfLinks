@@ -479,9 +479,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/22Ykhaf.html`
 - [x] `NabiMohd/23Yntaher.html`
 - [x] `NabiMohd/24Yoazeb.html`
-- [ ] `NabiMohd/25Yqra.html`
-- [ ] `NabiMohd/26Ytarraa.html`
-- [ ] `NabiMohd/27Ytwdha.html`
+- [x] `NabiMohd/25Yqra.html`
+- [x] `NabiMohd/26Ytarraa.html`
+- [x] `NabiMohd/27Ytwdha.html`
 - [ ] `NabiMohd/28Yukadheb.html`
 - [ ] `NabiMohd/29Moled/1Hjar.html`
 - [ ] `NabiMohd/29Moled/2Syoti.html`
