@@ -453,7 +453,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Daeefa/21.html`
 - [x] `Daeefa/Main26.html`
 
-### NabiMohd — 15/38
+### NabiMohd — 38/38
 
 - [x] `NabiMohd/1Hadeeth100.html`
 - [x] `NabiMohd/2LaYastahy.html`
@@ -494,11 +494,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/29Moled/Main119.html`
 - [x] `NabiMohd/Main130.html`
 
-### Seerah — 0/75
+### Seerah — 3/75
 
-- [ ] `Seerah/1Zahf/AB/1II.html`
-- [ ] `Seerah/1Zahf/AB/2AlHakim.html`
-- [ ] `Seerah/1Zahf/AB/3IbnKatheer.html`
+- [x] `Seerah/1Zahf/AB/1II.html`
+- [x] `Seerah/1Zahf/AB/2AlHakim.html`
+- [x] `Seerah/1Zahf/AB/3IbnKatheer.html`
 - [ ] `Seerah/1Zahf/AB/4TB.html`
 - [ ] `Seerah/1Zahf/AB/5IbnAsaker.html`
 - [ ] `Seerah/1Zahf/AB/6IbnAbielHadeed.html`
