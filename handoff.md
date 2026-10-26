@@ -6,8 +6,7 @@ Paste this entire prompt into Claude Code (terminal) to continue the cleanup.
 
 ## SETUP
 
-GitHub repo: https://github.com/HBM-313/KingOfLinks.git  
-GitHub token: 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
+
 
 ```bash
 cd /home/claude
