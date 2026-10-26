@@ -488,9 +488,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/29Moled/3Bkri.html`
 - [x] `NabiMohd/29Moled/4Jmal.html`
 - [x] `NabiMohd/29Moled/5Halbi.html`
-- [ ] `NabiMohd/29Moled/6all.html`
-- [ ] `NabiMohd/29Moled/7Mnea.html`
-- [ ] `NabiMohd/29Moled/8Syam.html`
+- [x] `NabiMohd/29Moled/6all.html`
+- [x] `NabiMohd/29Moled/7Mnea.html`
+- [x] `NabiMohd/29Moled/8Syam.html`
 - [ ] `NabiMohd/29Moled/Main119.html`
 - [ ] `NabiMohd/Main130.html`
 
