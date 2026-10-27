@@ -739,3 +739,12 @@ The original page headings, narration counters, and visible original homepage na
 
 Changes include correcting missing/truncated book titles, restoring source attribution and chapter ownership, restoring numbered narrations and missing narration passages, and preserving editorial text. Batch 14 was not permitted to advance until all three pages passed.
 
+
+
+## Seerah — batch 15: original-source verification (2026-10-27)
+
+- `Seerah/7LaYrown.html`: 11/11 independently identified original bibliographic source sections, in order; verified exact normalized Unicode paragraph text, full combined source headers, volume/page values, and source-field ownership. Two original source sections share a group that cannot be separated by two blank paragraphs; their boundary was explicitly restored at original paragraph index 38. PASS.
+- `Seerah/8Ayat.html`: original is a Qur'an verse listing, not a hadith-block page. Replaced a near-empty local placeholder with all **148** nonempty original text paragraphs after the original four opening title/navigation/count paragraphs. Each paragraph's complete normalized Arabic text was compared, in its original order, against the reconstructed `quran-verse` paragraphs: 148/148 exact normalized-text matches. Preserved the original displayed verse count `عدد الآيات : ( 136 )` instead of changing it to the paragraph count; preserved the original page heading and top navigation labels. No independent hadith blocks are expected on this page.
+- `Seerah/9Hodhyfa.html`: 10/10 original bibliographic source sections, each checked for full paragraph text, metadata/source division, reference volume/page, and source order. PASS.
+
+All three corresponding `.htm` pages were freshly fetched from `kingoflinks.net` via Vercel Sandbox Python `urllib.request` with a Mozilla User-Agent and decoded correctly as `windows-1256`. The existing site CSS linkage and overall page-wrap/navigation styling are retained. Comparisons concern exact Unicode text after HTML-whitespace normalization rather than identical historical FrontPage source HTML bytes.

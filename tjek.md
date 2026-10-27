@@ -538,9 +538,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/4JO.html`
 - [x] `Seerah/5Hwalt.html`
 - [x] `Seerah/6Inhraf.html`
-- [ ] `Seerah/7LaYrown.html`
-- [ ] `Seerah/8Ayat.html`
-- [ ] `Seerah/9Hodhyfa.html`
+- [x] `Seerah/7LaYrown.html`
+- [x] `Seerah/8Ayat.html`
+- [x] `Seerah/9Hodhyfa.html`
 - [ ] `Seerah/10Slook.html`
 - [ ] `Seerah/11Ysalli.html`
 - [ ] `Seerah/12Yalam.html`
