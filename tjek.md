@@ -520,9 +520,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/1Zahf/OTH/3TH.html`
 - [x] `Seerah/1Zahf/OTH/4Hythami.html`
 - [x] `Seerah/1Zahf/OTH/5Nsaei.html`
-- [ ] `Seerah/1Zahf/OTH/6IbnHajar.html`
-- [ ] `Seerah/1Zahf/OTH/7Syooti.html`
-- [ ] `Seerah/1Zahf/OTH/8Qurtobi.html`
+- [x] `Seerah/1Zahf/OTH/6IbnHajar.html`
+- [x] `Seerah/1Zahf/OTH/7Syooti.html`
+- [x] `Seerah/1Zahf/OTH/8Qurtobi.html`
 - [ ] `Seerah/1Zahf/OTH/9IbnKatheer.html`
 - [ ] `Seerah/1Zahf/OTH/10Tabari.html`
 - [ ] `Seerah/1Zahf/OTH/11Tabarani.html`
