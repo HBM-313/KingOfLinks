@@ -508,9 +508,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/1Zahf/OM/2Khndaq/1.html`
 - [x] `Seerah/1Zahf/OM/3Honain/1BM.html`
 - [x] `Seerah/1Zahf/OM/3Honain/2AI.html`
-- [ ] `Seerah/1Zahf/OM/3Honain/3IbnHaban.html`
-- [ ] `Seerah/1Zahf/OM/3Honain/4IbnKatheer.html`
-- [ ] `Seerah/1Zahf/OM/3Honain/5Shfei.html`
+- [x] `Seerah/1Zahf/OM/3Honain/3IbnHaban.html`
+- [x] `Seerah/1Zahf/OM/3Honain/4IbnKatheer.html`
+- [x] `Seerah/1Zahf/OM/3Honain/5Shfei.html`
 - [ ] `Seerah/1Zahf/OM/3Honain/6IbnAtheer.html`
 - [ ] `Seerah/1Zahf/OM/3Honain/7Byhaqi.html`
 - [ ] `Seerah/1Zahf/OM/3Honain/8Shwkani.html`
