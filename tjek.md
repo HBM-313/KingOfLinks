@@ -494,7 +494,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `NabiMohd/29Moled/Main119.html`
 - [x] `NabiMohd/Main130.html`
 
-### Seerah — 39/75
+### Seerah — 54/75
 
 - [x] `Seerah/1Zahf/AB/1II.html`
 - [x] `Seerah/1Zahf/AB/2AlHakim.html`
@@ -547,9 +547,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/13Ytboon.html`
 - [x] `Seerah/14Yltqyan.html`
 - [x] `Seerah/15Sbab.html`
-- [ ] `Seerah/16Shahadtain.html`
-- [ ] `Seerah/17Mbayoon/1AbuAlGhadiah/1.html`
-- [ ] `Seerah/17Mbayoon/2AlBalawi/1.html`
+- [x] `Seerah/16Shahadtain.html`
+- [x] `Seerah/17Mbayoon/1AbuAlGhadiah/1.html`
+- [x] `Seerah/17Mbayoon/2AlBalawi/1.html`
 - [ ] `Seerah/17Mbayoon/2AlBalawi/2.html`
 - [ ] `Seerah/17Mbayoon/3AlJahJah/1.html`
 - [ ] `Seerah/17Mbayoon/3AlJahJah/2.html`
