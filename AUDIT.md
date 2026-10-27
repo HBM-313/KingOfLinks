@@ -748,3 +748,16 @@ Changes include correcting missing/truncated book titles, restoring source attri
 - `Seerah/9Hodhyfa.html`: 10/10 original bibliographic source sections, each checked for full paragraph text, metadata/source division, reference volume/page, and source order. PASS.
 
 All three corresponding `.htm` pages were freshly fetched from `kingoflinks.net` via Vercel Sandbox Python `urllib.request` with a Mozilla User-Agent and decoded correctly as `windows-1256`. The existing site CSS linkage and overall page-wrap/navigation styling are retained. Comparisons concern exact Unicode text after HTML-whitespace normalization rather than identical historical FrontPage source HTML bytes.
+
+
+## Seerah — batch 16: original-source verification (2026-10-27)
+
+The original `.htm` pages were freshly fetched directly from `kingoflinks.net` in a Vercel Sandbox with Python `urllib.request` and Mozilla User-Agent, then decoded as `windows-1256`. The corresponding `.html` pages were reconstructed without changing the site's existing `modern.css` dependency or general page layout.
+
+- `Seerah/10Slook.html`: 13 distinct original bibliographic sources vs. 13 local `hadith-block` elements, original order and boundaries preserved. The original narration count is `14`, which is displayed unchanged and is not mistaken for a count of independently sourced blocks.
+- `Seerah/11Ysalli.html`: 2/2 independently sourced blocks restored and checked.
+- `Seerah/12Yalam.html`: 7/7 independently sourced blocks restored and checked.
+
+For each of the 22 source blocks, all original narration/editorial paragraphs (including paragraph boundaries) were checked for exact equality of decoded Unicode text after HTML whitespace normalization; original complete source headers were checked against the concatenated structurally assigned `scholar-name`, `book-title`, and `chapter-info` fields; each volume and page value was checked against the `ref-value` fields; order and source boundaries matched. Hadith numbers were put in `hadith-number` without losing the original narration prefix, and the original headings and displayed counters were restored. Three missing scholar fields found by the final audit were corrected and independently rechecked. Final local results: `10Slook 13/13 PASS`, `11Ysalli 2/2 PASS`, `12Yalam 7/7 PASS`, with zero detected source text/header/reference mismatches.
+
+These are comparisons of decoded DOM text with HTML whitespace normalization, not claims of identical historical FrontPage HTML bytes. Files are to be independently re-fetched from the committed `main` and matched against the verified working copies.
