@@ -693,3 +693,14 @@ Use this as a **per-page and per-block sign-off checklist**, alongside the earli
 6. Only after **zero unexplained original-to-committed-content mismatches**, correct ownership and source grouping, all corrections committed, and deployment aftercheck may the page be marked `[x]` in `tjek.md`. Never advance a batch with missing character-level verification; reopen earlier `[x]` pages if this evidence was not actually collected.
 
 **Mandatory wording in status reports:** Distinguish “deployment matches reconstruction” from “every original text segment independently compared character by character to final committed HTML.” Never report full original fidelity or absolute no-missing-content verification unless the latter check was actually performed and passed.
+
+
+## Seerah batch 13 — independent original-source aftercheck (2026-10-27)
+
+Scope, against the corresponding `kingoflinks.net` `.htm` originals decoded as `windows-1256`, and the committed/deployed `.html` pages:
+- `Seerah/1Zahf/OTH/18Other.html`: 8/8 independent source blocks; 8/8 complete narration texts found as contiguous matching sequences in the original after whitespace normalisation; 8/8 volume/page pairs equal; numbered hadith values present.
+- `Seerah/2Mnafig12.html`: 3/3 source blocks; 3/3 matching narration texts; 3/3 volume/page pairs equal; hadith number 2779 preserved.
+- `Seerah/3Hawdh.html`: 20/20 bibliographic source blocks; 20/20 matching narration texts; 20/20 volume/page pairs equal; all visible hadith numbers preserved. Original page counter says 21 narrations; this is not itself evidence for a 21st independent source block.
+- All book-title and scholar strings checked for presence against original source; chapter strings checked against the original continuous body text. In `18Other.html` source block 5, chapter information spans TWO adjacent original header paragraphs; the joined structured chapter text consequently is not a single continuous original substring.
+- Comparison method: independently re-fetched original body text, collapsed HTML-origin whitespace, compared **entire individual local narration strings** as exact contiguous Unicode substrings (not similarity scores), compared all numeric bibliography values character-for-character, and checked metadata. Editorial material embedded in narration strings is included in these checks.
+- **Evidence limit:** This confirms text equality *after documented whitespace normalisation*, not raw source-byte equality, and does not certify a fully audited one-to-one character mapping for every original source header and navigational text node. An absolute claim of zero raw-character discrepancies requires a more granular source-node-to-field comparison. The current `[x]` marks predate that stricter level; do not treat this entry alone as proof that the full new mandatory gate is satisfied.
