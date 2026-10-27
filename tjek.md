@@ -514,9 +514,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/1Zahf/OM/3Honain/6IbnAtheer.html`
 - [x] `Seerah/1Zahf/OM/3Honain/7Byhaqi.html`
 - [x] `Seerah/1Zahf/OM/3Honain/8Shwkani.html`
-- [ ] `Seerah/1Zahf/OM/3Honain/9Other.html`
-- [ ] `Seerah/1Zahf/OTH/1Bukhari.html`
-- [ ] `Seerah/1Zahf/OTH/2IbnHanbal.html`
+- [x] `Seerah/1Zahf/OM/3Honain/9Other.html`
+- [x] `Seerah/1Zahf/OTH/1Bukhari.html`
+- [x] `Seerah/1Zahf/OTH/2IbnHanbal.html`
 - [ ] `Seerah/1Zahf/OTH/3TH.html`
 - [ ] `Seerah/1Zahf/OTH/4Hythami.html`
 - [ ] `Seerah/1Zahf/OTH/5Nsaei.html`
