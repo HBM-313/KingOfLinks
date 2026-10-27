@@ -723,3 +723,19 @@ Originals obtained freshly through Vercel Sandbox, using Python `urllib.request`
 **Corrections committed:** Removed two repeated `أحمد بن حنبل - مسند الإمام أحمد بن حنبل` source headers from `hadith-text` in blocks 17 and 18 of `3Hawdh.html`, retaining their proper ownership in source metadata (commit `8d91f689f13289d7eb8cae22a57c6bf97812de51`). Restored original heading parentheses and the number-to-narration hyphen separator in all 28 numbered blocks (commits `c046d2d50e0c0a1de273772e105ad0000f4e518a`, `2a67d3d468ae71e6abd9ca74f839d79b4668e625`, `7157dda3d8917c45b1325d760e2955db0fc8d459`). Restored the original top navigation labels (commits `d95fa380be1efe7dd77fbe2546dbb9ccdd6b443f`, `6dd84b9b3f881926c4be7454b0e9a49a13724512`, `a08879bfbbb5d6660135cdd3cd28d46c4d40e483`).
 
 **Final aftercheck:** independently re-fetched all three original pages and the final committed GitHub `main` pages; reran the source-split/field/paragraph/text/navigation/reference/heading comparison: `8/8 PASS`, `3/3 PASS`, `20/20 PASS`, with **zero remaining failures**. The `3Hawdh` original page reports `21` narrations but contains `20` distinct bibliographic source sections; both original counter and source boundaries are preserved. FrontPage bibliographic label typo `ا لجزء` is handled as an obvious display artifact, while its volume and page values are preserved. These are decoded DOM text comparisons with documented HTML whitespace/display normalization, not a claim of raw HTML source-byte identity.
+
+
+## Seerah — batch 14: independent live-original verification (2026-10-27)
+
+Verified against the actual original `.htm` pages at `kingoflinks.net`, fetched with Python `urllib.request` (Mozilla User-Agent), decoded as `windows-1256`, and compared with the reconstructed repository HTML before committing.
+
+- `Seerah/4JO.html` ↔ `Seerah/4JO.htm`: 30 original bibliographic sources; 30 corresponding `hadith-block` elements, in source order.
+- `Seerah/5Hwalt.html` ↔ `Seerah/5Hwalt.htm`: 24 original bibliographic sources; 24 corresponding `hadith-block` elements. Two original source boundaries occur without a standard two-blank-paragraph separator and were explicitly split at their distinct source headers (paragraph indexes 69 and 91, zero based).
+- `Seerah/6Inhraf.html` ↔ `Seerah/6Inhraf.htm`: 10 original bibliographic sources; 10 corresponding `hadith-block` elements.
+
+Full source-by-source comparisons were repeated after correcting the original-derived field ownership. Each source's complete narration/editorial paragraphs was compared as exact Unicode text after normalising HTML whitespace only; each source's full author/book/chapter header was reconstructed in the correct structural fields and checked against the original header; each volume and page value was checked individually; all blocks were checked in original order. The final independent check reported `4JO: 30/30 PASS`, `5Hwalt: 24/24 PASS`, `6Inhraf: 10/10 PASS`, with zero remaining paragraph, header, or reference mismatches.
+
+The original page headings, narration counters, and visible original homepage navigation label have also been restored. Standard site design and existing CSS linkage are preserved. This is Unicode/DOM-level original-text verification, not raw HTML byte equality, since the original FrontPage markup is intentionally not reproduced.
+
+Changes include correcting missing/truncated book titles, restoring source attribution and chapter ownership, restoring numbered narrations and missing narration passages, and preserving editorial text. Batch 14 was not permitted to advance until all three pages passed.
+
