@@ -761,3 +761,14 @@ The original `.htm` pages were freshly fetched directly from `kingoflinks.net` i
 For each of the 22 source blocks, all original narration/editorial paragraphs (including paragraph boundaries) were checked for exact equality of decoded Unicode text after HTML whitespace normalization; original complete source headers were checked against the concatenated structurally assigned `scholar-name`, `book-title`, and `chapter-info` fields; each volume and page value was checked against the `ref-value` fields; order and source boundaries matched. Hadith numbers were put in `hadith-number` without losing the original narration prefix, and the original headings and displayed counters were restored. Three missing scholar fields found by the final audit were corrected and independently rechecked. Final local results: `10Slook 13/13 PASS`, `11Ysalli 2/2 PASS`, `12Yalam 7/7 PASS`, with zero detected source text/header/reference mismatches.
 
 These are comparisons of decoded DOM text with HTML whitespace normalization, not claims of identical historical FrontPage HTML bytes. Files are to be independently re-fetched from the committed `main` and matched against the verified working copies.
+
+
+## Seerah — batch 17: live-original content, field ownership, and block verification (2026-10-27)
+
+Original pages were freshly retrieved from `http://kingoflinks.net/Seerah/` through Vercel Sandbox Python `urllib.request` and decoded as `windows-1256`. Original source sections were identified by the bibliographic volume/page paragraphs and the original paragraph separators.
+
+- `Seerah/13Ytboon.html` ↔ `13Ytboon.htm`: 4 original sources, 4 local `hadith-block` elements. Source fields and exact Arabic narration paragraphs reconstructed; author field of the fourth source (`ابن ماجه`) was restored on final review.
+- `Seerah/14Yltqyan.html` ↔ `14Yltqyan.htm`: 2 original sources and 2 source blocks; preserved original Quran quotation and all reference data.
+- `Seerah/15Sbab.html` ↔ `15Sbab.htm`: 2 original sources and 2 blocks; preserved original narration text and associated metadata.
+
+Verification checks the complete original per-source decoded Arabic text in original order, paragraph boundaries, and combined scholarly source headers against `scholar-name`/`book-title`/`chapter-info`, and original page/volume numbers against `ref-value`, normalizing only HTML whitespace. The displayed original page headings and narration counts and the existing site `modern.css` linkage are retained. Original Microsoft FrontPage HTML source bytes are not claimed to be identical.

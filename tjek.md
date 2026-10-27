@@ -544,9 +544,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/10Slook.html`
 - [x] `Seerah/11Ysalli.html`
 - [x] `Seerah/12Yalam.html`
-- [ ] `Seerah/13Ytboon.html`
-- [ ] `Seerah/14Yltqyan.html`
-- [ ] `Seerah/15Sbab.html`
+- [x] `Seerah/13Ytboon.html`
+- [x] `Seerah/14Yltqyan.html`
+- [x] `Seerah/15Sbab.html`
 - [ ] `Seerah/16Shahadtain.html`
 - [ ] `Seerah/17Mbayoon/1AbuAlGhadiah/1.html`
 - [ ] `Seerah/17Mbayoon/2AlBalawi/1.html`
