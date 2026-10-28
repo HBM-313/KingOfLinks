@@ -863,3 +863,16 @@ Canonical originals resolved through `sitemap.xml` and fetched from `http://king
 After HTML corrections, the committed versions were fetched independently from immutable GitHub commit-addressed raw URLs and each original non-navigation text segment after the title/count was matched to its unique `data-original-index` owner in the resulting HTML. Per-page results: `6Hnab` **0 mismatches / 56**, `7Twis` **0 / 49**, `8Dlal` **0 / 44** after whitespace rendering normalization only. Original standalone source headings and source reference boundaries are preserved. The first two original paragraphs are represented by the page title and displayed narration count rather than indexed source content. This is an original-text segment aftercheck, not merely a deployment comparison.
 
 Final HTML commits: `6ea5a395b66d4157f1242c870ce6989075b18361` (6Hnab), `570c310f2af06bd3a4789f086f79e464b988a794` (7Twis), `dfebe3d04c150a81b71cfe8f3f3d8aa1fc7cfa72` (8Dlal).
+
+
+## Seerah — batch 25: final 3 pages (2026-10-28)
+
+Originals located in current sitemap: `Seerah/24Mkhnthon/9Other.htm`, `Seerah/24Mkhnthon/Main114.htm`, `Seerah/Main131.htm`. Fetched original HTTP content in Vercel Sandbox with browser User-Agent and decoded `windows-1256`. Retained shared `modern.css` and the existing standard 3-column menu structure.
+
+- `9Other.html`: reconstructed **6/6** original bibliographic source sections from **5** prior local `hadith-block` elements. Original **28** non-navigation paragraph segments; 2 are title/count, and **26/26** remaining segments exactly mapped by `data-original-index` to the final committed HTML, whitespace rendering normalized, **zero unmatched segments**. `مفهوم الصحابي` is a page introduction, not an author. Editorial notes and narration numbering remain source-specific.
+- `24Mkhnthon/Main114.html`: reconstructed **9** distinct original topic entries, instead of treating the split `3Mate.htm` anchor as two topics. Labels, order, counts and relative destinations individually transcribed from original menu; counts **38, 14, 28, 10, 8, 13, 11, 10, 6** total **138**. Original title and source total restored. Both return links use local HTML equivalents.
+- `Main131.html`: reconstructed **24** original topics with original counts and ordering, sum **620**. Preserved original source-specific labels and the original unusual split spelling `ا لمخنثون`. The original section-link count is **137** while its subindex `Main114.htm` displays **138**; this original-source inconsistency is intentionally preserved rather than silently harmonized. Duplicate original anchors within a topic (the `11Ysalli` label, `Main114` split anchor) are represented by one full clickable topic link in the standardized menu.
+
+Independent aftercheck fetched immutable GitHub commit files and the original 9Other text anew: **26/26** source-text segments exactly matched. Menu aftercheck verified 9 and 24 rows, the original total counts (138 and 620), internal link paths and the intentional splitting of historical HTML anchors. No new stylesheet was added.
+
+HTML commits: `bbd2ee2dcb6664558f58728cf0a6e785fbaa3c22` (9Other), `14c4aca358259b2836d0f2a07824362eadef6d13` (Main114), `995fe75aa092de0a69cb39e25d320ff84fd87c09` (Main131).
