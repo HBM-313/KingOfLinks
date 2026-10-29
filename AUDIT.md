@@ -922,3 +922,8 @@ Fetched original `Tjseem/3Hyah.htm` directly over HTTP with browser User-Agent i
 ### Tjseem batch 1 — further original narration restoration (2026-10-29)
 
 Fetched `Tjseem/3Hyah.htm` directly over HTTP and decoded `windows-1256`. Reconstructed al-Bukhari report 7437 from the original page's original note and two consecutive narration paragraphs: retained the complete `[ النص طويل لذا استقطع منه موضع الشاهد ]` extraction note, restored full narration/continuation, assigned 7437 once to `hadith-number`, retained original bibliographic info and the separate source-block boundary. HTML commit `8ca90aebab55f5aacda0f84612421e7592b5d66e`; independent GitHub `main` re-fetch confirmed its new note/number and 19 local blocks. **No full page or batch source-to-commit verification has passed.** Tjseem batch 1 remains OPEN; `tjek.md` unchanged.
+
+
+### Tjseem batch 1 — 1ShabAmrad original narrations 286, 287, 127 (2026-10-29)
+
+Re-fetched `Tjseem/1ShabAmrad.htm` using Vercel Sandbox HTTP and browser User-Agent, decoded `windows-1256`. Replaced three truncated or altered opening hadith paragraphs using original source paragraph indices 24, 28, 31 for reports 286, 287, 127, keeping their existing separate block boundaries and numbers. Committed HTML as `ad56f5b86813c948993001a756f93cb10ebb0e97`; re-fetched GitHub `main` and verified the three report fields and chain text remain present, and local block count is 37. This narrow change is not a complete independent source-text verification. **Batch 1 remains OPEN, checklist unchanged, batch 2 prohibited until final full verification.**
