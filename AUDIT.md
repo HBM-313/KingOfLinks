@@ -912,3 +912,8 @@ Re-fetched original `Tjseem/3Hyah.htm` via Vercel Sandbox, decoded `cp1256`, and
 ### Tjseem batch 1 — original narration chain restoration in 2Atraf (2026-10-29)
 
 Retrieved the original `Tjseem/2Atraf.htm` anew via HTTP / `cp1256` in Vercel Sandbox. Restored the full original opening transmission chains in hadiths `4849`, `4850`, and `4919`, from original narrative paragraphs, without replacing their subsequent local continuation paragraphs. Original chain restoration: HTML commit `f2e3619672049f46473981818b1506b4aa8b8555`; continuation for `4849` reinserted after noticing its loss during the narrow re-read: follow-up HTML commit `80a95bb4b8b0fd2498c1e7bbad01431ace9ddbbf`. Latest committed HTML was re-fetched from GitHub `main`; all three restored chains and the relevant continuations are present; local block count remains 33. **Neither those retained continuations nor all other source paragraphs have passed independent character-by-character comparison.** Batch 1 remains OPEN: do not check off pages or advance to batch 2.
+
+
+### Tjseem batch 1 — continued correction of 3Hyah (2026-10-29)
+
+Fetched original `Tjseem/3Hyah.htm` directly over HTTP with browser User-Agent in Vercel Sandbox and decoded `windows-1256`. Original paragraph text for Bukhari narrations 7434 and 7435 used to restore complete chains and wording in the corresponding two local blocks, preserving the separate `hadith-number` field. HTML commit `10fe88c786732523083894cca62befc3769c6fd9`. Latest GitHub `main` HTML re-read: both restored chains present, 19 local blocks unchanged. **Still not a full independent character-by-character aftercheck for this page or the three-page batch.** Do not mark checklist `[x]` and do not advance to batch 2.
