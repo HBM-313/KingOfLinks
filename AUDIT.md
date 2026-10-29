@@ -876,3 +876,17 @@ Originals located in current sitemap: `Seerah/24Mkhnthon/9Other.htm`, `Seerah/24
 Independent aftercheck fetched immutable GitHub commit files and the original 9Other text anew: **26/26** source-text segments exactly matched. Menu aftercheck verified 9 and 24 rows, the original total counts (138 and 620), internal link paths and the intentional splitting of historical HTML anchors. No new stylesheet was added.
 
 HTML commits: `bbd2ee2dcb6664558f58728cf0a6e785fbaa3c22` (9Other), `14c4aca358259b2836d0f2a07824362eadef6d13` (Main114), `995fe75aa092de0a69cb39e25d320ff84fd87c09` (Main131).
+
+
+## Tjseem — batch 1: OPEN, partial corrections only (2026-10-29)
+
+Checklist selection after Seerah 75/75: `Tjseem/1ShabAmrad.html`, `Tjseem/2Atraf.html`, `Tjseem/3Hyah.html`. Original URLs are the matching `.htm` paths in project sitemap; original pages were fetched via HTTP from `kingoflinks.net` with a browser User-Agent and decoded using `windows-1256`. Current originals show narration totals 37, 37, and 26 respectively; **these narration totals are not independently established source-block counts**.
+
+Original reference paragraphs containing `الجزء`: 33, 32, and 18. Local `hadith-block` counts: 37, 33, and 19. These differences must be resolved from actual source boundaries, not inferred from count totals. Preliminary exact-string checks after whitespace normalisation found unexplained mismatches in all three pages, and therefore **no page passes the three-level original-text verification gate**.
+
+Documented partial HTML changes:
+- `1ShabAmrad.html`: correctly separates Ibn Taymiyya's scholar name and `بيان تلبيس الجهمية في تأسيس بدعهم الكلامية`; moves `289 / 290` out of falsely assigned page number and retains it as an original hadith reference, preserves brackets around editorial extraction note; corrects metadata in following al-Haythami block. Commit `9f2324eeb5181ac5f67e29addbb8e2593d3a1b9e`.
+- `2Atraf.html`: removes the page topic from the first block's `scholar-name`, correctly identifies al-Bukhari; corrects scholar/book/chapter ownership for the subsequent report and adds its number 4849. Commit `5211fefd5615dfb76f38018f3ae3b101d235daf5`.
+- `3Hyah.html`: replaces first block's invalid scholar `>` and topic-as-book with al-Bukhari and `صحيح البخاري`; restores full opening narration as independently retrieved original paragraph and identifies hadith 6227. Commit `84be1bcfd7ea65974fa95e00b2945c073ce6a7a5`.
+
+All three committed HTML files were re-fetched from GitHub `main` after updates and their corrected opening fields and unchanged local block counts were inspected. **This limited post-commit inspection is not a full character-by-character verification of all source segments.** The remaining local text, Quran details, source boundaries, hadith-number duplication and all per-block ownership must be independently verified and corrected. Do not mark these three pages `[x]` in `tjek.md`, and do not begin batch 2 until all three pass the full final committed-original comparison.
