@@ -917,3 +917,8 @@ Retrieved the original `Tjseem/2Atraf.htm` anew via HTTP / `cp1256` in Vercel Sa
 ### Tjseem batch 1 — continued correction of 3Hyah (2026-10-29)
 
 Fetched original `Tjseem/3Hyah.htm` directly over HTTP with browser User-Agent in Vercel Sandbox and decoded `windows-1256`. Original paragraph text for Bukhari narrations 7434 and 7435 used to restore complete chains and wording in the corresponding two local blocks, preserving the separate `hadith-number` field. HTML commit `10fe88c786732523083894cca62befc3769c6fd9`. Latest GitHub `main` HTML re-read: both restored chains present, 19 local blocks unchanged. **Still not a full independent character-by-character aftercheck for this page or the three-page batch.** Do not mark checklist `[x]` and do not advance to batch 2.
+
+
+### Tjseem batch 1 — further original narration restoration (2026-10-29)
+
+Fetched `Tjseem/3Hyah.htm` directly over HTTP and decoded `windows-1256`. Reconstructed al-Bukhari report 7437 from the original page's original note and two consecutive narration paragraphs: retained the complete `[ النص طويل لذا استقطع منه موضع الشاهد ]` extraction note, restored full narration/continuation, assigned 7437 once to `hadith-number`, retained original bibliographic info and the separate source-block boundary. HTML commit `8ca90aebab55f5aacda0f84612421e7592b5d66e`; independent GitHub `main` re-fetch confirmed its new note/number and 19 local blocks. **No full page or batch source-to-commit verification has passed.** Tjseem batch 1 remains OPEN; `tjek.md` unchanged.
