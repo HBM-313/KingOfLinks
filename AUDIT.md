@@ -890,3 +890,15 @@ Documented partial HTML changes:
 - `3Hyah.html`: replaces first block's invalid scholar `>` and topic-as-book with al-Bukhari and `صحيح البخاري`; restores full opening narration as independently retrieved original paragraph and identifies hadith 6227. Commit `84be1bcfd7ea65974fa95e00b2945c073ce6a7a5`.
 
 All three committed HTML files were re-fetched from GitHub `main` after updates and their corrected opening fields and unchanged local block counts were inspected. **This limited post-commit inspection is not a full character-by-character verification of all source segments.** The remaining local text, Quran details, source boundaries, hadith-number duplication and all per-block ownership must be independently verified and corrected. Do not mark these three pages `[x]` in `tjek.md`, and do not begin batch 2 until all three pass the full final committed-original comparison.
+
+
+### Tjseem batch 1 — continued source comparison and number ownership cleanup (2026-10-29)
+
+Re-fetched all three original `.htm` pages over HTTP with ordinary User-Agent in a fresh Vercel Sandbox, decoded as `cp1256`, and compared to fresh GitHub `main` HTML. The original paragraph checks still reported 17 longer original segments not matched as contiguous normalized local text in `1ShabAmrad`, 34 in `2Atraf`, and unresolved discrepancies in `3Hyah`. These figures are **triage**, not independently confirmed missing-source counts: cross-field splits and text alterations remain to be investigated.
+
+Removed only exact duplicate numeric prefixes when an existing `hadith-number` immediately preceded a `hadith-text` paragraph beginning with the same number followed by a hyphen. This removes a duplicate displayed identifier without changing the remainder of the paragraph:
+- `Tjseem/1ShabAmrad.html`: 16 redundant prefixes; HTML commit `f714e33e33c46699089988864d2e8a902bdd3f13`.
+- `Tjseem/2Atraf.html`: 3 redundant prefixes; HTML commit `d59e78221271a71610bab9193813a35f56e5629b`.
+- `Tjseem/3Hyah.html`: 11 redundant prefixes; HTML commit `c7144138c63a306ba618c33bf497a2d9d4bf7ec4`.
+
+Post-commit GitHub `main` re-fetch verified **zero remaining instances of this precise duplicate-prefix pattern** and unchanged local block counts of 37 / 33 / 19. This check is narrow and **does not validate original-to-final content or source boundaries**. Batch 1 remains OPEN, with `tjek.md` unchanged and no authorisation to advance to batch 2.
