@@ -937,3 +937,8 @@ The canonical original `Tjseem/1ShabAmrad.htm` was fetched again over HTTP and d
 ### Tjseem batch 1 — Ibn Qutayba original paragraph correction (2026-10-29)
 
 Fetched canonical `Tjseem/1ShabAmrad.htm` over HTTP using Vercel Sandbox and decoded as `windows-1256`. Restored the complete original paragraph beginning `- .... قالوا : ومما يدل على ذلك أيضا حديث` into the Ibn Qutayba / `تأويل مختلف الحديث` block, and restored the original brackets around `[ النص طويل لذا استقطع منه موضع الشاهد ]`. HTML commit `8ac32c69a370ad6c65b7a5ba8b16c4fa72a27099`. Re-fetched committed GitHub main HTML confirming the target text/note and 37 local blocks. This is a narrow verified correction, **not** full page character-level verification. All three pages in batch 1 remain unchecked pending complete content, field and source-boundary aftercheck; batch 2 must not start.
+
+
+### Tjseem batch 1 — Haythami pair correction (2026-10-29)
+
+Re-fetched the original `Tjseem/1ShabAmrad.htm` via Vercel Sandbox (windows-1256). Restored source narrations 11738 and 11745 in their respective al-Haythami blocks, corrected the second block book title `معجم الزوائد`, changed the mislabelled page `179` to hadith reference `179`, and separated report number 11745 into `hadith-number`. HTML commits: `4466ae742402b2cbca699aca45075f9029224fac`, `1ca2a7a50ca8b361cf98568de3da082d7e6f50cf`. Re-fetched the latest GitHub `main` HTML and verified both reports, second book title and unchanged 37 local blocks. **Full original-to-commit content, field and block structure verification remains incomplete.** Keep batch 1 open; do not check off in `tjek.md` or proceed to batch 2.
