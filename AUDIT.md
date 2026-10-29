@@ -902,3 +902,8 @@ Removed only exact duplicate numeric prefixes when an existing `hadith-number` i
 - `Tjseem/3Hyah.html`: 11 redundant prefixes; HTML commit `c7144138c63a306ba618c33bf497a2d9d4bf7ec4`.
 
 Post-commit GitHub `main` re-fetch verified **zero remaining instances of this precise duplicate-prefix pattern** and unchanged local block counts of 37 / 33 / 19. This check is narrow and **does not validate original-to-final content or source boundaries**. Batch 1 remains OPEN, with `tjek.md` unchanged and no authorisation to advance to batch 2.
+
+
+### Tjseem batch 1 — further original-based book/chapter correction (2026-10-29)
+
+Re-fetched original `Tjseem/3Hyah.htm` via Vercel Sandbox, decoded `cp1256`, and inspected the original al-Bukhari source headers alongside the latest `main` HTML. Corrected the misallocated `book-title` / `chapter-info` for the group of Bukhari reports containing the citation `{ وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ @ إِلَى رَبِّهَا نَاظِرَةٌ ( القيامة : 225 - 23 ) }`. **Preserved the original unusual `225` value** instead of silently changing it. HTML commit: `e4733db52c7439621ded61cdf2497ace62227d79`. Re-read resulting `main` file, confirming the changed fields. Other source metadata and narration text remain unverified. Batch 1 is still OPEN; no checklist ticks or advancement to batch 2.
