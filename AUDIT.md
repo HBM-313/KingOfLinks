@@ -1059,3 +1059,21 @@ The original page topics and navigation spacing were restored. Original hadith t
 Checklist order confirmed: `Tjseem/11Ynzil.html`, `Tjseem/12Yqabel.html`, `Tjseem/13Haqow.html`; all three original `.htm` entries confirmed in `sitemap.xml`. Originals were downloaded directly with HTTP 200 from `kingoflinks.net` through Vercel Sandbox, decoded as Windows-1256: 7,744, 7,610 and 14,453 bytes respectively. Original independent source-heading counts: 3, 3 and 5. Their existing repository pages also contain 3, 3 and 5 `hadith-block`s; matching counts do not establish completeness or correct ownership. Current inspection identified misplaced author/topic headers and book/chapter metadata in all three.
 
 `11Ynzil.html`: reconstructed source text and metadata committed in `8a6efa63c11a23e8a338c6dc0e2b377d849637e1`; immutable GitHub file re-fetched and verified to contain 3 blocks with `../modern.css`. Full independent character-level original-to-final segment comparison is NOT yet completed; do not mark verified. Candidate rebuilds for `12Yqabel.html` and `13Haqow.html` exist only in the Vercel Sandbox; GitHub `main` versions have NOT been updated or fully verified. Subsequent connector calls to transfer candidates were blocked, preventing safe completion. Do not claim this batch closed. All three checklist entries must remain `[ ]`; Tjseem checklist stays 15/23. Batch 7 must not start before full corrections, commits and afterchecks of these three files.
+
+
+## Tjseem — batch 6: VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/11Ynzil.html`, `Tjseem/12Yqabel.html`, `Tjseem/13Haqow.html`. Confirmed the first three unchecked Tjseem pages in `tjek.md` and matched the three original `.htm` URLs to `sitemap.xml`. Fetched the current originals directly from `http://kingoflinks.net` (HTTP 200; 7,744 / 7,610 / 14,453 bytes), decoded as `cp1256`. The older nonpersistent Vercel Sandbox expired; re-fetched originals in a fresh sandbox rather than relying on previous candidates. Earlier in-progress note above is superseded by this final independently checked result.
+
+| Page | Original sources / final committed `hadith-block` | Full original source-text spans matched | Volume/page reference fields matched | Final HTML commit |
+|---|---:|---:|---:|---|
+| `Tjseem/11Ynzil.html` | 3 / 3 | 3 / 3 | 3 / 3 | `8a6efa63c11a23e8a338c6dc0e2b377d849637e1` |
+| `Tjseem/12Yqabel.html` | 3 / 3 | 3 / 3 | 3 / 3 | `8ae1ff5cc65b38103cadcd22a42d9eaf995a284c` |
+| `Tjseem/13Haqow.html` | 5 / 5 | 5 / 5 | 5 / 5 | `d9e7421965e79598bdc1c38b51e04dd6696a8de0` |
+| **TOTAL** | **11 / 11** | **11 / 11** | **11 / 11** | |
+
+**Corrections:** Reconstructed all 11 original source-specific narration spans and source-specific bibliographic fields; separated source names from book and chapter metadata; preserved editorial omission notices, the Quranic verses and symbols in chapter headings, source ordering and original hadith numbers. Corrected the first-page navigation wording in `12Yqabel` and `13Haqow`, and original spelling `شخصيا` in the `12Yqabel` title. Kept both existing navigational destinations and `../modern.css` on all pages.
+
+**Independent post-commit verification:** A separate Python/BeautifulSoup check downloaded each file using the **immutable GitHub commit SHA** rather than cached `main`, extracted original source sections from Windows-1256 originals (including text outside ordinary `p` blocks), mapped each span to the corresponding final `hadith-text`, and compared all 11 full Arabic narrative spans character-by-character after removing only technical whitespace and Unicode bidirectional formatting characters. All 11 matched; each associated original volume and page reference matched the proper `ref-value`; source counts and ordering were 3/3, 3/3 and 5/5. Final follow-up commits for the latter two pages were re-fetched and checked again. All blocks retain their `scholar-name`, `book-info`, `chapter-info`, `ref-info` and `hadith-text` field structure. Original page titles and navigation were reviewed and corrected where discrepant. **Unexplained narrative or volume/page-reference differences: 0.**
+
+**Decision:** Batch 6 CLOSED; authorize `[x]` for these three pages. Tjseem advances to **18/23 verified (5 remaining)**. Batch 7 not started; next unchecked `Tjseem/14Amaa.html`.
