@@ -1019,3 +1019,18 @@ The original page topics and navigation spacing were restored. Original hadith t
 **Final GitHub main structural check:** Re-fetched each committed file; `hadith-block`, `scholar-name`, `book-title`, `ref-info`, `hadith-text` and original-source marker counts all match at **23**, **18** and **7** respectively. The source pages all appear in the current project sitemap.
 
 **Decision:** Tjseem batch 3 **CLOSED**, three pages authorised for `[x]` in `tjek.md`, bringing the section to **9/23** pages verified, with **14 remaining**. Next batch begins at `Tjseem/7Arsh/4Arsh.html`; it has NOT been started here.
+
+
+## Tjseem — batch 4: VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/7Arsh/4Arsh.html`, `Tjseem/7Arsh/5Shams.html`, and the index `Tjseem/7Arsh/Main94.html`. Confirmed all original corresponding `.htm` URLs exist in repository `sitemap.xml`, fetched the original pages directly from `http://kingoflinks.net/`, and decoded originals using `windows-1256`. Matched source content with committed immutable GitHub HTML, not merely earlier audits or local text. Original FrontPage layout artefacts were normalized without rewriting original meaningful text, and site-wide `../../modern.css` preserved.
+
+**4Arsh:** Replaced one merged local `hadith-block` with **5 distinct original source blocks**, matching original order and `data-original-source-start` indices `4, 8, 11, 14, 17`. All **5 source references and 5 original meaningful hadith/quote segments** verified against immutable HTML commit `0181180b496c3161255f5593e04b6c2e3f6c3903`; no mismatches. Checked original headings, Arabic tokens and source numeral ownership against `scholar-name`, `book-title`, `chapter-info`; **0 missing source-heading tokens**. Original topic heading restored.
+
+**5Shams:** Replaced one merged local block with **5 original source blocks**, source indices `4, 7, 11, 15, 18`, each with its own original `ref-info` and full narrative. All **5 source references and 5 original meaningful narration segments** independently matched with immutable HTML commit `6e22179bd1acd95f4a6573fe50a5b09f20182c12`; no mismatches. Original Quran quotation, chapter ownership, Arabic heading tokens and original topic heading checked; **0 missing metadata tokens**.
+
+**Main94 index:** Compared the original `Main94.htm` (table with **5** source links) to immutable GitHub commit `27639f4f1074aa271ce11bdde2603057a7765419`. Original title and heading: `( روايات تدعي بأن لله عزوجل عرش ذو أطيط والعياذ بالله )`; original total `عدد المصادر : ( 59 )`. Verified all five topic labels, original individual source counts **23, 19, 7, 5, 5** and matching `.html` links for original `.htm` destinations, with **zero deviations**. Corrected both back-navigation labels and preserved valid reconstructed destinations `../../index-2.html` and `../Main133.html`. The page is an **index**, with 5 `menu-table` rows, **not** 5 hadith blocks.
+
+**Final GitHub main reread:** Found exactly **5, 5, and 0** hadith blocks respectively, with matching scholar/book/ref/text fields on the two source pages, 5 menu rows on index, `../../modern.css` on all three, and sitemap membership confirmed. Original-source-block counts, text ownership and link/count associations pass. Only formatting-neutral whitespace and legacy bidi markers were normalized in comparisons.
+
+**Decision:** Tjseem batch 4 **CLOSED**, authorize `[x]` for all three pages in `tjek.md`. Tjseem total after marking: **12/23** verified, **11 remaining**. Batch 5 begins at the next unchecked page `Tjseem/8Dar.html` and was not started in this batch.
