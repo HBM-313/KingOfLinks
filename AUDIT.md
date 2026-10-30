@@ -1077,3 +1077,21 @@ Checklist order confirmed: `Tjseem/11Ynzil.html`, `Tjseem/12Yqabel.html`, `Tjsee
 **Independent post-commit verification:** A separate Python/BeautifulSoup check downloaded each file using the **immutable GitHub commit SHA** rather than cached `main`, extracted original source sections from Windows-1256 originals (including text outside ordinary `p` blocks), mapped each span to the corresponding final `hadith-text`, and compared all 11 full Arabic narrative spans character-by-character after removing only technical whitespace and Unicode bidirectional formatting characters. All 11 matched; each associated original volume and page reference matched the proper `ref-value`; source counts and ordering were 3/3, 3/3 and 5/5. Final follow-up commits for the latter two pages were re-fetched and checked again. All blocks retain their `scholar-name`, `book-info`, `chapter-info`, `ref-info` and `hadith-text` field structure. Original page titles and navigation were reviewed and corrected where discrepant. **Unexplained narrative or volume/page-reference differences: 0.**
 
 **Decision:** Batch 6 CLOSED; authorize `[x]` for these three pages. Tjseem advances to **18/23 verified (5 remaining)**. Batch 7 not started; next unchecked `Tjseem/14Amaa.html`.
+
+
+## Tjseem — batch 7: VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/14Amaa.html`, `Tjseem/15LA.html`, `Tjseem/16Yala.html`. Confirmed the next three unchecked entries in `tjek.md`, their corresponding authoritative `.htm` pages in `sitemap.xml`, and fetched each original directly with HTTP 200 from `kingoflinks.net` (17,245 / 13,538 / 8,784 original bytes), correctly decoded as Windows-1256.
+
+| Page | Original source sections / committed `hadith-block` | Full text spans matched | Bibliographic references checked | Final HTML commit |
+|---|---:|---:|---:|---|
+| `14Amaa.html` | 10 / 10 | 10 / 10 | 10 / 10 | `514f349b963a0330b8529855c42dbd1fbcd7dacf` |
+| `15LA.html` | 4 / 4 | 4 / 4 | 4 / 4 | `a6bc5b9762aee0be4865a0c68a866e86014ef112` |
+| `16Yala.html` | 3 / 3 | 3 / 3 | 3 / 3 | `e412e4462459716a7454bee89c7d14962c0f8683` |
+| **TOTAL** | **17 / 17** | **17 / 17** | **17 / 17** | |
+
+**Corrections:** Reconstructed all 17 independent original source boundaries, narrations, numbered reports, original source headings and bibliographic entries from the three original pages, preserving Quranic quotations, symbols, the multi-paragraph text of Ibn al-Jawzi in `15LA`, source ordering, editorial omission notices and volume/page page-range notation (including `313 / 314`, `180 > 182`, `209 / 210`). The two `16Yala` original footnote citations `هامش الصفحة رقم : ( 98 )` and `هامش الصفحة رقم : ( 130 )` remain in their respective `ref-info`, rather than being converted to ordinary volume/page data. A final correction separated `مسند الإمام أحمد بن حنبل` from `أول مسند المدنين (ر)` and `العظمة` from its separate chapter heading, ensuring accurate book/chapter field ownership.
+
+**Independent final-commit verification:** In a fresh Vercel Sandbox, re-read the live Windows-1256 originals, extracted source text using exact original headings and bibliographic reference boundaries rather than only local `p` tags, and downloaded each immutable GitHub commit revision. Each of the **17 complete original source-specific narratives** matched the corresponding committed `hadith-text` character-for-character after normalization of purely technical whitespace and Unicode bidi formatting markers. All **17 original reference numeric sequences** matched the corresponding committed `ref-value` fields; original footnote references were retained in `ref-info`. Source count/order is **10/10, 4/4, 3/3**. Every block contains `scholar-name`, `book-title`, `chapter-info`, `ref-info`, `hadith-text`; existing navigation destinations `../index-2.html` and `Main133.html`, as well as `../modern.css`, were preserved. Final immutable-commit script reported **PASS 10/10, 4/4, 3/3**. No unexplained original-narration or reference mismatch remains.
+
+**Decision:** Tjseem batch 7 CLOSED. Authorize checklist marking of all three pages. Tjseem advances to **21/23 verified, 2 remaining**. Batch 8 not started; next unchecked `Tjseem/17Ytaki.html`.
