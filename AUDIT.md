@@ -1034,3 +1034,21 @@ The original page topics and navigation spacing were restored. Original hadith t
 **Final GitHub main reread:** Found exactly **5, 5, and 0** hadith blocks respectively, with matching scholar/book/ref/text fields on the two source pages, 5 menu rows on index, `../../modern.css` on all three, and sitemap membership confirmed. Original-source-block counts, text ownership and link/count associations pass. Only formatting-neutral whitespace and legacy bidi markers were normalized in comparisons.
 
 **Decision:** Tjseem batch 4 **CLOSED**, authorize `[x]` for all three pages in `tjek.md`. Tjseem total after marking: **12/23** verified, **11 remaining**. Batch 5 begins at the next unchecked page `Tjseem/8Dar.html` and was not started in this batch.
+
+
+## Tjseem — batch 5: VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/8Dar.html`, `Tjseem/9Ydhak.html`, `Tjseem/10Yhrwel.html`. Confirmed these are the first three unchecked Tjseem pages in `tjek.md`, and all original `.htm` URLs appear in the repository `sitemap.xml`. A fresh Vercel Sandbox downloaded the three current originals directly over HTTP 200 from `kingoflinks.net` (25,546 / 42,543 / 8,998 raw bytes respectively) and correctly decoded complete originals as `windows-1256`/`cp1256`. Verified against the committed, immutable GitHub HTML revisions, not older local text or audit records.
+
+| Page | Original distinct source sections / final `hadith-block` | Complete original source-text sequences compared | Bibliographic reference fields checked | Last verified HTML commit |
+|---|---:|---:|---:|---|
+| `Tjseem/8Dar.html` | 5 / 5 | 5 / 5 | 5 / 5 | `1ca545fdc922ddbbb113e1379045470788c2bc8a` |
+| `Tjseem/9Ydhak.html` | 18 / 18 | 18 / 18 | 18 / 18 | `b419b4efe32b46afe2b06bc6655d8e9ebae9ceb5` |
+| `Tjseem/10Yhrwel.html` | 3 / 3 | 3 / 3 | 3 / 3 | `5acdbf6e62a6ae47c550acf3d3f8dda37d73c5cc` |
+| **TOTAL** | **26 / 26** | **26 / 26** | **26 / 26** | |
+
+**Corrections made:** `8Dar`: restored the original entire source-specific Arabic narrations, including the extended first and second narrations, original Quran headings and special punctuation, the two separately numbered 931/932 passages within the same al-Bayhaqi source, the original volume and page-range metadata, and corrected field ownership, source author/book/chapter assignments. The original page prints **6 narrations** but contains **5 distinct source headings**, now represented by 5 source blocks. `9Ydhak`: reconstructed all 18 original source headings, book/chapter assignments and entire Arabic source-specific narrations; corrected misplaced headings, incorrect book titles, and misplaced reference/narration numbers; original Quran and editorial passages preserved. `10Yhrwel`: restored two extensively truncated narrations in their entirety and corrected their metadata and hadith-number ownership; preserved the third narration and its reference. Corrected the back-navigation label and preserved sitewide `../modern.css` on all three.
+
+**Independent post-commit comparison:** Re-fetched committed HTML from GitHub, extracted the original source texts using original-source boundaries (not limited to `<p>` elements), and compared each complete original source-specific text span with the matching committed `hadith-text`. All **26 of 26** text spans matched character-for-character after normalization of purely technical whitespace and legacy bidi formatting marks; hyphen separators after original hadith numbers were explicitly retained, and accidental duplicate numbers removed. Original source heading tokens, ordering, original references (volume, page and page ranges), and field allocation were checked independently for `8Dar` and `9Ydhak`. `10Yhrwel` full narratives, fields and all three original volume/page references matched its immutable commit. All 26 source blocks have their own `scholar-name`, `book-info`, `ref-info`, and `hadith-text` fields; no extra or missing source blocks. Page titles, printed narration counts and existing navigation/design were retained. **Remaining documented discrepancies: 0.**
+
+**Decision:** Batch 5 CLOSED. Mark all three pages `[x]` in `tjek.md`; Tjseem advances to **15/23 verified**, **8 remaining**. Batch 6 has not been started.
