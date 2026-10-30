@@ -572,11 +572,11 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Seerah/24Mkhnthon/Main114.html`
 - [x] `Seerah/Main131.html`
 
-### Tjseem — 0/23
+### Tjseem — 3/23
 
-- [ ] `Tjseem/1ShabAmrad.html`
-- [ ] `Tjseem/2Atraf.html`
-- [ ] `Tjseem/3Hyah.html`
+- [x] `Tjseem/1ShabAmrad.html`
+- [x] `Tjseem/2Atraf.html`
+- [x] `Tjseem/3Hyah.html`
 - [ ] `Tjseem/4Yad.html`
 - [ ] `Tjseem/5Yora.html`
 - [ ] `Tjseem/6Ain.html`
