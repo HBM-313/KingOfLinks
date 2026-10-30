@@ -952,3 +952,8 @@ A post-commit check detected that a preceding incremental edit had accidentally 
 ### Tjseem batch 1 — Abu Yala metadata correction (2026-10-29)
 
 Compared original `Tjseem/1ShabAmrad.htm` (windows-1256) source header `أبو يعلى ابن الفراء - ابطال التأويلات لأخبار الصفات - فصل ثان يتعلق بليلة الإسراء` with the reconstructed local entry, and corrected the wrongly assigned book title `طبقات الحنابلة` to original `ابطال التأويلات لأخبار الصفات`, retaining `فصل ثان يتعلق بليلة الإسراء` as chapter-info. Also restored original brackets for its source extraction note. Committed HTML `146caf4944c7cf304ca8e90f4122a72e5b39b195`, independently re-fetched `main` and confirmed metadata and 37 local source blocks. This is **not** complete text, ownership, and source-block verification for batch 1. Do not update `tjek.md` or move to batch 2.
+
+
+### Tjseem batch 1 — three additional field/note corrections (2026-10-30)
+
+Retrieved original `Tjseem/1ShabAmrad.htm` over HTTP in Vercel Sandbox and decoded `windows-1256`. Original source heading for Ibn al-Jawzi is `ابن الجوزي - العلل المتناهية في الأحاديث الواهية - كتاب التوحيد - باب في ذكر الصورة`. Corrected local block's misleading `صفة الصفوة` book title to `العلل المتناهية في الأحاديث الواهية`, with remaining chapter info in `chapter-info`. Restored original square brackets around editorial extraction notes for the two preceding Abu Yala sources. HTML commit `19a1204af5b36f1341884c7b0f58955a6fe4b438`; GitHub main re-fetch confirms exact corrected book label, both brackets and unchanged 37 local blocks. **Complete original passage, source boundary and field ownership review remains outstanding for all three batch-1 pages.** Checklist remains unchanged; batch 2 not authorised.
