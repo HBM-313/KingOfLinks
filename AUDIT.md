@@ -957,3 +957,27 @@ Compared original `Tjseem/1ShabAmrad.htm` (windows-1256) source header `أبو �
 ### Tjseem batch 1 — three additional field/note corrections (2026-10-30)
 
 Retrieved original `Tjseem/1ShabAmrad.htm` over HTTP in Vercel Sandbox and decoded `windows-1256`. Original source heading for Ibn al-Jawzi is `ابن الجوزي - العلل المتناهية في الأحاديث الواهية - كتاب التوحيد - باب في ذكر الصورة`. Corrected local block's misleading `صفة الصفوة` book title to `العلل المتناهية في الأحاديث الواهية`, with remaining chapter info in `chapter-info`. Restored original square brackets around editorial extraction notes for the two preceding Abu Yala sources. HTML commit `19a1204af5b36f1341884c7b0f58955a6fe4b438`; GitHub main re-fetch confirms exact corrected book label, both brackets and unchanged 37 local blocks. **Complete original passage, source boundary and field ownership review remains outstanding for all three batch-1 pages.** Checklist remains unchanged; batch 2 not authorised.
+
+
+## Tjseem — batch 1: FINAL VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/1ShabAmrad.html`, `Tjseem/2Atraf.html`, `Tjseem/3Hyah.html`. All three corresponding original `.htm` URLs were verified in the current repository `sitemap.xml`. Originals fetched anew from `http://kingoflinks.net/` using browser User-Agent and decoded `windows-1256` (`cp1256`). The entire local HTML for all three pages was rebuilt from original source sections, including meaningful original text in legacy HTML nodes *outside* `<p>` tags. This final audit **supersedes all preceding provisional/open/incomplete notes for Tjseem batch 1**.
+
+**Immutable post-commit original-source afterchecks:**
+
+| Page | Original source groups vs. local hadith-blocks | Original reference fields checked | Meaningful original narrative segments checked | Discrepancies | Final HTML commit |
+|---|---|---|---|---|---|
+| `1ShabAmrad.html` | 37 / 37 | 37 / 37 | 75 / 75 | 0 | `3e866be2e7b9d95655101469ef75cb43aa7e9aa5` |
+| `2Atraf.html` | 33 / 33 | 33 / 33 | 65 / 65 | 0 | `a353e0daa03fe5874a1bd755877b93af4b748e22` |
+| `3Hyah.html` | 19 / 19 | 19 / 19 | 37 / 37 | 0 | `d278ff5e893b0ae0bc9d2c6f82a08cf66be52b12` |
+| **Total** | **89 / 89** | **89 / 89** | **177 / 177** | **0** | |
+
+After rebuilding, the original `.htm` was fetched again and compared to immutable GitHub HTML commits. Checks verified independent original source ordering through `data-original-source-start`, each `ref-info`, each original narrative segment including extra-paragraph legacy text in the corresponding `hadith-text` and `hadith-number`, and original editorial notes. Comparisons ignored only rendering-neutral whitespace/legacy directional characters. **No source content was invented or deliberately modernised.** Unusual original book spelling, punctuation, number ranges, `@`, `{ }`, original Quran citations (including the unusual `القيامة : 225 - 23`) and original reference wording were preserved.
+
+**Independent field-ownership check:** All 89 original source heading/metadata groupings were compared token-by-token for Arabic words and numerals against local `scholar-name`, `book-title`, and `chapter-info`; **0 missing source metadata tokens**. Each of 89 blocks has exactly one `scholar-name`, `book-title`, `ref-info`, and `hadith-text`; HTML block counts **37 + 33 + 19 = 89** unchanged from documented original-source segmentation, with no mergers or splits. The printed original *narration counts* of 37, 37, and 26 are distinct from counts of bibliographic source sections (37, 33, 19); this distinction was preserved rather than fabricating blocks.
+
+**Page/title checks:** The original topic headings and navigation text were restored on all three pages. The original Ibn Taymiyya introductory line `ابن تيمية يقر برواية الشاب الأمرد ويصححه` is explicitly preserved in the separate `page-intro` on `1ShabAmrad.html`. All pages retain the existing `../modern.css` link and site-wide styling. Each rebuilt source carries its original paragraph indices to enable future database migration and audits.
+
+**Final GitHub main structural re-read:** Verified the full 37, 33, 19 counts respectively for `hadith-block`, `scholar-name`, `book-title`, `ref-info`, `hadith-text` and `data-original-source-start`, and verified each of three originals exists in the current sitemap. No errors.
+
+**Decision: ALL THREE PAGES VERIFIED, batch 1 CLOSED.** The first three Tjseem checkboxes in `tjek.md` are authorised to be marked `[x]`; Tjseem status becomes **3/23**, leaving **20** pages. Next batch starts `Tjseem/4Yad.html` only in a subsequent explicitly continued batch, not as part of batch 1.
