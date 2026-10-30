@@ -598,9 +598,9 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Tjseem/17Ytaki.html`
 - [x] `Tjseem/Main133.html`
 
-### Fatima — 0/85
+### Fatima — 1/85
 
-- [ ] `Fatima/Main123.html`
+- [x] `Fatima/Main123.html`
 - [ ] `Fatima/1Bedhah.html`
 - [ ] `Fatima/2Mudgah.html`
 - [ ] `Fatima/3Shjanah.html`
