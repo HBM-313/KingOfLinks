@@ -981,3 +981,21 @@ After rebuilding, the original `.htm` was fetched again and compared to immutabl
 **Final GitHub main structural re-read:** Verified the full 37, 33, 19 counts respectively for `hadith-block`, `scholar-name`, `book-title`, `ref-info`, `hadith-text` and `data-original-source-start`, and verified each of three originals exists in the current sitemap. No errors.
 
 **Decision: ALL THREE PAGES VERIFIED, batch 1 CLOSED.** The first three Tjseem checkboxes in `tjek.md` are authorised to be marked `[x]`; Tjseem status becomes **3/23**, leaving **20** pages. Next batch starts `Tjseem/4Yad.html` only in a subsequent explicitly continued batch, not as part of batch 1.
+
+
+## Tjseem — batch 2: FINAL VERIFIED AND CLOSED (2026-10-30)
+
+**Scope:** `Tjseem/4Yad.html`, `Tjseem/5Yora.html`, `Tjseem/6Ain.html`. The matching original `.htm` pages were fetched directly over HTTP from `kingoflinks.net`, identified from the current `sitemap.xml`, and decoded as `windows-1256` (`cp1256`). Every original source block was reconstructed from meaningful original HTML text, including text outside `<p>` elements and original bibliographic metadata. The final immutable GitHub commits were **independently re-fetched** and compared to newly fetched originals.
+
+| Page | Original bibliographic sources / local hadith-blocks | Reference fields checked | Original meaningful content segments checked | Original/committed text and metadata discrepancies | Final HTML commit |
+|---|---:|---:|---:|---:|---|
+| `4Yad.html` | 29 / 29 | 29 / 29 | 57 / 57 | 0 | `d3453bbbdc4bf3eed8f0a68e5f819ec8f7ff0cf0` |
+| `5Yora.html` | 15 / 15 | 15 / 15 | 52 / 52 | 0 | `2247be9fb7754d1d9f5c22e89de20072edc8c469` |
+| `6Ain.html` | 6 / 6 | 6 / 6 | 7 / 7 | 0 | `22c2039b7c2ff03d26f82b230df4f976ee25afcb` |
+| **TOTAL** | **50 / 50** | **50 / 50** | **116 / 116** | **0** | |
+
+The source-block boundaries were checked using immutable `data-original-source-start` attributes against original document source indices. All source-specific reference text is preserved in its matching `ref-info` field, including original numeric formatting and page intervals. Each original source's meaningful content concatenation was checked directly against the corresponding committed `hadith-text`, including `hadith-number` content. Arabic metadata and original numerals from every source heading were independently checked against the corresponding `scholar-name`, `book-title`, and `chapter-info` fields. **No missing original metadata tokens.** Original source order and separate source-block boundaries were preserved, with no mergers or splits. Only rendering-neutral whitespace and legacy bidi marks were normalized during comparisons.
+
+The original page topics and navigation spacing were restored. Original hadith text, Quran text, references, notes, symbols, `@`, braces, source grouping, and unusual spellings or figures were preserved without speculative corrections. Standalone original report identifiers `104`, `1130`, `1131`, and `1162` through `1170` in `4Yad.html` were explicitly assigned to `hadith-number`, without changing their narration text. All three pages retain the site's existing `../modern.css` design. All **50** source sections contain their own scholar, book, bibliographic reference and narrative fields.
+
+**Decision: all three pages verified, Tjseem batch 2 CLOSED.** Update `tjek.md` to **6/23** and mark only the three batch-2 pages `[x]`. **17** Tjseem pages remain. Next batch begins with `Tjseem/7Arsh/1Ateet.html`, but it was not started during batch 2.
