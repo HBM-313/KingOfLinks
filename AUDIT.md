@@ -1236,3 +1236,16 @@ Original `http://www.kingoflinks.net/Fatima/3Shjanah.htm` fetched directly in Ve
 **Production aftercheck:** `https://kingoflinks.vercel.app/Fatima/4Seddiqah.html` HTTP 200, 9,419 bytes with nine `hadith-block` markers; `https://kingoflinks.vercel.app/modern.css` HTTP 200, 15,877 bytes.
 
 **Decision:** Original content, metadata ownership, separate block boundaries, final GitHub blob and deployed output all PASS. Eligible to mark `Fatima/4Seddiqah.html` `[x]`. Fatima advances **4/85 → 5/85** with 80 remaining; next unchecked `Fatima/5Syedah.html` not started.
+
+
+## Fatima — 5Syedah.html full original verification (2026-11-02; CLOSED)
+
+**Original:** `http://www.kingoflinks.net/Fatima/5Syedah.htm` fetched using Python urllib through Vercel Sandbox, HTTP 200, 27,098 raw bytes decoded as Windows-1256. Page title `فاطمة الزهراء (ع) سيدة النساء`; nine original `<hr>` separator elements delimiting **ten separate independent sources**. GitHub page was initially absent and reconstructed in `Fatima/5Syedah.html` by commit `8996dedb0595c4c326c855a34f18f7f2db2cadbf`, final Git blob `8e138fc9baeba746f966b9dedde46342b7e5741f`.
+
+**Source order/number:** صحيح البخاري 3426; صحيح البخاري 5928; صحيح مسلم 2450; صحيح مسلم 2450 (different original section, kept separately); أحمد بن حنبل 11347; أحمد بن حنبل 22818; أحمد بن حنبل 25874; الترمذي 3781; الترمذي 3893; ابن ماجه 1621. Retain original spellings and separators including `با ب` and `قا ل`. Original field separation verified for 10 scholar and book titles, 7 chapter values, 10 bibliographic references, 10 hadith numbers, 10 full narrations; no editorial omission note requiring a separate note field identified. All distinct HR sources map to distinct `hadith-block` elements, in the original order.
+
+**Independent re-fetch and exact aftercheck:** Re-read the final HTML from GitHub `main` (blob SHA above), independently re-read all ten original complete sections from stored Windows-1256 source, and reconstructed each original source string from committed metadata and narration fields. **10/10 complete source strings pass character-for-character comparison** after technical whitespace and bidi formatting-control removal only. Original section text lengths 791, 1163, 1230, 1123, 373, 978, 976, 913, 650, 1034. Original separate Muslim `2450` blocks were not combined. Standard return navigation and `../modern.css` retained.
+
+**Production aftercheck:** `https://kingoflinks.vercel.app/Fatima/5Syedah.html` HTTP 200, 19,410 bytes, ten source-block markers; `https://kingoflinks.vercel.app/modern.css` HTTP 200, 15,877 bytes.
+
+**Decision:** content, field ownership, source boundaries, committed blob, and live HTML/CSS PASS; mark `Fatima/5Syedah.html` `[x]`. Fatima **5/85 → 6/85**; 79 remaining. Next unchecked page `Fatima/6Ahab.html`; not started.
