@@ -1179,3 +1179,20 @@ A structured 39-block reconstruction now exists using `hadith-block` with `schol
 **Production aftercheck:** `https://kingoflinks.vercel.app/Fatima/1Bedhah.html` returned HTTP 200 with 26,812 UTF-8 characters and 39 `hadith-block` items; `https://kingoflinks.vercel.app/modern.css` HTTP 200. Final GitHub `main` source also has 39 blocks. Original spelling/spacing in source fields was preserved where not needed for technical rendering; no uncertain bibliographic data invented. The site index links to this page, and the page returns to the index.
 
 **Decision:** Three gates verified: 39/39 source-content matching, correct ownership of original bibliographic/hadith/notes fields, and 39/39 separate blocks in source order. This supersedes earlier OPEN audit entries. Authorize `Fatima/1Bedhah.html` `[x]` and update section status to **2/85**. Next unchecked `Fatima/2Mudgah.html` has not been started in this batch.
+
+
+## Methodology addendum — section coverage and per-page completion gate (2026-11-02)
+
+In addition to the existing audits, **every newly entered section** needs an independently sourced link inventory: original `Main*.htm`, every reachable nested index, all unique topic and child destinations, original topic order, cross-check against `sitemap.xml`, repository file list and `tjek.md`, missing-page count, total update and checklist commit verification. Treat missing sitemap records as explicit coverage gaps, not evidence that original pages do not exist. Do not alter the sitemap solely from reconstructed or assumed data.
+
+**Page-level audit template (fill per page):**
+- Original URL, HTTP result, original encoding/byte size and actual textual extraction method (including nested/non-`<p>` text).
+- Original source sections and original meaningful text segments; matching final `hadith-block` or index row count and ordering.
+- Final committed file path and immutable commit SHA; counts of fully compared original segments, complete narration comparisons and bibliographic source/header/ref/hadith-number/footnote/editorial/analysis owner comparisons.
+- Document source grouping, any identical hadith numbers in independent blocks, genuinely unnumbered narrations, and any notes. Explain each allowed typo/format normalization; unexplained mismatches are failures.
+- Original index label, printed numeral, link text and href comparison when relevant; distinguish logical topic order from original two-column table DOM traversal.
+- Final GitHub re-fetch, production HTML/CSS/navigation check, final PASS/OPEN status, `tjek.md` checkbox and audit/checklist commit SHAs.
+
+**Status nomenclature:** `RECONSTRUCTED` is not `VERIFIED`; `VERIFIED` against actual original is not by itself evidence of `PUBLISHED` production. Never mark a page `[x]` unless the complete original-to-final three-gate test and applicable production aftercheck passed. Don't advance with any open page in the current batch.
+
+**Observed Fatima evidence:** Original `Main123.htm` yielded 85 unique section pages (1 index + 19 numbered topics, of which four are nested indexes, + 65 children); sitemap and repository initially listed only 3 Fatima files. Original `1Bedhah.htm` had 38 HR delimiters but 39 separate sources, two independently cited `2449` reports, four editorial omission notices, 27 explicitly numbered narration prefixes and 12 without such a prefix. The concrete original page audits remain in their preceding dated entries; this is an additive reusable rule set.
