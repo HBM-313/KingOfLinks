@@ -598,7 +598,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Tjseem/17Ytaki.html`
 - [x] `Tjseem/Main133.html`
 
-### Fatima — 8/85
+### Fatima — 9/85
 
 - [x] `Fatima/Main123.html`
 - [x] `Fatima/1Bedhah.html`
@@ -608,7 +608,7 @@ Denne fil er den løbende statusliste for sitemap-siderne.
 - [x] `Fatima/5Syedah.html`
 - [x] `Fatima/6Ahab.html`
 - [x] `Fatima/7Tsbeehah.html`
-- [ ] `Fatima/8Mkanatoha.html`
+- [x] `Fatima/8Mkanatoha.html`
 - [ ] `Fatima/9Zwaj.html`
 - [ ] `Fatima/10Yghdab/Main63.html`
 - [ ] `Fatima/10Yghdab/1BM.html`
